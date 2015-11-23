@@ -57,7 +57,7 @@
                             the portfolio of producers worldwide.";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "LEER MAS";}else{echo "READ MORE";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
                             </div>
                             <br class="clearfix"/>
                       </div>
@@ -76,7 +76,7 @@
                             and maintenance required within the same products.";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "LEER MAS";}else{echo "READ MORE";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
                             </div>
                             <br class="clearfix"/>
                         </div>
@@ -96,7 +96,7 @@
                           trading.";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "LEER MAS";}else{echo "READ MORE";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
                             </div>
                             <br class="clearfix"/>
                         </div>
@@ -106,7 +106,7 @@
             </div>
         </div>
              
-        <h3 align="right"><b><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO 
+        <h3 align="center"><b><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO 
         MUNDIAL";}else{echo "AN ALLY RELIABLE AND EFFICIENT TO MEET THE NEEDS LOGISTICS SERVICE IN GLOBAL SHIPPING";}?> </b></h3>     
                         
         

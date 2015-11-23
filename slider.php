@@ -19,7 +19,6 @@
                 <div class="container">
                 <div class="carousel-caption">
                 <h1><?php if($leng=="Es"){echo "BIENVENIDOS A BUNKER DYNAMICS";}else{echo "WELCOME TO BUNKER DYNAMICS";}?></h1>
-                <p><?php if($leng=="Es"){echo "ELIJA EL ADECUADO PARA USTED";}else{echo "CHOOSE THE ONE SUITABLE FOR YOU";}?></p>
                 </div>
                 </div>
             </div>
@@ -29,11 +28,11 @@
                     <div class="carousel-caption">
                         <div class="col-sm-6 col-md-6">
                             <h1><?php if($leng=="Es"){echo "FLUIDOS";}else{echo "FLUIDS";}?></h1>
-                            <p>Suspendisse pellentesque, odio vel ultricies interdum, mauris nulla ullamcorper magna, non aliquet odio velit aliquam augue.</p>
+                            <p><?php if($leng=="Es"){echo "Bunker Dynamics Corp.  Creciendo en base a las necesidades de nuestros clientes";}else{echo "Bunker Dynamics Corp.  Grow based on the needs of our customers";}?></p>
                         </div>
                         <div class="col-sm-6 col-md-6">
                         <h1><?php if($leng=="Es"){echo "ENERGIA";}else{echo "ENERGY";}?></h1>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mattis fringilla urna.</p>
+                        <p><?php if($leng=="Es"){echo "Los Productos y Servicios que Ofrecemos de Alta Calidad.";}else{echo "The products and services that offer High Quality .";}?></p>
                         </div>
                     </div>
             	</div>
@@ -43,7 +42,8 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1><?php if($leng=="Es"){echo "ETIQUETA ADAPTABLE";}else{echo "RESPONSIVE LAYOUT";}?></h1>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Etiam metus libero mauriec ignissim fermentum.</p>
+
+                        <p><?php if($leng=="Es"){echo "Apoyando a empresas del sector marítimo internacional con el objetivo de establecer relaciones comerciales a largo plazo.";}else{echo "Supporting international companies in the maritime sector with the aim of establishing long-term business relationships .";}?></p>
                         <p><a class="btn btn-lg btn-orange" href="#" role="button"><?php if($leng=="Es"){echo "Leer Mas";}else{echo "Read More";}?></a></p>
                     </div>
                 </div>

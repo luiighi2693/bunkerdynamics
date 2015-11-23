@@ -34,9 +34,9 @@
             	<li class="dropdown menu_nosotros"> <!-- Boton con sub-botones -->
                 	<a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "NOSOTROS";}else{echo "ABOUT US";}?><b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
+                        <li><a tabindex="-1" href="quienesSomos.php"><?php if($leng=="Es"){echo "QUIENES SOMOS";}else{echo "WHO ARE WE?";}?></a></li>
                         <li><a tabindex="-1" href="mision.php"><?php if($leng=="Es"){echo "MISIÓN";}else{echo "MISSION";}?></a></li>
                         <li><a tabindex="-1" href="vision.php"><?php if($leng=="Es"){echo "VISIÓN";}else{echo "VISION";}?></a></li>
-                        <li><a tabindex="-1" href="quienesSomos.php"><?php if($leng=="Es"){echo "QUIENES SOMOS";}else{echo "WHO ARE WE?";}?></a></li>
                         <!--<li class="divider"></li>
                         <li><a tabindex="-1" href="#"> Separated link </a></li>-->
                     </ul>
