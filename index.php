@@ -51,7 +51,7 @@
                                 <img src="images/leaf.png" alt="icon" />
                                 <span class="templatemo-service-item-header">AWESOME ICONS</span>
                             </div>-->
-                        <p><b><?php if($leng=="Es"){echo "PROCURA DE COMODIDAD";}else{echo "SEEKS COMFORT";}?></b></p>
+                        <p><b><?php if($leng=="Es"){echo "PROCURA DE COMODITIES";}else{echo "SEEKS COMFORT";}?></b></p>
                             <p><?php if($leng=="Es"){echo "Negociación y Gestión de Volúmenes de Combustibles MGO, IFO 380, IFO 180,  así como otros derivados petroleros dentro 
                             de la cartera de Productores a Nivel Mundial.";}else{echo "Negotiation and management Fuel Volumes MGO, IFO 380, IFO 180 and other oil derivatives in 
                             the portfolio of producers worldwide.";}?></p>
@@ -106,7 +106,7 @@
             </div>
         </div>
              
-        <h3 align="center"><b><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO 
+        <h3 align="center"><b style="font-size:15pt;"><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO 
         MUNDIAL";}else{echo "AN ALLY RELIABLE AND EFFICIENT TO MEET THE NEEDS LOGISTICS SERVICE IN GLOBAL SHIPPING";}?> </b></h3>     
                         
         
