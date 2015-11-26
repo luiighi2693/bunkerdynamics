@@ -42,10 +42,7 @@
                     </ul>
                 </li>
                 <li class="dropdown menu_producto">  
-                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS";}else{echo "PRODUCTS & SERVICES";}?><b class="caret"></b></a>
-                   <ul role="menu" class="dropdown-menu">
-                       <li><a tabindex="-1" href="BUNKERS.php"><?php if($leng=="Es"){echo "BUNKERS";}else{echo "BUNKERS";}?></a></li>
-                    </ul>   
+                     <a href="productos.php" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS";}else{echo "PRODUCTS & SERVICES";}?></a>
                 </li>
                 <li class="dropdown menu_puerto">  
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "PUERTOS";}else{echo "PORTS";}?><b class="caret"></b></a>
