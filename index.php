@@ -34,10 +34,23 @@
             <div class="container">
                 <div class="templatemo-slogan text-center">
                     <span class="txt_darkgrey"><?php if($leng=="Es"){echo "Bienvenidos a";}else{echo "Welcome to";}?> </span><span class="txt_orange">Bunker Dynamics</span>
-                    <p class="txt_slogan"><i><?php if($leng=="Es"){echo "Bunker Dynamics, es una Corporación de Comercio Internacional especializada en actividades de importación 
-                    y exportación tanto de materias primas como de productos terminados dirigidos al equipamiento de Puertos Marítimos, Producción Naval y Mantenimiento General 
-                    de sus industrias conexas";}else{echo "Bunker Dynamics, is an international trade corporation specializing in import and export activities of both raw materials 
-                    and finished products for the equipment of Seaports, Naval General Maintenance Production and related industries";}?></i></p>
+                    <p class="txt_slogan"><i><?php if($leng=="Es"){echo "Bunker Dynamics Corp. es una Corporación de Comercio 
+                    Internacional especializada en actividades de importación y exportación tanto de materias primas como de 
+                    productos terminados dirigidos al equipamiento de Puertos Marítimos, Producción Naval y Mantenimiento General 
+                    e industrias conexas. Además nuestra división de Bunkers es la solución a las necesidades de Lubricantes y
+                     Combustibles Marinos (Bunkers) para las empresas y clientes asociados con el negocio marítimo internacional. 
+                     Nuestros servicios incluyen asesoramiento técnico, comercial y operacional en los principales puertos del 
+                     Caribe y Sudamérica. <br> Bunker Dynamics Corp. está creciendo en base a las necesidades de nuestros clientes, 
+                     con la confianza de que los productos y servicios que ofrecemos son  de alta calidad, lo cual nos permite apoyar 
+                     a empresas del sector marítimo internacional con el objetivo de establecer relaciones comerciales a largo 
+                     plazo.";}else{echo "Bunker Dynamics Corp. is a company specialized in International Trade 
+                     import and export activities of both raw materials as finished products for the equipment Seaports , Naval 
+                     General Maintenance Production and Related Industries . : Besides Bunkers Our division is the solution Needs 
+                     Marine Fuels and Lubricants ( Bunkers ) for companies and associated m Customers with international maritime 
+                     business . Our services include technical, commercial and operational in major ports in the Caribbean and South 
+                     America Consulting. <br> Bunker Dynamics Corp. is growing based on the needs of our customers with the confidence
+                     that the products and services we offer are high quality , which allows us to support companies in the international 
+                     maritime sector with the aim of establishing trade relations long term.";}?></i></p>
                 </div>	
             </div>
         </div>
@@ -51,13 +64,11 @@
                                 <img src="images/leaf.png" alt="icon" />
                                 <span class="templatemo-service-item-header">AWESOME ICONS</span>
                             </div>-->
-                        <p><b><?php if($leng=="Es"){echo "PROCURA DE COMODITIES";}else{echo "SEEKS COMFORT";}?></b></p>
-                            <p><?php if($leng=="Es"){echo "Negociación y Gestión de Volúmenes de Combustibles MGO, IFO 380, IFO 180,  así como otros derivados petroleros dentro 
-                            de la cartera de Productores a Nivel Mundial.";}else{echo "Negotiation and management Fuel Volumes MGO, IFO 380, IFO 180 and other oil derivatives in 
-                            the portfolio of producers worldwide.";}?></p>
+                        <p><b><?php if($leng=="Es"){echo "GALERIA DE FOTOS";}else{echo "PHOTO GALERY";}?></b></p>
+                            <p><?php if($leng=="Es"){echo "";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "VER MÁS";}else{echo "MORE";}?></a>
                             </div>
                             <br class="clearfix"/>
                       </div>
@@ -70,13 +81,11 @@
                                 <img src="images/leaf.png" alt="icon" />
                                 <span class="templatemo-service-item-header">AWESOME ICONS</span>
                             </div>-->
-                      <p><b><?php if($leng=="Es"){echo "GESTION LOGISTICA NAVAL";}else{echo "NAVAL LOGISTICS MANAGEMENT";}?></b></p>
-                            <p><?php if($leng=="Es"){echo "Suministro de productos terminados para satisfacer las necesidades de la  operación de puertos marítimos, su equipamiento 
-                            y el mantenimiento requerido dentro de los mismos.a.";}else{echo "Supply of finished products to meet the needs of the operation of seaports, equipment 
-                            and maintenance required within the same products.";}?></p>
+                      <p><b><?php if($leng=="Es"){echo "NOTICIAS";}else{echo "NEWS";}?></b></p>
+                            <p><?php if($leng=="Es"){echo "";}else{echo "";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "VER MÁS";}else{echo "MORE";}?></a>
                             </div>
                             <br class="clearfix"/>
                         </div>
@@ -89,14 +98,11 @@
                                 <img src="images/leaf.png" alt="icon" />
                                 <span class="templatemo-service-item-header">AWESOME ICONS</span>
                             </div>-->
-                     <p><b><?php if($leng=="Es"){echo "SOPORTE MARINA MERCANTE";}else{echo "MERCHANT MARINE SUPPORT";}?> </b></p>
-                          <p><?php if($leng=="Es"){echo "Gestión logística para el suministro de Lubricantes y Combustibles a Buques en distintos Puertos 
-                          Internacionales, actuando como empresa de comercialización directa o intermediación/negociación.";}else{echo "Logistics management 
-                          to supply fuels and lubricants to ships in different international ports, acting as direct marketing company or brokerage / 
-                          trading.";}?></p>
+                     <p><b><?php if($leng=="Es"){echo "TÉRMINOS DE NEGOCIACIÓN";}else{echo "TERMS OF TRADE";}?> </b></p>
+                          <p><?php if($leng=="Es"){echo "";}?></p>
                             <div class="text-center">
                             	<a href="#" 
-                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "";}else{echo "";}?></a>
+                                	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "VER MÁS";}else{echo "MORE";}?></a>
                             </div>
                             <br class="clearfix"/>
                         </div>

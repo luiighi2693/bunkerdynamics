@@ -34,7 +34,7 @@
             	<li class="dropdown menu_nosotros"> <!-- Boton con sub-botones -->
                 	<a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "NOSOTROS";}else{echo "ABOUT US";}?><b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a tabindex="-1" href="quienesSomos.php"><?php if($leng=="Es"){echo "QUIENES SOMOS";}else{echo "WHO ARE WE?";}?></a></li>
+                        <li><a tabindex="-1" href="quienesSomos.php"><?php if($leng=="Es"){echo "¿QUIÉNES SOMOS?";}else{echo "WHO ARE WE?";}?></a></li>
                         <li><a tabindex="-1" href="mision.php"><?php if($leng=="Es"){echo "MISIÓN";}else{echo "MISSION";}?></a></li>
                         <li><a tabindex="-1" href="vision.php"><?php if($leng=="Es"){echo "VISIÓN";}else{echo "VISION";}?></a></li>
                         <!--<li class="divider"></li>
@@ -42,12 +42,13 @@
                     </ul>
                 </li>
                 <li class="dropdown menu_producto">  
-                     <a href="productos.php" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS";}else{echo "PRODUCTS & SERVICES";}?></a>
+                     <a href="productos.php" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS & SERVICIOS";}else{echo "PRODUCTS & SERVICES";}?></a>
                 </li>
                 <li class="dropdown menu_puerto">  
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "PUERTOS";}else{echo "PORTS";}?><b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a tabindex="-1" href="venezuela.php"><?php if($leng=="Es"){echo "VENEZUELA";}else{echo "VENEZUELA";}?></a></li>
+                        <li><a tabindex="-1" href="colombia.php"><?php if($leng=="Es"){echo "COLOMBIA";}else{echo "COLOMBIA";}?></a></li>
                         <li><a tabindex="-1" href="otrsop.php"><?php if($leng=="Es"){echo "OTROS PUERTOS";}else{echo "OTHERS PORTS ";}?></a></li>
                 	</ul>
                 </li>

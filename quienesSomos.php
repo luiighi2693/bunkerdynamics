@@ -34,14 +34,16 @@
         <div class="templatemo-welcome" id="templatemo-welcome">
             <div class="container">
                 <div class="templatemo-slogan text-center">
-                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "¿Quienes Somos?";}else{echo "Who are we?";}?></span>
-                    <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "Bunker Dynamics Corp. es una compañía internacional 
-                    creada en el año 20XX con proyectos de expansión hacia el Caribe y Sudamérica, dedicada a la comercialización, mercadeo y suministro 
-                    de Lubricantes y Combustibles Marinos (Bunkers) a toda nuestra red de buques creada a lo largo de estos años, con el compromiso de 
-                    entregar productos de calidad que ofrezcan tranquilidad y seguridad a nuestros clientes.";}else{echo "Bunker Dynamics Corp. is an 
-                    international company founded in 20XX with expansion projects to the Caribbean and South America, dedicated to the commercialization , 
-                    marketing and supply of Marine Fuels and Lubricants ( Bunkers ) to all our established network of vessels throughout these years , with 
-                    a commitment to deliver quality products that provide peace and security to our customers.";}?></i></p>
+                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "¿Quiénes Somos?";}else{echo "Who are we?";}?></span>
+                    <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "Bunker Dynamics Corp. es una 
+                    compañía internacional creada en el año 2011 en Florida, USA con sucursal en Panamá y proyectos de expansión 
+                    hacia el Caribe y Sudamérica, dedicada a la comercialización, mercadeo y suministro de Lubricantes y 
+                    Combustibles Marinos (Bunkers) a toda nuestra red de buques creada a lo largo de estos años, con el compromiso 
+                    de entregar productos de calidad que ofrezcan tranquilidad y seguridad a nuestros clientes.";}
+                    else{echo "Bunker Dynamics Corp. is an international company established in 2011 in Florida , USA with a branch 
+                        in Panama and expansion projects to the Caribbean and South America, dedicated to the commercialization , 
+                    marketing and supply of Marine Fuels and Lubricants ( Bunkers ) to all our ship network created over the years ,
+                     with a commitment to deliver quality products that provide peace and security to our customers.";}?></i></p>
                    
                 </div>	
                  <div class="templatemo-slogan text-left">
