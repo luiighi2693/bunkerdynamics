@@ -50,45 +50,92 @@
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-	               <h4><?php if($leng=="Es"){echo "LUBRICANTES PDV";}else{echo "LUBRICANTS PDV";}?></h4>
+              
+              
+              
+              
 	               <ul>
-                       <li><!-- Trigger the modal with a button -->
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Mapa</button>
-                            </ul>
-					
+                        <li><!-- Trigger the modal with a button -->
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1"><h4><?php if($leng=="Es"){echo "Lubricantes PDV";}else{echo "Lubricants PDV";}?></h4>
+	               <ul></button>
 
-                    <h4><?php if($leng=="Es"){echo "IFO 380 (RMG – 35)";}else{echo "IFO 380 (RMG – 35)";}?></h4>
+							<!-- Modal -->
+							<div id="myModal1" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Lubricantes PDV</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>mapa</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</li>
+					   <!------------------------------------------------------------------------------------>
+
 
                     <ul>
-                    	<li><!-- Trigger the modal with a button -->
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal4">mapa)</button>
-					</ul>
-                    
-					<li><button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal38"><?php if($leng=="Es"){echo "";}else{echo "Marine Gasoil (MGO)";}?></button>
-                    
-                    <!-- Modal -->
-					<div id="myModal40" class="modal fade" role="dialog">
-					  <div class="modal-dialog">
+                        <li><!-- Trigger the modal with a button -->
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2"><h4><?php if($leng=="Es"){echo "IFO 380 (RMG – 35";}else{echo "IFO 380 (RMG – 35";}?></h4>
+	               <ul></button>
 
-					    <!-- Modal content-->
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <button type="button" class="close" data-dismiss="modal">&times;</button>						 
-                      <h4><?php if($leng=="Es"){echo "Marine Gasoil (MGO)";}else{echo "Marine Gasoil (MGO)";}?>mapa</h4>
+							<!-- Modal -->
+							<div id="myModal2" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
 
-                    <ul>
-                    	<li><!-- Trigger the modal with a button -->
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal4">Aqui va el mapa</button>		      
-				    	<div class="modal-body">
-					        <p>mapa</p>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn" data-dismiss="modal">Close</button>
-					      
-                          </div>
-					    </div>
-					  </div>
-					</div></li> 
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">IFO 380 (RMG – 35)</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>mapa</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</li>
+<!------------------------------------------------------------------------------------>
+			             
+                <ul>
+                        <li><!-- Trigger the modal with a button -->
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3"><h4><?php if($leng=="Es"){echo "Marine Gasoil (MGO)";}else{echo "Marine Gasoil (MGO";}?></h4>
+	               <ul></button>
+
+							<!-- Modal -->
+							<div id="myModal3" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Marine Gasoil (MGO) </h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>mapa</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </ul>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</li>
+           
         <h3>     
 							 
 		  <!-- Pie de Pagina -->
