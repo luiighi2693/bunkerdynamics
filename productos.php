@@ -187,7 +187,24 @@
 							        <h4 class="modal-title">PDV Crumar 3005 (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+                                  
+							        <p>
+                                    <a href="cremr.pdf">PDF</a>
+                                    <h3><b> Características:</h3></b>
+									   <br><h4>Aceite lubricante monogrado, elaborado con básicos altamente refinados y 
+										aditivos cuidadosamente seleccionados que le proporcionan una alta 
+										detergencia que asegura la limpieza del cárter, del cigüeñal y de 
+										las áreas bajo la corona del pistón, apropiada alcalinidad para 
+										neutralizar los ácidos de la combustión, apropiadas cualidades 
+										antioxidantes y excepcional poder antidesgaste al sobrepasar la 
+										etapa 10 de la prueba FZG.</h4><br>
+										<h3><b>Usos:</h3></b>
+									<br><h4>Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
+										del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede 
+										ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente 
+										cargados y compresores de aire donde un aceite con las cualidades descritas
+             							satisfaga plenamente los requerimientos de lubricación de los mismos</h4>.<br>
+								   </p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
