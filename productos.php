@@ -111,7 +111,17 @@
 							        <h4 class="modal-title">PDV Cilmar 70 (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p><h3><b>Características:</h3></b><br>
+										    Aceite para motores diésel marinos con un amplio margen de seguridad. 
+											Diseñado para la lubricación de cilindros de motores de diésel de cruceta 
+											de baja velocidad.<br>
+                                            
+											<h3><b>Usos:</h3></b>
+											Ofrece una protección integral bajo las más exigentes condiciones de servicio. 
+											Esta línea completa cubre todas las necesidades operacionales.
+											CILMAR 70 (SAE 50, BN 70) es el lubricante más ampliamente usado en motores 
+											operando con combustibles intermedio o pesado con alto nivel de azufre.<br>
+                                    </p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -188,22 +198,26 @@
 							      </div>
 							      <div class="modal-body">
                                   
-							        <p>
-                                    <a href="cremr.pdf">PDF</a>
+							        <p align="justify">
+                                    <a href="cremr.pdf"> <img src="pdf.png" width="30px"> </a>
+                                   <!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
+									muestra parte del PDF
+                                   -->
                                     <h3><b> Características:</h3></b>
-									   <br><h4>Aceite lubricante monogrado, elaborado con básicos altamente refinados y 
+									   <br><h5 align="justify"><br>
+                                        Aceite lubricante monogrado, elaborado con básicos altamente refinados y 
 										aditivos cuidadosamente seleccionados que le proporcionan una alta 
 										detergencia que asegura la limpieza del cárter, del cigüeñal y de 
 										las áreas bajo la corona del pistón, apropiada alcalinidad para 
 										neutralizar los ácidos de la combustión, apropiadas cualidades 
 										antioxidantes y excepcional poder antidesgaste al sobrepasar la 
-										etapa 10 de la prueba FZG.</h4><br>
+										etapa 10 de la prueba FZG.</h5><br>
 										<h3><b>Usos:</h3></b>
-									<br><h4>Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
+									<br><h5>Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
 										del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede 
 										ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente 
 										cargados y compresores de aire donde un aceite con las cualidades descritas
-             							satisfaga plenamente los requerimientos de lubricación de los mismos</h4>.<br>
+             							satisfaga plenamente los requerimientos de lubricación de los mismos</h5>.<br>
 								   </p>
 							      </div>
 							      <div class="modal-footer">
