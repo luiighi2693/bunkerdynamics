@@ -44,7 +44,8 @@
                         <h1><?php if($leng=="Es"){echo "";}else{echo "";}?></h1>
 
                        <h3><p><?php if($leng=="Es"){echo "Apoyando a empresas del sector marítimo internacional con el objetivo de establecer relaciones comerciales a largo plazo.";}else{echo "Supporting international companies in the maritime sector with the aim of establishing long-term business relationships .";}?></h3></p>
-                        <p><a class="btn btn-lg btn-orange" href="#" role="button"><?php if($leng=="Es"){echo "Leer Mas";}else{echo "Read More";}?></a></p>
+                        <p><a class="btn btn-lg btn-orange" href="quienesSomos.php" role="button"><?php if($leng=="Es")
+						{echo "Leer Mas";}else{echo "Read More";}?> </a> </p>
                     </div>
                 </div>
             </div>

@@ -111,7 +111,9 @@
 							        <h4 class="modal-title">PDV Cilmar 70 (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p><h3><b>Características:</h3></b><br>
+
+							      <a href="Cilmar_70.pdf"> PDF  </a>
+							        <p><h3><b>Características:</h3></b>
 										    Aceite para motores diésel marinos con un amplio margen de seguridad. 
 											Diseñado para la lubricación de cilindros de motores de diésel de cruceta 
 											de baja velocidad.<br>
@@ -198,13 +200,13 @@
 							      </div>
 							      <div class="modal-body">
                                   
-							        <p align="justify">
-                                    <a href="cremr.pdf"> PDF <img src="PDF.JPEG"> </a>
+							        <p>
+                                    <a href="Crumar_3005.pdf"> PDF <img src="PDF.JPEG"> </a>
                                    <!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
 									muestra parte del PDF
                                    -->
                                     <h3><b> Características:</h3></b>
-									   <br><h5 align="justify"><br>
+									   <h5 align="justify">
                                         Aceite lubricante monogrado, elaborado con básicos altamente refinados y 
 										aditivos cuidadosamente seleccionados que le proporcionan una alta 
 										detergencia que asegura la limpieza del cárter, del cigüeñal y de 
@@ -213,12 +215,12 @@
 										antioxidantes y excepcional poder antidesgaste al sobrepasar la 
 										etapa 10 de la prueba FZG.</h5><br>
 										<h3><b>Usos:</h3></b>
-									<br><h5 align="justify">
+									    <h5 align="justify">
                                     	Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
 										del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede 
 										ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente 
 										cargados y compresores de aire donde un aceite con las cualidades descritas
-             							satisfaga plenamente los requerimientos de lubricación de los mismos</h5>.<br>
+             							satisfaga plenamente los requerimientos de lubricación de los mismos.</h5>.<br>
 								   </p>
 							      </div>
 							      <div class="modal-footer">
@@ -293,7 +295,22 @@
 							        <h4 class="modal-title">PDV Dieselmar MR (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							      			
+							      <p>
+							      			<a href="Dieselmar_MR.pdf"> PDF <img src="PDF.JPEG"> </a>
+							        <h3><b> Características:</h3></b>
+									   <br><h5 align="justify">
+										Aceite monogrado elaborado con una mezcla de básicos altamente refinados y aditivos 
+										químicos que le confieren propiedades detergentes/dispersantes para minimizar la formación 
+										de depósitos en el motor, así como características antidesgaste, anti-herrumbre, anti-espumantes 
+										y anti-corrosivas, para garantizar la adecuada lubricación del cárter y cilindros de motores 
+										de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.
+										</h5>.<br>
+
+										<h3><b>Usos:</h3></b>
+										<h5 align="justify">
+										Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan 
+										combustible residual con contenido de azufre superior a 2.5% en peso.</h5>.<br></p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -368,7 +385,22 @@
 							        <h4 class="modal-title">PDV Dieselmar MD (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p><h3><b> Características:</h3></b>
+							          <h5 align="justify">
+										Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren 
+										propiedades dispersantes a bajas temperaturas, aún en presencia de agua y detergentes a altas 
+										temperaturas para minimizar la formación de depósitos en el motor, así como características 
+										antidesgaste, anti-herrumbrante, anti-espumantes y anticorrosivas, para garantizar la adecuada 
+										lubricación del cárter y cilindros de motores diesel de mediana y alta velocidad. Satisface las 
+										especificaciones correspondientes al servicio CF de la clasificación API/ASTM/SAE y cumple y/o 
+										excede además los requisitos de la especificación MIL-L-2104D.</h5><br>
+
+										<h3><b>Usos:</h3></b>
+										<h5 align="justify">
+										Formulado específicamente para la lubricación de motores diesel, turbo alimentados, de mediana y 
+										alta velocidad que utilizan diesel mediano (DMX) o diesel marino (DMA) como combustible. En la 
+										lubricación de cojinetes y bocinas del eje de propulsión y engranajes reductores.</h5><br>
+									</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -442,7 +474,19 @@
 							        <h4 class="modal-title">PDV Hidramar (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p><h3><b> Características:</h3></b>
+							          <h5 align="justify">
+											Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez 
+											y propiedades antidesgaste. Cumple los requerimientos de las especificaciones 
+											NF E 48.600 tipo HV y DIN 51.525 tipo HLP.
+
+											<h3><b>Usos:</h3></b>
+										    <h5 align="justify">
+											Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones 
+											de temperaturas severas tales como equipos hidráulicos de cubierta, sistemas de 
+											control remoto, telemotores y sistemas de engranajes de maniobra.
+
+									</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
