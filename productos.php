@@ -199,7 +199,7 @@
 							      <div class="modal-body">
                                   
 							        <p align="justify">
-                                    <a href="cremr.pdf"> <img src="pdf.png" width="30px"> </a>
+                                    <a href="cremr.pdf"> PDF <img src="PDF.JPEG"> </a>
                                    <!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
 									muestra parte del PDF
                                    -->
@@ -213,7 +213,8 @@
 										antioxidantes y excepcional poder antidesgaste al sobrepasar la 
 										etapa 10 de la prueba FZG.</h5><br>
 										<h3><b>Usos:</h3></b>
-									<br><h5>Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
+									<br><h5 align="justify">
+                                    	Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
 										del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede 
 										ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente 
 										cargados y compresores de aire donde un aceite con las cualidades descritas
