@@ -53,14 +53,14 @@
 	               <h3><?php if($leng=="Es"){echo "Cilindros de Motores";}else{echo "Cylinder Engine";}?></h3>
 	               <ul class="nav navbar-nav">
                         <li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal1">Mobil XXX (Colombia)</a>
+							<!-- <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal1">Mobil XXX (Colombia)</a>
 
 							<!-- Modal -->
-							<div id="myModal1" class="modal fade" role="dialog">
+							<!-- <div id="myModal1" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
-							    <div class="modal-content">
+							   <!-- Modal content-->
+							    <!--<div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Mobil XXX (Colombia)</h4>
@@ -74,15 +74,15 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 	
+						</li> 	-
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal2">Gulf XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal2">Gulf XXX (Colombia)</a>-->
 							<!-- Modal -->
-							<div id="myModal2" class="modal fade" role="dialog">
+							<!--<div id="myModal2" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							    <!-- <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Gulf XXX (Colombia)</h4>
@@ -96,9 +96,9 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal3">PDV Cilmar 70 (Venezuela)</a>
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal3"> PDV Cilmar 70 (Venezuela)</a>
 
 							<!-- Modal -->
 							<div id="myModal3" class="modal fade" role="dialog">
@@ -111,8 +111,8 @@
 							        <h4 class="modal-title">PDV Cilmar 70 (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-
-							      <a href="Cilmar_70.pdf"> PDF  </a>
+							      		<!-- PDF DE PRODUCTOS -->
+							      		PDV <a href="Cilmar_70.pdf" target="_blank"> <img src="PDF.JPG" width="40px"> </a>
 							        <p><h3><b>Características:</h3></b>
 										    Aceite para motores diésel marinos con un amplio margen de seguridad. 
 											Diseñado para la lubricación de cilindros de motores de diésel de cruceta 
@@ -139,14 +139,14 @@
 
                     <ul class="nav navbar-nav">
                     	<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal4">Mobil XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal4">Mobil XXX (Colombia)</a>
 
 							<!-- Modal -->
-							<div id="myModal4" class="modal fade" role="dialog">
+							<!--<div id="myModal4" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							   <!-- <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Mobil XXX (Colombia)</h4>
@@ -162,15 +162,15 @@
 							</div>
 						</li> 
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal5">Gulf XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal5">Gulf XXX (Colombia)</a>
 
 
 							<!-- Modal -->
-							<div id="myModal5" class="modal fade" role="dialog">
+							<!--<div id="myModal5" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							    <!--<div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Gulf XXX (Colombia)</h4>
@@ -184,7 +184,7 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal6">PDV Crumar 3005 (Venezuela)</a>
 
@@ -201,7 +201,8 @@
 							      <div class="modal-body">
                                   
 							        <p>
-                                    <a href="Crumar_3005.pdf"> PDF <img src="PDF.JPEG"> </a>
+							        	<!-- PDF DE PRODUCTOS -->
+							        		PDV <a href="Crumar_3005.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>	
                                    <!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
 									muestra parte del PDF
                                    -->
@@ -236,14 +237,14 @@
                     <h3><?php if($leng=="Es"){echo "Motores Diesel Mediana Velocidad con Combustible Residual";}else{echo "Medium Speed ​​Diesel Engines with fuel oil";}?></h3>
 					<ul class="nav navbar-nav">
                     	<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal7">Mobil XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal7">Mobil XXX (Colombia)</a>
 
 							<!-- Modal -->
-							<div id="myModal7" class="modal fade" role="dialog">
+							<!--<div id="myModal7" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							    <!--<div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Mobil XXX (Colombia)</h4>
@@ -259,14 +260,14 @@
 							</div>
 						</li> 
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal8">Gulf XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal8">Gulf XXX (Colombia)</a>
 
 							<!-- Modal -->
 							<div id="myModal8" class="modal fade" role="dialog">
-							  <div class="modal-dialog">
+							  <!--<div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							    <!--<div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Gulf XXX (Colombia)</h4>
@@ -280,7 +281,7 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal9">PDV Dieselmar MR (Venezuela)</a>
 
@@ -297,7 +298,8 @@
 							      <div class="modal-body">
 							      			
 							      <p>
-							      			<a href="Dieselmar_MR.pdf"> PDF <img src="PDF.JPEG"> </a>
+							      			<!-- PDF DE PRODUCTOS -->
+							      			PDV <a href="Dieselmar_MR.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
 							        <h3><b> Características:</h3></b>
 									   <br><h5 align="justify">
 										Aceite monogrado elaborado con una mezcla de básicos altamente refinados y aditivos 
@@ -326,14 +328,14 @@
                     <h3><?php if($leng=="Es"){echo "Motores Diesel Mediana y Alta Velocidad con Combustible Destilado";}else{echo "Engines Medium and High Speed ​​Diesel with Fuel Distillate";}?></h3>
 					<ul class="nav navbar-nav">
                     	<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal10">Mobil XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal10">Mobil XXX (Colombia)</a>
 
 							<!-- Modal -->
-							<div id="myModal10" class="modal fade" role="dialog">
+							<!--<div id="myModal10" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
 							    <!-- Modal content-->
-							    <div class="modal-content">
+							   <!-- <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">Mobil XXX (Colombia)</h4>
@@ -347,15 +349,15 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal11">Gulf XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal11">Gulf XXX (Colombia)</a>
 
 							<!-- Modal -->
-							<div id="myModal11" class="modal fade" role="dialog">
+							<!--<div id="myModal11" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							     Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -385,7 +387,10 @@
 							        <h4 class="modal-title">PDV Dieselmar MD (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p><h3><b> Características:</h3></b>
+							        <p>
+							        		<!-- PDF DE PRODUCTOS -->
+							        		PDV <a href="Dieselmar_MD.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
+							        <h3><b> Características:</h3></b>
 							          <h5 align="justify">
 										Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren 
 										propiedades dispersantes a bajas temperaturas, aún en presencia de agua y detergentes a altas 
@@ -393,7 +398,7 @@
 										antidesgaste, anti-herrumbrante, anti-espumantes y anticorrosivas, para garantizar la adecuada 
 										lubricación del cárter y cilindros de motores diesel de mediana y alta velocidad. Satisface las 
 										especificaciones correspondientes al servicio CF de la clasificación API/ASTM/SAE y cumple y/o 
-										excede además los requisitos de la especificación MIL-L-2104D.</h5><br>
+										excede además los requisitos de la especificación MIL-L-2104D.<br>
 
 										<h3><b>Usos:</h3></b>
 										<h5 align="justify">
@@ -415,13 +420,13 @@
                     <h3><?php if($leng=="Es"){echo "Sistemas Hidráulicos";}else{echo "hydraulics";}?></h3>
 					<ul class="nav navbar-nav">
                     	<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal13">Mobil XXX (Colombia)</a>
+							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal13">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal13" class="modal fade" role="dialog">
-							  <div class="modal-dialog">
+							  <div class="modal-dialog">-->
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -438,13 +443,13 @@
 							</div>
 						</li> 
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal14">Gulf XXX (Colombia)</a>
+							<!-- <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal14">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							 -Modal -
 							<div id="myModal14" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							     Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -459,7 +464,7 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal15">PDV Hidramar (Venezuela)</a>
 
@@ -474,7 +479,11 @@
 							        <h4 class="modal-title">PDV Hidramar (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p><h3><b> Características:</h3></b>
+							        <p>
+							        	<!-- PDF DE PRODUCTOS -->
+							        		PDV <a href="Hidramar.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
+
+							        <h3><b> Características:</h3></b>
 							          <h5 align="justify">
 											Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez 
 											y propiedades antidesgaste. Cumple los requerimientos de las especificaciones 
@@ -484,8 +493,9 @@
 										    <h5 align="justify">
 											Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones 
 											de temperaturas severas tales como equipos hidráulicos de cubierta, sistemas de 
-											control remoto, telemotores y sistemas de engranajes de maniobra.
+											control remoto, telemotores y sistemas de engranajes de maniobra.<br><br>
 
+											<img src="hidramar_hv.JPG" width="550px">
 									</p>
 							      </div>
 							      <div class="modal-footer">
@@ -500,14 +510,14 @@
 
                     <h3><?php if($leng=="Es"){echo "Turbinas";}else{echo "turbines";}?></h3>
 					<ul class="nav navbar-nav">
-                    	<li><!-- Trigger the modal with a button -->
+                    	<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal16">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal16" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -522,15 +532,15 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
-						<li><!-- Trigger the modal with a button -->
+						</li> -
+						<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal17">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal17" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -545,7 +555,8 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
+
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal18">PDV Turbolub (Venezuela)</a>
 
@@ -560,7 +571,23 @@
 							        <h4 class="modal-title">PDV Turbolub (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p>
+							        <!-- PDF DE PRODUCTOS -->
+							        PDV <a href="Turbinas-Turbolub.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
+
+							        <h3><b> Características:</h3></b>
+							        <h5 align="justify">
+							        Aceite elaborado con básicos de alto índice de viscosidad, especialmente refinados y tratados para obtener una gran estabilidad química. Contienen aditivos que les confieren características sobresalientes de resistencia a la oxidación y protección contra la herrumbre, lo cual permite un excelente comportamiento en condiciones variables de operación. Este producto en el grado ISO 32 cumple con los requisitos de GEK 32568-F de la General Electric; además este grado y el resto cumplen con los requerimientos de la BS- 489, ISO 8068, DIN 51524 Parte 1, DIN 51515 (TD-L) y P-38 (ISO 32), P-54 (ISO 68) y P-55 (ISO 46) de CINCINNATI MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.<br></h5>
+
+									<h3><b>Usos:</h3></b>
+								    <h5 align="justify">
+									Se recomienda principalmente para la lubricación de cojinetes de turbinas 
+									a gas, vapor e hidráulicas, sistemas de lubricación por baño y cajas reductoras 
+									que no estén sometidas a cargas variables o vibraciones. El grado ISO 32 se 
+									recomienda para la lubricación de turbinas a gas marca General Electric modelo 
+									S-5001, las cuales presentan cojinetes sometidos a altas temperaturas de operación. 
+									El grado G-56 ha sido especialmente formulado para cumplir con los requerimientos de lubricación de los cojinetes de turbinas Hitachi.</h5>
+								</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -574,14 +601,15 @@
 
                     <h3><?php if($leng=="Es"){echo "Sistemas de Engranajes";}else{echo "Gear systems";}?></h3>
 					<ul class="nav navbar-nav">
-                    	<li><!-- Trigger the modal with a button -->
+
+                    	<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal19">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal19" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -597,14 +625,14 @@
 							  </div>
 							</div>
 						</li> 
-						<li><!-- Trigger the modal with a button -->
+						<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal20">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal20" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -619,7 +647,8 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
+
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal21">PDV Turbolub (Venezuela)</a>
 
@@ -648,14 +677,14 @@
 
                     <h3><?php if($leng=="Es"){echo "Compresores de Aire";}else{echo "Air Compressors";}?></h3>
 					<ul class="nav navbar-nav">
-                    	<li><!-- Trigger the modal with a button -->
+                    	<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal22">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal22" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -671,14 +700,14 @@
 							  </div>
 							</div>
 						</li> 
-						<li><!-- Trigger the modal with a button -->
+						<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal23">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal23" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -693,7 +722,8 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
+
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal24">PDV Compresolub (Venezuela)</a>
 
@@ -708,7 +738,19 @@
 							        <h4 class="modal-title">PDV Compresolub (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p>
+							        	<!-- PDF DE PRODUCTOS -->
+							        PDV <a href="Compresolub.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
+
+							        <h3><b> Características:</h3></b>
+							        <h5 align="justify">
+							       		Lubricante para compresores elaborado con aceites básicos parafínicos de alta calidad y aditivos antioxidantes y antiherrumbrante en una proporción óptima que le confiere alta estabilidad a la oxidación, baja tendencia a la formación de depósitos de carbón en las válvulas de escape y en los sistemas de descarga de compresores, minimizando el riesgo de fuego y explosiones, extendiendo los periodos de servicio y prolongando la vida del compresor adicional a una excelente protección contra la corrosión y la herrumbre. Cumple con la especificación DIN-51506-VDL parte 2 e ISO DP-6521 categoría 2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN. <br></h5>
+
+							       	<h3><b>Usos:</h3></b>
+								    <h5 align="justify">
+								    	Se recomienda para la lubricación de cilindros y cojinetes de compresores reciprocantes, de aire, con temperatura de descarga máxima de 220° C. También puede ser usado en compresores centrífugos o rotativos de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.</h5>
+
+							        </p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -722,14 +764,14 @@
 
                     <h3><?php if($leng=="Es"){echo "Compresores de Refrigeración";}else{echo "Refrigeration Compressors";}?></h3>
 					<ul class="nav navbar-nav">
-                    	<li><!-- Trigger the modal with a button -->
+                    	<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal25">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal25" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -745,14 +787,14 @@
 							  </div>
 							</div>
 						</li> 
-						<li><!-- Trigger the modal with a button -->
+						<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal26">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal26" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -767,7 +809,8 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
+
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal27">PDV Frilub (Venezuela)</a>
 
@@ -782,7 +825,24 @@
 							        <h4 class="modal-title">PDV Frilub (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p>
+							        	<!-- PDF DE PRODUCTOS -->
+							        	PDV <a href="Frilub.pdf" target="_blank"> <img src="PDF.JPG" width="40px"></a>
+
+							        	<h3><b> Características:</h3></b>
+							        	<h5 align="justify">
+										Aceite nafténico altamente refinado que tiene una gran estabilidad química y térmica, bajo punto de fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.</h5><br>
+
+										<h3><b>Usos:</h3></b>
+								   		<h5 align="justify">
+										Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de refrigeración que utilizan amoníaco o freón como fluido refrigerante; así como para la lubricación de elementos de máquinas que operan a bajas temperaturas ambientales. Por su gran estabilidad térmica, su composición de hidrocarburos estables y su gran conductividad térmica, es adecuado para ser utilizado como fluido de transferencia de calor.</h5><br>
+
+										<h3><b>Beneficios:</h3></b>
+								    	<h5 align="justify">
+										Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.</h5>
+
+
+							        </p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -796,14 +856,15 @@
 
                      <h3><?php if($leng=="Es"){echo "Grasas";}else{echo "greases";}?></h3>
 					<ul class="nav navbar-nav">
-                    	<li><!-- Trigger the modal with a button -->
+
+                    	<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal28">Mobil XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal28" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -819,14 +880,14 @@
 							  </div>
 							</div>
 						</li> 
-						<li><!-- Trigger the modal with a button -->
+						<li><!-- Trigger the modal with a button 
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal29">Gulf XXX (Colombia)</a>
 
-							<!-- Modal -->
+							<!-- Modal 
 							<div id="myModal29" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
 
-							    <!-- Modal content-->
+							    <!-- Modal content
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -841,7 +902,8 @@
 							    </div>
 							  </div>
 							</div>
-						</li> 
+						</li> -->
+
 						<li><!-- Trigger the modal with a button -->
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal30">PDV Industrial EP // Chasis // Multiple 2 (Venezuela)</a>
 
