@@ -47,7 +47,7 @@
                 <li class="dropdown menu_puerto">  
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "PUERTOS";}else{echo "PORTS";}?><b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a tabindex="-1" href="venezuela.php"><?php if($leng=="Es"){echo "VENEZUELA";}else{echo "VENEZUELA";}?></a></li>
+                        <li><a tabindex="-1" href="mapaVenezuela.php"><?php if($leng=="Es"){echo "VENEZUELA";}else{echo "VENEZUELA";}?></a></li>
                         <li><a tabindex="-1" href="colombia.php"><?php if($leng=="Es"){echo "COLOMBIA";}else{echo "COLOMBIA";}?></a></li>
                         <li><a tabindex="-1" href="otrsop.php"><?php if($leng=="Es"){echo "OTROS PUERTOS";}else{echo "OTHERS PORTS ";}?></a></li>
                 	</ul>
