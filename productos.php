@@ -1113,10 +1113,10 @@
 						</li> 
                     </ul>
                     <br><br><br>
-                    <h4>Fuel Oil 380 (IFO 380/RMG 380)</h4>
+                    <h3>Fuel Oil 380 (IFO 380/RMG 380)</h3>
 					<ul class="nav navbar-nav">
                     	<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Colombia)</a>
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela</a>
 
 							<!-- Modal -->
 							<div id="myModal35" class="modal fade" role="dialog">
@@ -1126,10 +1126,12 @@
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
-							        <h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
+							        <h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
 							      </div>
 							      <div class="modal-body">
-							        <p>descripcion y tablas</p>
+							        <p>
+							        	
+							        </p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1165,9 +1167,11 @@
                     <br><br><br>
                     <ul class="nav navbar-nav">
                     	<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal37"><h4>
-							<?php if($leng=="Es"){echo "Otros IFO´s (IFO 180, IFO 120 e IFO 90)";}
-							else{echo "Others IFO´s (IFO 180, IFO 120 e IFO 90)";}?></h4></a>
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal37">
+							<h3>
+							<?php if($leng=="Es"){echo "Otros IFO´s Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
+							else{echo "Others IFO´s (Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?>
+							</h3></a>
 							<!-- Modal -->
 							<div id="myModal37" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
@@ -1177,7 +1181,7 @@
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal">&times;</button>
 							        <h4 class="modal-title">
-					<?php if($leng=="Es"){echo "Otros IFO´s (IFO 180, IFO 120 e IFO 90)";}
+					<?php if($leng=="Es"){echo "Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
 					else{echo "Others IFO´s (IFO 180, IFO 120 e IFO 90)";}?></h4>
 							      </div>
 							      <div class="modal-body">
