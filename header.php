@@ -8,10 +8,10 @@
 
 <div class="navbar yamm navbar-default navbar-fixed-top">
 <div style="float:right; margin-top:7%; margin-right:2%;" >
-<a href="lenguaje.php?leng=Es" role="button"><img src="/bunker/images/ico_venezuela.png" class="img-responsive" alt="Responsive image"></a>
+<a href="lenguaje.php?leng=Es" role="button"><img src="images/ico_venezuela.png" class="img-responsive" alt="Responsive image"></a>
 </div>
 <div style="float:right; margin-top:7%; margin-right:0.5%;">
-	<a href="lenguaje.php?leng=En" role="button"><img src="/bunker/images/ico_usa.png" class="img-responsive" alt="Responsive image"></a>
+	<a href="lenguaje.php?leng=En" role="button"><img src="images/ico_usa.png" class="img-responsive" alt="Responsive image"></a>
 </div>
     <div class="container">
     <div class="navbar-header">

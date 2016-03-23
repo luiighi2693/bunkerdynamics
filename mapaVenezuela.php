@@ -82,9 +82,9 @@
                 </div>
                 <div id="myContentpuertoCabello">
                 	<ul>
-                		<li><a href="#">Lubricantes PDV</a></li>
-                		<li><a href="#">IFO 380 (RMG – 35</a></li>
-                		<li><a href="#">Marine Gasoil (MGO)</a></li>
+                		<li><a href="productos.php">Lubricantes PDV</a></li>
+                		<li><a href="productos.php">IFO 380 (RMG – 35</a></li>
+                		<li><a href="productos.php">Marine Gasoil (MGO)</a></li>
                 	</ul>
                 </div>
                 <div id="myContentcatiaLaMar">

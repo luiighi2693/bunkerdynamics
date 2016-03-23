@@ -50,35 +50,43 @@ fclose($fp);
     </map>
 </center>
 
-
-<div id="myContentlaGuajira">
-    <a href="#"></a>
+<div style="display: none">
+    <div id="myContentlaGuajira">
+        <a href="#"></a>
+    </div>
+    <div id="myContentbarranquilla">
+        <a href="#"></a>
+    </div>
+    <div id="myContentsantaMarta">
+        <a href="#"></a>
+    </div>
+    <div id="myContentcartagena">
+        <ul>
+            <li><a href="productos.php">Lubricantes GULF</a></li>
+            <li><a href="productos.php">Lubricantes SHELL</a></li>
+            <li><a href="productos.php">Lubricantes TOTAL</a></li>
+            <li><a href="productos.php">Lubricantes MOBIL</a></li>
+            <li><a href="productos.php">IFO 380 (RMG – 35)</a></li>
+            <li><a href="productos.php">Marine Gasoil (MGO) </a></li>
+            <li><a href="productos.php">Otros IFO´s</a></li>
+        </ul>
+    </div>
+    <div id="myContenttribuga">
+        <a href="#"></a>
+    </div>
+    <div id="myContentgolfoMorrosquillo">
+        <a href="#"></a>
+    </div>
+    <div id="myContentturbo">
+        <a href="#"></a>
+    </div>
+    <div id="myContentbuenaventura">
+        <a href="#"></a>
+    </div>
+    <div id="myContenttumaco">
+        <a href="#"></a>
+    </div>
 </div>
-<div id="myContentbarranquilla">
-    <a href="#"></a>
-</div>
-<div id="myContentsantaMarta">
-    <a href="#"></a>
-</div>
-<div id="myContentcartagena">
-    <a href="#"></a>
-</div>
-<div id="myContenttribuga">
-    <a href="#"></a>
-</div>
-<div id="myContentgolfoMorrosquillo">
-    <a href="#"></a>
-</div>
-<div id="myContentturbo">
-    <a href="#"></a>
-</div>
-<div id="myContentbuenaventura">
-    <a href="#"></a>
-</div>
-<div id="myContenttumaco">
-    <a href="#"></a>
-</div>
-
 <?php include 'footer.php';?>
 <!-- todos los JS que necesita la web -->
 <?php include 'include_js.php';?>
@@ -97,7 +105,7 @@ fclose($fp);
         $('#laGuajira').webuiPopover({title:'Puertos',url:'#myContentlaGuajira'});
         $('#barranquilla').webuiPopover({title:'Puertos',url:'#myContentbarranquilla'});
         $('#santaMarta').webuiPopover({title:'Puertos',url:'#myContentsantaMarta'});
-        $('#cartagena').webuiPopover({title:'Puertos',url:'#myContentcartagena'});
+        $('#cartagena').webuiPopover({title:'',url:'#myContentcartagena'});
         $('#golfoMorrosquillo').webuiPopover({title:'Puertos',url:'#myContentgolfoMorrosquillo'});
         $('#turbo').webuiPopover({title:'Puertos',url:'#myContentturbo'});
         $('#tribuga').webuiPopover({title:'Puertos',url:'#myContenttribuga'});
