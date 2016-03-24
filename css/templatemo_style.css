@@ -101,8 +101,8 @@ body {
 
 .contact-info {
     list-style: none;
-	padding:0px;
-	
+	padding:0;
+
 }
 
 .contact-info li i{
@@ -112,8 +112,11 @@ body {
 }
 
 .contact-info > li{
-	margin: 0 0 10 0px;
-	font-weight: 200;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-weight: 200;
     font-size: 16px;
     line-height: 30px;
 }
@@ -131,7 +134,7 @@ body {
 }
 
 .symbol, a.symbol:before {
-    font-family: 'Mono Social Icons Font';
+    font-family: 'Mono Social Icons Font', serif;
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -158,7 +161,7 @@ a.symbol:before {
 }
 
 .social a{
-	font-family: SocialIcons;
+    font-family: SocialIcons, serif;
 	margin: 0 10px 0 0;
 	font-size: 38px;
 	line-height: 50px;
@@ -289,7 +292,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/slider2.jpg') no-repeat center center; 
+        /*background: url('../images/slider2.jpg') no-repeat center center;*/
 		/*background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -428,7 +431,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 	border-bottom: 2px solid #cccccc; 
 }
 
@@ -666,7 +669,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .footer {
-	padding: 0px;
+	padding: 0;
 	width: 100%;
 	background-color:#428bca;
 	top:50%;
@@ -695,61 +698,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	color:#FFFFFF;
 	padding-top: 10px;
 	font-weight: bold;
-}
-
-.social-icon-fb {
-    background: url('../images/social-icon-fb.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-fb {
-    background: url('../images/social-icon-fb-over.png') no-repeat;
-}
-
-.social-icon-rss {
-    background: url('../images/social-icon-rss.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-rss {
-    background: url('../images/social-icon-rss-over.png') no-repeat;
-}
-
-.social-icon-twitter {
-    background: url('../images/social-icon-twitter.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-twitter {
-    background: url('../images/social-icon-twitter-over.png') no-repeat;
-}
-
-.social-icon-linkedin {
-    background: url('../images/social-icon-linkedin.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-linkedin {
-    background: url('../images/social-icon-linkedin-over.png') no-repeat;
-}
-
-.social-icon-dribbble {
-    background: url('../images/social-icon-dribbble.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-dribbble {
-    background: url('../images/social-icon-dribbble-over.png') no-repeat;
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
@@ -865,7 +813,7 @@ ul.templatemo-project-gallery  li  a img:hover {
     .templatemo-project-box , .project-overlay {
        height:130px;
        width:130px;
-       padding-top: 0px;
+       padding-top: 0;
     }
 
     .templatemo-project-gallery {
@@ -907,7 +855,7 @@ ul.templatemo-project-gallery  li  a img:hover {
 		padding: 23px 10px 22px;
 	}
 	.templatemo-header-orange {
-		min-width: 0px;
+		min-width: 0;
 	}
 	
 }

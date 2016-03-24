@@ -44,7 +44,7 @@
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <center><h3><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></h3></center>
+                  <h3 style="text-align: center"><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></h3>
                 </a>
               </h4>
             </div>
@@ -113,14 +113,14 @@
 							      <div class="modal-body">
                                   
 							      		<!-- PDF DE PRODUCTOS -->
-							      		PDV <a href="pdf/Cilmar_70.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"> </a>
-							        <p><h3><b>Características:</h3></b>
+							      		PDV <a href="pdf/Cilmar_70.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"> </a>
+							        <p><h3><b>Características:</b></h3>
                                     		<h5 align="justify">
 										    Aceite para motores diésel marinos con un amplio margen de seguridad. 
 											Diseñado para la lubricación de cilindros de motores de diésel de cruceta 
 											de baja velocidad.</h5><br>
                                             
-											<h3><b>Usos:</h3></b>
+											<h3><b>Usos:</b></h3>
                                             <h5 align="justify">
 											Ofrece una protección integral bajo las más exigentes condiciones de servicio. 
 											Esta línea completa cubre todas las necesidades operacionales.
@@ -205,11 +205,11 @@
                                   
 							        <p>
 							        	<!-- PDF DE PRODUCTOS -->
-							        		PDV <a href="pdf/Crumar_3005.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>	
+							        		PDV <a href="pdf/Crumar_3005.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>	
                                    <!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
 									muestra parte del PDF
                                    -->
-                                    <h3><b> Características:</h3></b>
+                                    <h3><b> Características:</b></h3>
 									   <h5 align="justify">
                                         Aceite lubricante monogrado, elaborado con básicos altamente refinados y 
 										aditivos cuidadosamente seleccionados que le proporcionan una alta 
@@ -218,7 +218,7 @@
 										neutralizar los ácidos de la combustión, apropiadas cualidades 
 										antioxidantes y excepcional poder antidesgaste al sobrepasar la 
 										etapa 10 de la prueba FZG.</h5><br>
-										<h3><b>Usos:</h3></b>
+										<h3><b>Usos:</b></h3>
 									    <h5 align="justify">
                                     	Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación 
 										del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede 
@@ -303,9 +303,9 @@
 							      			
 							      <p>
 							      		<!-- PDF DE PRODUCTOS -->
-							      		PDV <a href="pdf/Dieselmar_MR.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							      		PDV <a href="pdf/Dieselmar_MR.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
                                         
-							        <h3><b> Características:</h3></b>
+							        <h3><b> Características:</b></h3>
 									   <br><h5 align="justify">
 										Aceite monogrado elaborado con una mezcla de básicos altamente refinados y aditivos 
 										químicos que le confieren propiedades detergentes/dispersantes para minimizar la formación 
@@ -314,7 +314,7 @@
 										de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.
 										</h5>.<br>
 
-										<h3><b>Usos:</h3></b>
+										<h3><b>Usos:</b></h3>
 										<h5 align="justify">
 										Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan 
 										combustible residual con contenido de azufre superior a 2.5% en peso.</h5>.<br></p>
@@ -395,10 +395,10 @@
 							      <div class="modal-body">
 							        <p>
 							        		<!-- PDF DE PRODUCTOS -->
-							        		PDV <a href="pdf/Dieselmar_MD.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        		PDV <a href="pdf/Dieselmar_MD.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
                                             
-							        <h3><b> Características:</h3></b>
-							          <h5 align="justify">
+							        <h3><b> Características:</b></h3>
+							          <h5 align="justify"></h5>
 										Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren 
 										propiedades dispersantes a bajas temperaturas, aún en presencia de agua y detergentes a altas 
 										temperaturas para minimizar la formación de depósitos en el motor, así como características 
@@ -407,8 +407,8 @@
 										especificaciones correspondientes al servicio CF de la clasificación API/ASTM/SAE y cumple y/o 
 										excede además los requisitos de la especificación MIL-L-2104D.<br>
 
-										<h3><b>Usos:</h3></b>
-										<h5 align="justify">
+										<h3><b>Usos:</b></h3>
+										<h5 align="justify"></h5>
 										Formulado específicamente para la lubricación de motores diesel, turbo alimentados, de mediana y 
 										alta velocidad que utilizan diesel mediano (DMX) o diesel marino (DMA) como combustible. En la 
 										lubricación de cojinetes y bocinas del eje de propulsión y engranajes reductores.</h5><br>
@@ -488,21 +488,21 @@
 							      <div class="modal-body">
 							        <p>
 							        	<!-- PDF DE PRODUCTOS -->
-							        		PDV <a href="pdf/Hidramar.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        		PDV <a href="pdf/Hidramar.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-							        <h3><b> Características:</h3></b>
-							          <h5 align="justify">
+							        <h3><b> Características:</b></h3>
+							          <h5 align="justify"></h5>
 											Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez 
 											y propiedades antidesgaste. Cumple los requerimientos de las especificaciones 
 											NF E 48.600 tipo HV y DIN 51.525 tipo HLP.
 
-											<h3><b>Usos:</h3></b>
-										    <h5 align="justify">
+											<h3><b>Usos:</b></h3>
+										    <h5 align="justify"></h5>
 											Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones 
 											de temperaturas severas tales como equipos hidráulicos de cubierta, sistemas de 
 											control remoto, telemotores y sistemas de engranajes de maniobra.<br><br>
 
-											<img src="images/hidramar_hv.JPG" width="550px">
+											<img src="images/hidramar_hv.jpg" width="550px">
 									</p>
 							      </div>
 							      <div class="modal-footer">
@@ -580,9 +580,9 @@
 							      <div class="modal-body">
 							        <p>
 							        <!-- PDF DE PRODUCTOS -->
-							        PDV <a href="pdf/Turbolub-T.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        PDV <a href="pdf/Turbolub-T.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-							        <h3><b> Características:</h3></b>
+							        <h3><b> Características:</b></h3>
 							        <h5 align="justify">
 							        Aceite elaborado con básicos de alto índice de viscosidad, especialmente refinados y 
                                     tratados para obtener una gran estabilidad química. Contienen aditivos que les confieren 
@@ -593,7 +593,7 @@
                                     DIN 51524 Parte 1, DIN 51515 (TD-L) y P-38 (ISO 32), P-54 (ISO 68) y P-55 (ISO 46) de CINCINNATI 
                                     MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.<br></h5>
 
-									<h3><b>Usos:</h3></b>
+									<h3><b>Usos:</b></h3>
 								    <h5 align="justify">
 									Se recomienda principalmente para la lubricación de cojinetes de turbinas 
 									a gas, vapor e hidráulicas, sistemas de lubricación por baño y cajas reductoras 
@@ -680,10 +680,10 @@
 							      <div class="modal-body">
 							        <p>
                                     <!-- PDF DE PRODUCTOS -->
-							        PDV <a href="pdf/Engralub.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        PDV <a href="pdf/Engralub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
                                     
-                                    <h3><b> Características:</h3></b>
-							          <h5 align="justify">
+                                    <h3><b> Características:</b></h3>
+							          <h5 align="justify"></h5>
 											Aceite mineral altamente refinado que contiene aditivos, especialmente de extrema presión, 
                                             que le imparten una excelente capacidad de carga y una buena resistencia al desgaste. Este 
                                             aceite llena los exigentes requerimientos de:<br>
@@ -694,14 +694,14 @@
 												<li>DIN 51517 Part 3
 											</ul>
                                             
-											<h3><b>Usos:</h3></b>
-										    <h5 align="justify">
+											<h3><b>Usos:</b></h3>
+										    <h5 align="justify"></h5>
 											Recomendado especialmente para la lubricación de engranajes industriales encerrados sometidos a 
                                             cargas severas o de impacto, las cuales no pueden soportar satisfactoriamente aceites minerales 
                                             puros y donde se necesitan lubricantes con aditivos de extrema presión (EP). No se recomienda 
                                             para engranajes sinfín con corona de bronce..<br><br>
                                             
-                                   				 <img src="images/Engralub.PNG" width="500px">
+                                   				 <img src="images/Engralub.png" width="500px">
                                     </p>
 							      </div>
 							      <div class="modal-footer">
@@ -779,9 +779,9 @@
 							      <div class="modal-body">
 							        <p>
 							        	<!-- PDF DE PRODUCTOS -->
-							        PDV <a href="pdf/Compresolub.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        PDV <a href="pdf/Compresolub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-							        <h3><b> Características:</h3></b>
+							        <h3><b> Características:</b></h3>
 							        <h5 align="justify">
 							       		Lubricante para compresores elaborado con aceites básicos parafínicos de alta calidad y aditivos 
                                         antioxidantes y antiherrumbrante en una proporción óptima que le confiere alta estabilidad a la 
@@ -791,7 +791,7 @@
                                         la corrosión y la herrumbre. Cumple con la especificación DIN-51506-VDL parte 2 e ISO DP-6521 categoría 
                                         2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN. <br></h5>
 
-							       	<h3><b>Usos:</h3></b>
+							       	<h3><b>Usos:</b></h3>
 								    <h5 align="justify">
 								    	Se recomienda para la lubricación de cilindros y cojinetes de compresores reciprocantes, de aire, con 
                                         temperatura de descarga máxima de 220° C. También puede ser usado en compresores centrífugos o rotativos 
@@ -874,14 +874,14 @@
 							      <div class="modal-body">
 							        <p>
 							        	<!-- PDF DE PRODUCTOS -->
-							        	PDV <a href="pdf/Frilub.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							        	PDV <a href="pdf/Frilub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-							        	<h3><b> Características:</h3></b>
+							        	<h3><b> Características:</b></h3>
 							        	<h5 align="justify">
 										Aceite nafténico altamente refinado que tiene una gran estabilidad química y térmica, bajo punto de 
                                         fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.</h5><br>
 
-										<h3><b>Usos:</h3></b>
+										<h3><b>Usos:</b></h3>
 								   		<h5 align="justify">
 										Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de 
                                         refrigeración que utilizan amoníaco o freón como fluido refrigerante; así como para la lubricación 
@@ -889,7 +889,7 @@
                                         su composición de hidrocarburos estables y su gran conductividad térmica, es adecuado para ser utilizado 
                                         como fluido de transferencia de calor.</h5><br>
 
-										<h3><b>Beneficios:</h3></b>
+										<h3><b>Beneficios:</b></h3>
 								    	<h5 align="justify">
 										Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas 
                                         en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.</h5>
@@ -913,7 +913,6 @@
 					<ul class="nav navbar-nav">
 			
 						<!-- Trigger the modal with a button -->
-                        <ul>
                         <li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal30">Insdustrial EP</a>
                         
                         <!-- Modal -->
@@ -929,9 +928,9 @@
 							      <div class="modal-body">
                                   <p>
                                   		<!-- PDF DE PRODUCTOS -->
-							      		PDV <a href="pdf/Insdutrial_EP.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
-                                    <h3><b> Características:</h3></b>
-							        	<h5 align="justify">
+							      		PDV <a href="pdf/Insdutrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+                                    <h3><b> Características:</b></h3>
+							        	<h5 align="justify"></h5>
 										Grasa de servicio múltiple, elaborado con aceites básicos refinados y jabón de litio, a los 
                                         cuales se le añaden aditivos de extrema presión (EP), los cuales le confieren una excelente 
                                         capacidad para el soporte de cargas. Esta grasa es resistente al arrastre por agua, de muy buena 
@@ -939,7 +938,7 @@
                                         y la formación de herrumbre. Excede con los requisitos establecidos en la norma COVENIN 967/4 para 
                                         grasas lubricantes de uso automotor e industrial. Este producto posee el sello de calidad NORVEN.</h5><br>
 
-										<h3><b>Usos:</h3></b>
+										<h3><b>Usos:</b></h3>
 								   		<h5 align="justify">
 										Industrialmente, está destinada a la lubricación de todo tipo de cojinetes planos y de rodamientos, 
                                         que operan bajo condiciones de altas cargas. En el campo automotor, es adecuada para proteger y alargar 
@@ -973,15 +972,15 @@
 							      <div class="modal-body">
 							        <p>
                                     	<!-- PDF DE PRODUCTOS -->
-							      		PDV <a href="pdf/chasis.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							      		PDV <a href="pdf/chasis.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
                     
-                                    <h3><b> Características:</h3></b>
-							        	<h5 align="justify">
+                                    <h3><b> Características:</b></h3>
+							        	<h5 align="justify"></h5>
 										Grasa elaborada con aceites básicos refinados, espesados con jabón de calcio el cual le confiere 
                                         una buena resistencia al arrastre por agua. Excede los requisitos de la clase de "Grasa de Servicio 
                                         Liviano" de la norma venezolana COVENIN 967/2.</h5><br>
 
-										<h3><b>Usos:</h3></b>
+										<h3><b>Usos:</b></h3>
 								   		<h5 align="justify">
 										La grasa Chasis es adecuada para la lubricación de partes móviles de máquinas y equipos sujetos a 
                                         condiciones de trabajo liviano, donde la temperatura operacional no sobrepase los 70°C, como cojinetes 
@@ -1013,10 +1012,10 @@
 							      <div class="modal-body">
 							        <p>
                                    	    <!-- PDF DE PRODUCTOS -->
-							      		PDV <a href="pdf/Multiple.pdf" target="_blank"> <img src="images/PDF.JPG" width="40px"></a>
+							      		PDV <a href="pdf/Multiple.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
                                     
-                                    <h3><b> Características:</h3></b>
-							        <h5 align="justify">
+                                    <h3><b> Características:</b></h3>
+							        <h5 align="justify"></h5>
                                     Grasa elaborada a base de jabón de litio y aceites básicos refinados. Entre las características 
                                     principales de esta grasa se destacan: buena bombeabilidad, resistencia al barrido y arrastre 
                                     por agua, buena estabilidad mecánica y resistencia a la oxidación; también propiedades de protección 
@@ -1024,12 +1023,12 @@
                                     norma venezolana COVENIN 967/3 para grasas de servicio múltiple, que se utilizan en el campo automotor 
                                     e industrial. Este producto posee el sello de calidad NORVEN.
                                     
-                                    <h3><b>Usos:</h3></b>
-								   	<h5 align="justify">
+                                    <h3><b>Usos:</b></h3>
+								   	<h5 align="justify"></h5>
                                     Para la lubricación de mecanismos de equipos automotores e industriales tales como: cojinetes planos y 
                                     de rodamientos, motores eléctricos, bombas, generadores, cintas transportadoras y máquinas herramientas. 
                                     También en cadenas, engranajes abiertos y en cualquier aplicación donde la temperatura operacional sea 
-                                    inferior a 150° C y no requieran grasas con características de extrema presión.</h5><br>
+                                    inferior a 150° C y no requieran grasas con características de extrema presión.<br>
                                     </p>
 							      </div>
 							      <div class="modal-footer">
@@ -1038,8 +1037,8 @@
 							    </div>
 							  </div>
 							</div>
-						 </li> 
-                         </ul>
+						 </li>
+					</ul>
  			     </div>
                  </div>
                  </div>
@@ -1051,7 +1050,7 @@
               
               
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <center><h3><?php if($leng=="Es"){echo "Combustibles Marinos (Bunkers)";}else{echo "Marine Fuels ( Bunkers )";}?></h3></center>
+                  <h3 style="text-align: center"><?php if($leng=="Es"){echo "Combustibles Marinos (Bunkers)";}else{echo "Marine Fuels ( Bunkers )";}?></h3>
                 </a>
               </h4>
             </div>
@@ -1077,7 +1076,7 @@
 
 										ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.</h2>
 
-											<img src="images/M-ISO.JPG" width="550px">
+											<img src="images/M-ISO.jpg" width="550px">
 
 							        </p>
 							      </div>
@@ -1204,7 +1203,7 @@
               <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" 
                 href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <center><h3><?php if($leng=="Es"){echo "Servicios";}else{echo "Services";}?></h3></center>
+                 <h3 style="text-align: center"><?php if($leng=="Es"){echo "Servicios";}else{echo "Services";}?></h3>
                 </a>
               </h4>
             </div>
@@ -1372,9 +1371,7 @@
 		
         <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
 			$(document).ready(function () {
-				$(".menu_inicio > a").css({"color":'#FFFFFF'});
-				$(".menu_inicio > a").css({"background-color":'#428bca'});
-				$(".menu_inicio > a").css("font-weight","Bold");
+				$(".menu_inicio > a").css({"color":'#FFFFFF', "background-color":'#428bca',"font-weight":'Bold' });
 			});
 		</script>
         
