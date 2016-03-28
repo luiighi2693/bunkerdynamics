@@ -33,7 +33,7 @@
                     </ul>
                 </li>
                 <li class="dropdown menu_producto">
-                     <a href="productos.php" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS & SERVICIOS";}else{echo "PRODUCTS & SERVICES";}?></a>
+                     <a href="listadoProductos.php" class="dropdown-toggle"><?php if($leng=="Es"){echo "PRODUCTOS & SERVICIOS";}else{echo "PRODUCTS & SERVICES";}?></a>
                 </li>
                 <li class="dropdown menu_puerto">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "PUERTOS";}else{echo "PORTS";}?><b class="caret"></b></a>

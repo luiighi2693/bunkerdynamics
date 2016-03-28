@@ -58,6 +58,7 @@ fclose($fp);
                                         <div class="modal-body">
                                             <img src="images/tablamodelo1.jpg" class="img-responsive">
                                             <a href="images/tablamodelo1.jpg" class="btn btn-default" >Ver Completo</a>
+                                            <a href="tablamodelo1.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -87,6 +88,7 @@ fclose($fp);
                                             <div class="modal-body">
                                                 <img src="images/tablamodelo2.jpg" class="img-responsive">
                                                 <a href="images/tablamodelo2.jpg" class="btn btn-default" >Ver Completo</a>
+                                                <a href="tablamodelo2.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -115,6 +117,7 @@ fclose($fp);
                                                 <div class="modal-body">
                                                     <img src="images/tablamodelo3.jpg" class="img-responsive">
                                                     <a href="images/tablamodelo3.jpg" class="btn btn-default" >Ver Completo</a>
+                                                    <a href="tablamodelo3.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
