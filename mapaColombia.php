@@ -38,15 +38,16 @@ fclose($fp);
     <img src="mapaColombia.png" name="mapaCol" usemap="#mapa">
 
     <map id="mapa" name="mapa">
-        <area shape="rect" alt="la guajira" title="la guajira" id="laGuajira" onclick="myFunction()" coords="392,44,406,54" href="" target="" />
-        <area shape="rect" alt="barranquilla" title="barranquilla" id="barranquilla" onclick="myFunction()" coords="328,64,342,76" href="" target="" />
-        <area shape="rect" alt="santa marta" title="santa marta" id="santaMarta" onclick="myFunction()" coords="288,68,300,78" href="" target="" />
-        <area shape="rect" alt="cartagena" title="cartagena" id="cartagena" onclick="myFunction()" coords="266,96,278,106" href="" target="" />
-        <area shape="rect" alt="golfo morrosquillo" title="golfo morrosquillo" id="golfoMorrosquillo" onclick="myFunction()" coords="234,116,248,126" href="" target="" />
-        <area shape="rect" alt="turbo" title="turbo" id="turbo" onclick="myFunction()" coords="212,136,224,146" href="" target="" />
-        <area shape="rect" alt="tribuga" title="tribuga" id="tribuga" onclick="myFunction()" coords="202,186,214,196" href="" target="" />
-        <area shape="rect" alt="buenaventura" title="buenaventura" id="buenaventura" onclick="myFunction()" coords="204,240,218,250" href="" target="" />
-        <area shape="rect" alt="tumaco" title="tumaco" id="tumaco" onclick="myFunction()" coords="138,284,150,292" href="" target="" />
+        <area shape="rect" alt="la guajira" title="la guajira" id="laGuajira" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
+        <area shape="rect" alt="barranquilla" title="barranquilla" id="barranquilla" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
+        <area shape="rect" alt="santa marta" title="santa marta" id="santaMarta" onclick="myFunction()" coords="281,90,300,111" href="" target="" />
+        <area shape="rect" alt="cartagena" title="cartagena" id="cartagena" onclick="myFunction()" coords="253,159,269,178" href="" target="" />
+        <area shape="rect" alt="golfo morrosquillo" title="golfo morrosquillo" id="golfoMorrosquillo" onclick="myFunction()" coords="215,189,231,210" href="" target="" />
+        <area shape="rect" alt="isla san andres" title="isla san andres" id="islaSanAndres" onclick="myFunction()" coords="121,61,134,80" href="" target="" />
+        <area shape="rect" alt="turbo" title="turbo" id="turbo" onclick="myFunction()" coords="176,243,193,265" href="" target="" />
+        <area shape="rect" alt="tribuga" title="tribuga" id="tribuga" onclick="myFunction()" coords="156,344,170,363" href="" target="" />
+        <area shape="rect" alt="buenaventura" title="buenaventura" id="buenaventura" onclick="myFunction()" coords="170,477,187,500" href="" target="" />
+        <area shape="rect" alt="tumaco" title="tumaco" id="tumaco" onclick="myFunction()" coords="67,585,83,606" href="" target="" />
     </map>
 </center>
 
@@ -94,14 +95,6 @@ fclose($fp);
 
 <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
     (function(){
-        // var x =  document.getElementById("mapa").areas;
-        //$('area').webuiPopover({title:'Titlesdfcsdfsd',content:'Content'});
-        //  var objTag = document.getElementById("zulia");
-        //objTag.setAttribute("data-content","este es el estado zulia")
-        //  $('#zulia').webuiPopover({title:'Puertos',url:'#myContentZulia'});
-        //$('#falcon').webuiPopover({title:'Puertos',url:'#myContentFalcon'});
-        // $('#carabobo').webuiPopover({title:'Puertos',url:'#myContentCarabobo'});
-
         $('#laGuajira').webuiPopover({title:'Puertos',url:'#myContentlaGuajira'});
         $('#barranquilla').webuiPopover({title:'Puertos',url:'#myContentbarranquilla'});
         $('#santaMarta').webuiPopover({title:'Puertos',url:'#myContentsantaMarta'});
@@ -111,12 +104,11 @@ fclose($fp);
         $('#tribuga').webuiPopover({title:'Puertos',url:'#myContenttribuga'});
         $('#buenaventura').webuiPopover({title:'Puertos',url:'#myContentbuenaventura'});
         $('#tumaco').webuiPopover({title:'Puertos',url:'#myContenttumaco'});
-
+        $('#islaSanAndres').webuiPopover({title:'Puertos',url:'#myContentislaSanAndres'});
     })();
     var c1;
     var c2;
     function myFunction() {
-
         $(document).mousemove(function(event) {
             $(".webui-popover").css("margin-left", event.pageX);
             //$(".webui-popover").css("margin-top", event.pageY-110-document.body.scrollTop);

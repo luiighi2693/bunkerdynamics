@@ -36,69 +36,67 @@
                 <br><br><br><br><br><br><br><br><br>
                 <center>
                  <img src="mapaVenezuela.png" name="mapaVen" usemap="#mapa">
-
                     <map id="mapa" name="mapa">
-                        <area shape="rect" id="guarana" alt="guarana" title="guarana" onclick="myFunction()" coords="82,154,94,166" href="" target="" />
-                        <area shape="rect" id="bajoGrande" alt="bajo grande" title="bajo grande" onclick="myFunction()" coords="70,182,82,192" href="" target="" />
-                        <area shape="rect" id="laCeiba" alt="la ceiba" title="la ceiba" onclick="myFunction()" coords="100,226,114,236" href="" target="" />
-                        <area shape="rect" id="laSalina" alt="la salina" title="la salina" onclick="myFunction()" coords="106,190,118,200" href="" target="" />
-                        <area shape="rect" id="ptoMiranda" alt="pto. miranda" title="pto. miranda" onclick="myFunction()" coords="110,148,120,160" href="" target="" />
-                        <area shape="rect" id="cardon" alt="cardon" title="cardon" onclick="myFunction()" coords="146,118,160,128" href="" target="" />
-                        <area shape="rect" id="amuay" alt="amuay" title="amuay" onclick="myFunction()" coords="158,92,172,104" href="" target="" />
-                        <area shape="rect" id="elPalito" alt="el palito" title="el palito" onclick="myFunction()" coords="254,164,266,174" href="" target="" />
-                        <area shape="rect" id="puertoCabello" alt="puerto cabello" title="puerto cabello" onclick="myFunction()" coords="272,162,284,172" href="" target="" />
-                        <area shape="rect" id="catiaLaMar" alt="catia la mar" title="catia la mar" onclick="myFunction()" coords="298,158,310,168" href="" target="" />
-                        <area shape="rect" id="laGuaira" alt="la guaira" title="la guaira" onclick="myFunction()" coords="314,158,324,166" href="" target="" />
-                        <area shape="rect" id="ptoLaCruz" alt="pto. la cruz" title="pto. la cruz" onclick="myFunction()" coords="396,184,410,196" href="" target="" />
-                        <area shape="rect" id="palua" alt="palua" title="palua" onclick="myFunction()" coords="486,276,496,286" href="" target="" />
+                        <area shape="rect" alt="guaranao" title="guaranao" id="guaranao" onclick="myFunction()" coords="115,110,131,135" href="" target="" />
+                        <area shape="rect" alt="bajo grande" title="bajo grande" id="bajoGrande" onclick="myFunction()" coords="98,184,111,204" href="" target="" />
+                        <area shape="rect" alt="la ceiba" title="la ceiba" id="laCeiba" onclick="myFunction()" coords="156,257,173,273" href="" target="" />
+                        <area shape="rect" alt="pto. miranda" title="pto. miranda" id="ptoMiranda" onclick="myFunction()" coords="157,123,169,146" href="" target="" />
+                        <area shape="rect" alt="cardon" title="cardon" id="cardon" onclick="myFunction()" coords="236,62,250,82" href="" target="" />
+                        <area shape="rect" alt="amuay" title="amuay" id="amuay" onclick="myFunction()" coords="244,34,258,50" href="" target="" />
+                        <area shape="rect" alt="el palito" title="el palito" id="elPalito" onclick="myFunction()" coords="398,160,410,177" href="" target="" />
+                        <area shape="rect" alt="puerto cabello" title="puerto cabello" id="puertoCabello" onclick="myFunction()" coords="421,158,435,172" href="" target="" />
+                        <area shape="rect" alt="catia la mar" title="catia la mar" id="catiaLaMar" onclick="myFunction()" coords="458,150,469,167" href="" target="" />
+                        <area shape="rect" alt="la guaira" title="la guaira" id="laGuaira" onclick="myFunction()" coords="482,146,493,163" href="" target="" />
+                        <area shape="rect" alt="pto. la cruz" title="pto. la cruz" id="ptoLaCruz" onclick="myFunction()" coords="632,180,648,197" href="" target="" />
+                        <area shape="rect" alt="palua" title="palua" id="palua" onclick="myFunction()" coords="769,339,784,356" href="" target="" />
                     </map>
                 </center>
 		
 
                <div style="display: none;">
-                <div id="myContentguarana">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentbajoGrande">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentlaCeiba">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentlaSalina">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentptoMiranda">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentcardon">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentamuay">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentelPalito">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentpuertoCabello">
-                	<ul>
-                		<li><a href="productos.php">Lubricantes PDV</a></li>
-                		<li><a href="productos.php">IFO 380 (RMG – 35</a></li>
-                		<li><a href="productos.php">Marine Gasoil (MGO)</a></li>
-                	</ul>
-                </div>
-                <div id="myContentcatiaLaMar">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentlaGuaira">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentptoLaCruz">
-                    <a href="#"></a>
-                </div>
-                <div id="myContentpalua">
-                    <a href="#"></a>
-                </div>
+                    <div id="myContentguarana">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentbajoGrande">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentlaCeiba">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentlaSalina">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentptoMiranda">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentcardon">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentamuay">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentelPalito">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentpuertoCabello">
+                        <ul>
+                            <li><a href="productos.php">Lubricantes PDV</a></li>
+                            <li><a href="productos.php">IFO 380 (RMG – 35</a></li>
+                            <li><a href="productos.php">Marine Gasoil (MGO)</a></li>
+                        </ul>
+                    </div>
+                    <div id="myContentcatiaLaMar">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentlaGuaira">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentptoLaCruz">
+                        <a href="#"></a>
+                    </div>
+                    <div id="myContentpalua">
+                        <a href="#"></a>
+                    </div>
                </div>
 
         <?php include 'footer.php';?>
@@ -108,14 +106,6 @@
 		
         <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
 			(function(){
-               // var x =  document.getElementById("mapa").areas;
-                //$('area').webuiPopover({title:'Titlesdfcsdfsd',content:'Content'}); 
-              //  var objTag = document.getElementById("zulia");
-                //objTag.setAttribute("data-content","este es el estado zulia")
-              //  $('#zulia').webuiPopover({title:'Puertos',url:'#myContentZulia'});
-                //$('#falcon').webuiPopover({title:'Puertos',url:'#myContentFalcon'});
-               // $('#carabobo').webuiPopover({title:'Puertos',url:'#myContentCarabobo'});
-
                 $('#guarana').webuiPopover({title:'Puertos',url:'#myContentguarana'});
                 $('#bajoGrande').webuiPopover({title:'Puertos',url:'#myContentbajoGrande'});
                 $('#laCeiba').webuiPopover({title:'Puertos',url:'#myContentlaCeiba'});
