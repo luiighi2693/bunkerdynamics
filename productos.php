@@ -69,10 +69,15 @@ fclose($fp);
 
 											<h3><b>Usos:</b></h3>
 											<h5 align="justify">
-												Ofrece una protección integral bajo las más exigentes condiciones de servicio.
+												<?php if($leng=="Es"){echo "Ofrece una protección integral bajo las más exigentes condiciones de servicio.
 												Esta línea completa cubre todas las necesidades operacionales.
 												CILMAR 70 (SAE 50, BN 70) es el lubricante más ampliamente usado en motores
-												operando con combustibles intermedio o pesado con alto nivel de azufre.</h5><br>
+												operando con combustibles intermedio o pesado con alto nivel de azufre.";}else{echo "
+												It offers comprehensive protection under the most demanding conditions.
+												This complete line covers all operational needs.
+												CILMAR 70 ( SAE 50 , BN 70 ) is the most widely used lubricant for engines
+												operating on intermediate or heavy fuels with high sulfur .";}?>
+											</h5><br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -156,22 +161,36 @@ fclose($fp);
 												<!-- <embed src="cremr.pdf" width="100%" height="100%"><br>
                                   muestra parte del PDF
                                  -->
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												Aceite lubricante monogrado, elaborado con básicos altamente refinados y
+												<?php if($leng=="Es"){echo "Aceite lubricante monogrado, elaborado con básicos altamente refinados y
 												aditivos cuidadosamente seleccionados que le proporcionan una alta
 												detergencia que asegura la limpieza del cárter, del cigüeñal y de
 												las áreas bajo la corona del pistón, apropiada alcalinidad para
 												neutralizar los ácidos de la combustión, apropiadas cualidades
 												antioxidantes y excepcional poder antidesgaste al sobrepasar la
-												etapa 10 de la prueba FZG.</h5><br>
-											<h3><b>Usos:</b></h3>
+												etapa 10 de la prueba FZG.";}else{echo "
+												Monograde lubricant oil , made with highly refined base and
+												carefully selected additives that provide a high
+												detergency ensures cleaning crankcase , crankshaft and
+												the areas under the piston crown , proper alkalinity
+												neutralize combustion acids , appropriate qualities
+												antioxidants and antiwear exceptional power to exceed the
+												Stage 10 of the FZG test.";}?>
+											</h5><br>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación
+												<?php if($leng=="Es"){echo "Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación
 												del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede
 												ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente
 												cargados y compresores de aire donde un aceite con las cualidades descritas
-												satisfaga plenamente los requerimientos de lubricación de los mismos.</h5>.<br>
+												satisfaga plenamente los requerimientos de lubricación de los mismos.";}else{echo "
+												It has been specially developed to meet the lubrication requirements
+												Crankcase diesel crosshead type low speed . Additionally can
+												be used in bearings and drive shaft speakers , gears moderately
+												loaded and air compressors where an oil with the qualities described
+												fully meet the lubrication requirements thereof.";}?>
+											</h5>.<br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -252,19 +271,26 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Dieselmar_MR.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<br><h5 align="justify">
-												Aceite monogrado elaborado con una mezcla de básicos altamente refinados y aditivos
+												<?php if($leng=="Es"){echo "Aceite monogrado elaborado con una mezcla de básicos altamente refinados y aditivos
 												químicos que le confieren propiedades detergentes/dispersantes para minimizar la formación
 												de depósitos en el motor, así como características antidesgaste, anti-herrumbre, anti-espumantes
 												y anti-corrosivas, para garantizar la adecuada lubricación del cárter y cilindros de motores
-												de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.
+												de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.";}else{echo "
+												Monograde oil made ​​from a blend of highly refined base and additives
+												chemicals that confer detergent / dispersant properties to minimize formation
+												of engine deposits and wear characteristics , anti- rust , anti- foaming
+												and anti- corrosive , to ensure adequate lubrication of the crankcase and cylinder engines
+												medium speed . Meets the specifications at the service level API CF.";}?>
 											</h5>.<br>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
-												combustible residual con contenido de azufre superior a 2.5% en peso.</h5>.<br></p>
+												<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
+												combustible residual con contenido de azufre superior a 2.5% en peso.";}else{echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
+												combustible residual con contenido de azufre superior a 2.5% en peso.";}?>
+												</h5>.<br></p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -344,21 +370,32 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Dieselmar_MD.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren
+											<?php if($leng=="Es"){echo "Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren
 											propiedades dispersantes a bajas temperaturas, aún en presencia de agua y detergentes a altas
 											temperaturas para minimizar la formación de depósitos en el motor, así como características
 											antidesgaste, anti-herrumbrante, anti-espumantes y anticorrosivas, para garantizar la adecuada
 											lubricación del cárter y cilindros de motores diesel de mediana y alta velocidad. Satisface las
 											especificaciones correspondientes al servicio CF de la clasificación API/ASTM/SAE y cumple y/o
-											excede además los requisitos de la especificación MIL-L-2104D.<br>
-
-											<h3><b>Usos:</b></h3>
+											excede además los requisitos de la especificación MIL-L-2104D.";}else{echo "
+											Oil made ​​from a blend of highly refined base and additives that give you
+											dispersing properties at low temperatures , even in the presence of water and detergents at high
+											temperatures to minimize the formation of engine deposits and characteristics
+											antiwear , anti- herrumbrante , antifoam and anticorrosion , to ensure adequate
+											crankcase and cylinder lubrication of diesel medium and high speed engines. meets
+											CF service for the API / ASTM / SAE classification and meets specifications and / or
+											also exceeds the requirements of MIL- L - 2104D .";}?>
+											<br>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Formulado específicamente para la lubricación de motores diesel, turbo alimentados, de mediana y
+											<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel, turbo alimentados, de mediana y
 											alta velocidad que utilizan diesel mediano (DMX) o diesel marino (DMA) como combustible. En la
-											lubricación de cojinetes y bocinas del eje de propulsión y engranajes reductores.</h5><br>
+											lubricación de cojinetes y bocinas del eje de propulsión y engranajes reductores.";}else{echo "
+											Specifically formulated for lubricating diesel engines, turbo fed , middle and
+											High speed diesel using medium (DMX ) or marine diesel (DMA ) as fuel . In the
+											lubricating bearings and drive shaft speakers and reduction gears .";}?>
+											</h5><br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -437,18 +474,23 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Hidramar.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez
+											<?php if($leng=="Es"){echo "Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez
 											y propiedades antidesgaste. Cumple los requerimientos de las especificaciones
-											NF E 48.600 tipo HV y DIN 51.525 tipo HLP.
-
-											<h3><b>Usos:</b></h3>
+											NF E 48.600 tipo HV y DIN 51.525 tipo HLP.";}else{echo "
+											Hydraulic oil high viscosity index , low pour point
+											and antiwear properties . Meets the specification requirements
+											NF E 48.600 HV type and type HLP DIN 51,525 .";}?>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones
+											<?php if($leng=="Es"){echo "Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones
 											de temperaturas severas tales como equipos hidráulicos de cubierta, sistemas de
-											control remoto, telemotores y sistemas de engranajes de maniobra.<br><br>
-
+											control remoto, telemotores y sistemas de engranajes de maniobra.";}else{echo "
+											It is mainly recommended for hydraulic systems under conditions
+											severe temperatures such as hydraulic deck equipment , systems
+											remote control, telemotor and gear systems maneuver.";}?>
+											<br><br>
 											<img src="images/hidramar_hv.jpg" width="550px">
 											</p>
 										</div>
@@ -531,24 +573,40 @@ fclose($fp);
 
 											<h3><b> Características:</b></h3>
 											<h5 align="justify">
-												Aceite elaborado con básicos de alto índice de viscosidad, especialmente refinados y
+												<?php if($leng=="Es"){echo "Aceite elaborado con básicos de alto índice de viscosidad, especialmente refinados y
 												tratados para obtener una gran estabilidad química. Contienen aditivos que les confieren
 												características sobresalientes de resistencia a la oxidación y protección contra la herrumbre,
 												lo cual permite un excelente comportamiento en condiciones variables de operación.
 												Este producto en el grado ISO 32 cumple con los requisitos de GEK 32568-F de la General
 												Electric; además este grado y el resto cumplen con los requerimientos de la BS- 489, ISO 8068,
 												DIN 51524 Parte 1, DIN 51515 (TD-L) y P-38 (ISO 32), P-54 (ISO 68) y P-55 (ISO 46) de CINCINNATI
-												MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.<br></h5>
+												MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.";}else{echo "Oil produced with basic high viscosity index, especially refined and
+												treated for high chemical stability. They contain additives that give them
+												outstanding characteristics of oxidation resistance and rust protection ,
+												This allows excellent performance in varying operating conditions.
+												This product in the ISO 32 grade meets the requirements of GEK 32568 -F General
+												Electric ; besides this degree and the rest meet the requirements of BS 489 , ISO 8068 ,
+												DIN 51524 Part 1 , DIN 51515 (TD- L ) and P -38 ( ISO 32 ), P -54 (ISO 68) and P -55 (ISO 46) CINCINNATI
+												MACHINE . Satisfies the COVENIN 1122 standard and has the quality seal NORVEN .";}?>
+												<br></h5>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Se recomienda principalmente para la lubricación de cojinetes de turbinas
+												<?php if($leng=="Es"){echo "Se recomienda principalmente para la lubricación de cojinetes de turbinas
 												a gas, vapor e hidráulicas, sistemas de lubricación por baño y cajas reductoras
 												que no estén sometidas a cargas variables o vibraciones. El grado ISO 32 se
 												recomienda para la lubricación de turbinas a gas marca General Electric modelo
 												S-5001, las cuales presentan cojinetes sometidos a altas temperaturas de operación.
 												El grado G-56 ha sido especialmente formulado para cumplir con los requerimientos de
-												lubricación de los cojinetes de turbinas Hitachi.</h5>
+												lubricación de los cojinetes de turbinas Hitachi.";}else{echo "
+												It is recommended primarily for the lubrication of turbines
+												gas , steam and hydraulic , lubrication systems and gearboxes bathroom
+												which are not subject to variable loads or vibrations . The degree ISO 32
+												recommended for the lubrication of gas turbines General Electric brand model
+												S -5001 , which have bearings subjected to high operating temperatures .
+												The degree G - 56 has been specially formulated to meet the requirements
+												lubricating bearings Hitachi turbines.";}?>
+												</h5>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -629,11 +687,14 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Engralub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Aceite mineral altamente refinado que contiene aditivos, especialmente de extrema presión,
+											<?php if($leng=="Es"){echo "Aceite mineral altamente refinado que contiene aditivos, especialmente de extrema presión,
 											que le imparten una excelente capacidad de carga y una buena resistencia al desgaste. Este
-											aceite llena los exigentes requerimientos de:<br>
+											aceite llena los exigentes requerimientos de:";}else{echo "Highly refined mineral oil containing additives, especially extreme pressure ,
+											which they impart excellent capacity and good wear resistance. East
+											oil meets the demanding requirements of:";}?>
+											<br>
 											<ul>
 												<li>USS 224
 												<li>AGMA 9005-D94
@@ -641,12 +702,17 @@ fclose($fp);
 												<li>DIN 51517 Part 3
 											</ul>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Recomendado especialmente para la lubricación de engranajes industriales encerrados sometidos a
+											<?php if($leng=="Es"){echo "Recomendado especialmente para la lubricación de engranajes industriales encerrados sometidos a
 											cargas severas o de impacto, las cuales no pueden soportar satisfactoriamente aceites minerales
 											puros y donde se necesitan lubricantes con aditivos de extrema presión (EP). No se recomienda
-											para engranajes sinfín con corona de bronce..<br><br>
+											para engranajes sinfín con corona de bronce.";}else{echo "
+											Especially recommended for lubrication of industrial gears locked under
+											severe loads or impact , which can not withstand satisfactorily mineral oils
+											pure and where needed lubricants extreme pressure additives ( EP ) . It is not recommended
+											worm gear with bronze crown .";}?>
+											<br><br>
 
 											<img src="images/Engralub.png" width="500px">
 											</p>
@@ -728,22 +794,32 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Compresolub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												Lubricante para compresores elaborado con aceites básicos parafínicos de alta calidad y aditivos
+												<?php if($leng=="Es"){echo "Lubricante para compresores elaborado con aceites básicos parafínicos de alta calidad y aditivos
 												antioxidantes y antiherrumbrante en una proporción óptima que le confiere alta estabilidad a la
 												oxidación, baja tendencia a la formación de depósitos de carbón en las válvulas de escape y en los
 												sistemas de descarga de compresores, minimizando el riesgo de fuego y explosiones, extendiendo los
 												periodos de servicio y prolongando la vida del compresor adicional a una excelente protección contra
 												la corrosión y la herrumbre. Cumple con la especificación DIN-51506-VDL parte 2 e ISO DP-6521 categoría
-												2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN. <br></h5>
+												2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN.";}else{echo "Compressor lubricant made ​​from paraffinic base oils and high quality additives
+												antioxidants and antiherrumbrante in an optimal ratio which gives high stability to
+												oxidation , low tendency to form carbon deposits in the exhaust valves and the
+												compressor discharge systems , minimizing the risk of fire and explosions , spreading
+												periods of service and extending the life of the additional compressor excellent protection
+												corrosion and rust . Meets DIN - 51506 - VDL specification part 2 and ISO DP- 6521 Category
+												2 -DAB and the Venezuelan standard COVENIN 1926 and possesses the quality seal NORVEN .";}?>
+												 <br></h5>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Se recomienda para la lubricación de cilindros y cojinetes de compresores reciprocantes, de aire, con
+												<?php if($leng=="Es"){echo "Se recomienda para la lubricación de cilindros y cojinetes de compresores reciprocantes, de aire, con
 												temperatura de descarga máxima de 220° C. También puede ser usado en compresores centrífugos o rotativos
-												de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.</h5>
-
+												de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.";}else{echo "
+												It is recommended for lubrication and bearing cylinder reciprocating compressor , air , with
+												maximum discharge temperature of 220 ° C also can be used in centrifugal compressors or rotary
+												the screw blade or types . It serves as a heat transfer in heating systems .";}?>
+												</h5>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -823,25 +899,34 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Frilub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												Aceite nafténico altamente refinado que tiene una gran estabilidad química y térmica, bajo punto de
-												fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.</h5><br>
-
-											<h3><b>Usos:</b></h3>
+												<?php if($leng=="Es"){echo "Aceite nafténico altamente refinado que tiene una gran estabilidad química y térmica, bajo punto de
+												fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.";}else{echo "
+												highly refined naphthenic oil having a high chemical and thermal stability , low-
+												fluidity and flocculation and aniline intermediate point indicating a solvent medium power.";}?>
+												</h5><br>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de
+												<?php if($leng=="Es"){echo "Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de
 												refrigeración que utilizan amoníaco o freón como fluido refrigerante; así como para la lubricación
 												de elementos de máquinas que operan a bajas temperaturas ambientales. Por su gran estabilidad térmica,
 												su composición de hidrocarburos estables y su gran conductividad térmica, es adecuado para ser utilizado
-												como fluido de transferencia de calor.</h5><br>
+												como fluido de transferencia de calor.";}else{echo "
+												Its low pour point and flocculation make it suitable for the lubrication of compressors
+												cooling using ammonia or freon as a refrigerant ; and for lubrication
+												elements of machines operating at low ambient temperatures. For its high thermal stability ,
+												stable composition of hydrocarbons and great thermal conductivity , is suitable for use
+												as heat transfer fluid .";}?>
+												</h5><br>
 
-											<h3><b>Beneficios:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Benefios:";}else{echo "benefits:";}?></b></h3>
 											<h5 align="justify">
-												Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas
-												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.</h5>
-
-
+												<?php if($leng=="Es"){echo "Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas
+												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.";}else{echo "
+												Due to its solvent power medium , is used as carrier or medium for dissolving pigment inks
+												in paper making and related coal and plasticizer in certain processes.";}?>
+												</h5>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -876,23 +961,37 @@ fclose($fp);
 											<p>
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Insdutrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Grasa de servicio múltiple, elaborado con aceites básicos refinados y jabón de litio, a los
+											<?php if($leng=="Es"){echo "Grasa de servicio múltiple, elaborado con aceites básicos refinados y jabón de litio, a los
 											cuales se le añaden aditivos de extrema presión (EP), los cuales le confieren una excelente
 											capacidad para el soporte de cargas. Esta grasa es resistente al arrastre por agua, de muy buena
 											estabilidad mecánica y a la oxidación, buena bombeabilidad y brinda protección contra la corrosión
 											y la formación de herrumbre. Excede con los requisitos establecidos en la norma COVENIN 967/4 para
-											grasas lubricantes de uso automotor e industrial. Este producto posee el sello de calidad NORVEN.</h5><br>
+											grasas lubricantes de uso automotor e industrial. Este producto posee el sello de calidad NORVEN.";}else{echo "
+											Multi- service grease , made with refined base oils and lithium soap to
+											which additives are added extreme pressure ( EP ) , which gives it an excellent
+											ability to support loads . This fat is very good resistant to water wash
+											mechanical stability and oxidation , good pumpability and provides corrosion protection
+											and the formation of rust. Exceeds the requirements of standard 967/4 COVENIN
+											lubricating greases for automotive and industrial use. This product has the quality seal NORVEN .";}?>
+											</h5><br>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												Industrialmente, está destinada a la lubricación de todo tipo de cojinetes planos y de rodamientos,
+												<?php if($leng=="Es"){echo "Industrialmente, está destinada a la lubricación de todo tipo de cojinetes planos y de rodamientos,
 												que operan bajo condiciones de altas cargas. En el campo automotor, es adecuada para proteger y alargar
 												la vida de las puntas de ejes y juntas universales (crucetas). También en aquellas aplicaciones donde
 												existan altas cargas (extrema presión) y cuya temperatura operacional no exceda los 150 grados °C.
 												La grasa Industrial EP-00, se utiliza en algunas cajas de engranajes que requieren grasa como
-												lubricante.</h5><br>
+												lubricante.";}else{echo "
+												Industrially, it is intended for the lubrication of all bearings and flat bearing ,
+												They are operating under high loads. In the automotive field , it is adequate to protect and extend
+												the life of the shaft ends and universal joints ( crosspieces ) . Also in those applications where
+												there are high loads (extreme pressure) and whose operational temperature does not exceed 150 degrees ° C .
+												Industrial grease EP -00 , it is used in some gearboxes that require fat as
+												lubricant.";}?>
+												</h5><br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -921,11 +1020,15 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/chasis.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Grasa elaborada con aceites básicos refinados, espesados con jabón de calcio el cual le confiere
-											una buena resistencia al arrastre por agua. Excede los requisitos de la clase de "Grasa de Servicio
-											Liviano" de la norma venezolana COVENIN 967/2.</h5><br>
+											<?php if($leng=="Es"){echo "Grasa elaborada con aceites básicos refinados, espesados con jabón de calcio el cual le confiere
+											una buena resistencia al arrastre por agua. Excede los requisitos de la clase de \"Grasa de Servicio
+											Liviano\" de la norma venezolana COVENIN 967/2.";}else{echo "
+											Grease made ​​with refined base oils, thickened with calcium soap which gives
+											good resistance to water wash . Exceeds the requirements of the class of \" Grease Service
+											Light \" of the Venezuelan COVENIN standard 967/2 .";}?>
+											</h5><br>
 
 											<h3><b>Usos:</b></h3>
 											<h5 align="justify">
