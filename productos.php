@@ -1030,12 +1030,16 @@ fclose($fp);
 											Light \" of the Venezuelan COVENIN standard 967/2 .";}?>
 											</h5><br>
 
-											<h3><b>Usos:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												La grasa Chasis es adecuada para la lubricación de partes móviles de máquinas y equipos sujetos a
+												<?php if($leng=="Es"){echo "La grasa Chasis es adecuada para la lubricación de partes móviles de máquinas y equipos sujetos a
 												condiciones de trabajo liviano, donde la temperatura operacional no sobrepase los 70°C, como cojinetes
 												de bomba de agua, bujes, guías y cojinetes sencillos de rastras de maquinaria agrícola y de otros
-												equipos que requieran una grasa de este tipo. .</h5><br>
+												equipos que requieran una grasa de este tipo.";}else{echo "The chassis grease is suitable for lubricating moving parts of machinery and equipment subject to
+												light duty conditions where the operating temperature does not exceed 70 ° C , as bearings
+												water pump , bushings, bearings guides and simple harrows and other agricultural machinery
+												equipment requiring this type grease .";}?>
+												</h5><br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -1064,21 +1068,32 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Multiple.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Grasa elaborada a base de jabón de litio y aceites básicos refinados. Entre las características
+											<?php if($leng=="Es"){echo "Grasa elaborada a base de jabón de litio y aceites básicos refinados. Entre las características
 											principales de esta grasa se destacan: buena bombeabilidad, resistencia al barrido y arrastre
 											por agua, buena estabilidad mecánica y resistencia a la oxidación; también propiedades de protección
 											contra la formación de herrumbre y corrosión. Excede con los requisitos mínimos establecidos en la
 											norma venezolana COVENIN 967/3 para grasas de servicio múltiple, que se utilizan en el campo automotor
-											e industrial. Este producto posee el sello de calidad NORVEN.
+											e industrial. Este producto posee el sello de calidad NORVEN.";}else{echo "
+											Fat produced from lithium soap and refined base oils. Among the features
+											main of this fat are: good pumpability , resistance and drag sweep
+											water , good mechanical stability and resistance to oxidation ; also protective properties
+											against the formation of rust and corrosion. Exceeds the minimum requirements of
+											Venezuelan standard 967/3 COVENIN for multiple service fats , which are used in the automotive field
+											and industrial . This product has the quality seal NORVEN .";}?>
 
-											<h3><b>Usos:</b></h3>
+
+											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify"></h5>
-											Para la lubricación de mecanismos de equipos automotores e industriales tales como: cojinetes planos y
+											<?php if($leng=="Es"){echo "Para la lubricación de mecanismos de equipos automotores e industriales tales como: cojinetes planos y
 											de rodamientos, motores eléctricos, bombas, generadores, cintas transportadoras y máquinas herramientas.
 											También en cadenas, engranajes abiertos y en cualquier aplicación donde la temperatura operacional sea
-											inferior a 150° C y no requieran grasas con características de extrema presión.<br>
+											inferior a 150° C y no requieran grasas con características de extrema presión.";}else{echo "For lubrication of mechanisms of automotive and industrial equipment such as plain bearings and
+											bearings , electric motors, pumps, generators , conveyors and machine tools .
+											Also in chains , open gears and in any application where the operating temperature is
+											below 150 ° C and do not require fats with extreme pressure characteristics .";}?>
+											<br>
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -1123,8 +1138,9 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h2>
-
-												ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.</h2>
+												<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
+												ISO 8217 2005 Fuel Standard for marine distillate fuels .";}?>
+												</h2>
 
 											<img src="images/M-ISO.jpg" width="550px">
 
@@ -1151,7 +1167,7 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (colombia)</h4>
 										</div>
 										<div class="modal-body">
-											<p>descripcion y tablas</p>
+											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1203,7 +1219,7 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											<p>descripcion y tablas</p>
+											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1234,7 +1250,7 @@ fclose($fp);
 												else{echo "Others IFO´s (IFO 180, IFO 120 e IFO 90)";}?></h4>
 										</div>
 										<div class="modal-body">
-											<p>descripcion y tablas</p>
+											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1270,12 +1286,12 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Commodities</h4>
+											<h4 class="modal-title"><?php if($leng=="Es"){echo "Materias Primas";}else{echo "Commodities";}?></h4>
 										</div>
 										<div class="modal-body">
 											<p> <h5 align="justify">
-												Sumistro de productos terminados para satisfacer las necesidades de la operación de puertos maritimos,
-												su equipamiento y el mantenimiento requerido dentro de los mismo.
+												<?php if($leng=="Es"){echo "Sumistro of finished products to meet the needs of the operation of seaports ,
+												its equipment and maintenance required within the same .";}else{echo "";}?>
 											</h5>
 										</div>
 										<div class="modal-footer">
@@ -1301,8 +1317,9 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h5 align="justify">
-												Contamos con personal con Experiencia en Operaciones en los distintos puertos donde realizamos entregas de productos,
-												lo que genera mayor confiabilidad y tranquilidad para nuestros clientes.
+												<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos donde realizamos entregas de productos,
+												lo que genera mayor confiabilidad y tranquilidad para nuestros clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of products,
+												resulting in greater reliability and peace of mind for our customers.";}?>
 											</h5></p>
 										</div>
 										<div class="modal-footer">
@@ -1327,7 +1344,9 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h5 align="justify">
-												Contamos con personal altamente calificado, el cual está a su disposición para analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas técnicos que se puedan presentar en la comercialización de nuestros productos.
+												<?php if($leng=="Es"){echo "Contamos con personal altamente calificado, el cual está a su disposición para analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas técnicos que se puedan presentar en la comercialización de nuestros productos.";}else{echo "
+												We have highly qualified staff, which is available to discuss any questions and inquiries seeking fast and efficient to all the technical problems that may arise in the marketing of our product solutions.";}?>
+
 											</h5></p>
 										</div>
 										<div class="modal-footer">
@@ -1354,13 +1373,18 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h5 align="justify">
-												Ponemos a sus disposición análisis de aceites usados en los principales laboratorios de nuestros proveedores. Esta herramienta es fundamental para el monitoreo del comportamiento de cada equipo brindando datos fehacientes de:<br><br>
+												<?php if($leng=="Es"){echo "Ponemos a sus disposición análisis de aceites usados en los principales laboratorios de nuestros proveedores. Esta herramienta es fundamental para el monitoreo del comportamiento de cada equipo brindando datos fehacientes de:";}else{echo "
+												We put at your disposal analysis used in leading laboratories of our suppliers oils. This tool is essential for monitoring the behavior of each team providing reliable data :";}?>
+												<br><br>
 												<ol type="A">
-													<li>Estado de equipo.
-													<li>Estado del lubricante.
-													<li>Grado de contaminación.
+													<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team .";}?>
+													<li><?php if($leng=="Es"){echo "Estado del lubricante.";}else{echo "
+													State of the lubricant.";}?>
+													<li><?php if($leng=="Es"){echo "Grado de contaminación.";}else{echo "Degree of contamination .";}?>
 												</ol><br>
-												A través de un programa de muestreos periódicos y procedimientos de control de reportes, se podrán delinear tendencia de comportamiento de cada equipo conformando un programa de mantenimiento predictivo que minimice las fallas optimizando la vida útil del lubricante entre otros beneficios.
+												<?php if($leng=="Es"){echo "A través de un programa de muestreos periódicos y procedimientos de control de reportes, se podrán delinear tendencia de comportamiento de cada equipo conformando un programa de mantenimiento predictivo que minimice las fallas optimizando la vida útil del lubricante entre otros beneficios.";}else{echo "
+												Through a program of regular sampling and reporting control procedures , they may delineate trend behavior of each team forming a predictive maintenance program to minimize failures optimizing lubricant life among other benefits.";}?>
+
 											</h5></p>
 										</div>
 										<div class="modal-footer">
@@ -1385,18 +1409,25 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h5 align="justify">
-												La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores, a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo rendimiento técnico en cada equipo reduciendo los costos de operación. <br><br>
-												Implementar esta selección es parte de nuestro "Plan de Lubricación", el mismo consta de:
+												<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores, a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo rendimiento técnico en cada equipo reduciendo los costos de operación.
+												Implementar esta selección es parte de nuestro Plan de Lubricación, el mismo consta de:";}else{echo "
+												The experience gathered by our company together with our suppliers over many years of research and development, allow us to make an accurate selection of the lubricating oil to provide optimal performance on each computer technician reducing operating costs .
+												Implementing this selection is part of our Plan Lubrication , it consists of:";}?>
 												<br><br>
 												<ul type="disk">
-													<li>Inspección de equipos e instalaciones.
-													<li>Relevamiento de datos y condiciones.
-													<li>Intecambio de conocimientos.
-													<li>Análisis crítico.
-													<li>Realización de una Guía de Lubricación.
-													<li>Propuesta técnico-comercial.
-													<li>Puesta en marcha.
-													<li>Monitoreo del resultado.
+													<li><?php if($leng=="Es"){echo "Inspección de equipos e instalaciones.";}else{echo "
+													Inspection of equipment and facilities .";}?>
+													<li><?php if($leng=="Es"){echo "Relevamiento de datos y condiciones.";}else{echo "
+													Survey data and conditions.";}?>
+													<li><?php if($leng=="Es"){echo "Intecambio de conocimientos.";}else{echo "Interchange of knowledge.";}?>
+													<li><?php if($leng=="Es"){echo "Análisis crítico.";}else{echo "Critical analysis.";}?>
+													<li><?php if($leng=="Es"){echo "Realización de una Guía de Lubricación.";}else{echo "Making a Lubrication Guide ";}?>
+													<li><?php if($leng=="Es"){echo "Propuesta técnico-comercial.";}else{echo "
+													technical and commercial proposal.";}?>
+													<li><?php if($leng=="Es"){echo "Puesta en marcha.";}else{echo "
+													Start up.";}?>
+													<li><?php if($leng=="Es"){echo "Monitoreo del resultado.";}else{echo "
+													Monitoring results.";}?>
 												</ul></h5></p>
 										</div>
 										<div class="modal-footer">
