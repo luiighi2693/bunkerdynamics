@@ -1206,7 +1206,7 @@ fclose($fp);
 							</div>
 						</li>
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Venezuela)</a>
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
 
 							<!-- Modal -->
 							<div id="myModal36" class="modal fade" role="dialog">
