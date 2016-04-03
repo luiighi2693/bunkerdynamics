@@ -491,7 +491,6 @@ fclose($fp);
 											severe temperatures such as hydraulic deck equipment , systems
 											remote control, telemotor and gear systems maneuver.";}?>
 											<br><br>
-											<img src="images/hidramar_hv.jpg" width="550px">
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -713,8 +712,6 @@ fclose($fp);
 											pure and where needed lubricants extreme pressure additives ( EP ) . It is not recommended
 											worm gear with bronze crown .";}?>
 											<br><br>
-
-											<img src="images/Engralub.png" width="500px">
 											</p>
 										</div>
 										<div class="modal-footer">
@@ -939,7 +936,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<!-------------------------------------------------------                    -------------------------------------------------->
+					<!------------------------------------------------------- ------------------------------------------------->
 
 					<h3><?php if($leng=="Es"){echo "Grasas";}else{echo "greases";}?></h3>
 					<ul class="nav navbar-nav">
@@ -955,12 +952,12 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Insdustrial EP</h4>
+											<h4 class="modal-title">PDV Industrial EP"</h4>
 										</div>
 										<div class="modal-body">
 											<p>
 												<!-- PDF DE PRODUCTOS -->
-												PDV <a href="pdf/Insdutrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+												PDV <a href="pdf/Industrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify"></h5>
 											<?php if($leng=="Es"){echo "Grasa de servicio múltiple, elaborado con aceites básicos refinados y jabón de litio, a los
@@ -1003,7 +1000,7 @@ fclose($fp);
 						</li>
 
 						<!-- Trigger the modal with a button -->
-						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal31">chasis</a>
+						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal31">PDV Chasis</a>
 
 							<!-- Modal -->
 							<div id="myModal31" class="modal fade" role="dialog">
@@ -1013,7 +1010,7 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Chasis</h4>
+											<h4 class="modal-title">PDV Chasis</h4>
 										</div>
 										<div class="modal-body">
 											<p>
@@ -1051,7 +1048,7 @@ fclose($fp);
 						</li>
 
 
-						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal32">Multiple 2</a>
+						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal32">PDV Multiple</a>
 
 							<!-- Modal -->
 							<div id="myModal32" class="modal fade" role="dialog">
@@ -1061,7 +1058,7 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Multiple 2</h4>
+											<h4 class="modal-title">PDV Multiple</h4>
 										</div>
 										<div class="modal-body">
 											<p>
@@ -1137,12 +1134,13 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											<p><h2>
+											<p><h5>
 												<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
-												ISO 8217 2005 Fuel Standard for marine distillate fuels .";}?>
+												ISO 8217 2005 Fuel Standard for marine distilla5e fuels .";}?>
 												</h2>
 
-											<img src="images/M-ISO.jpg" width="550px">
+											<!-- PDF DE Combustible -->
+												PDV <a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											</p>
 										</div>
@@ -1181,7 +1179,7 @@ fclose($fp);
 					<h3>Fuel Oil 380 (IFO 380/RMG 380)</h3>
 					<ul class="nav navbar-nav">
 						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela</a>
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
 
 							<!-- Modal -->
 							<div id="myModal35" class="modal fade" role="dialog">
@@ -1195,6 +1193,8 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p>
+												<!-- PDF DE Combustible -->
+												PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											</p>
 										</div>
@@ -1216,7 +1216,7 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
+											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
 										</div>
 										<div class="modal-body">
 											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
@@ -1234,8 +1234,8 @@ fclose($fp);
 						<li>
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal37">
 								<h3>
-									<?php if($leng=="Es"){echo "Otros IFO´s Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
-									else{echo "Others IFO´s (Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?>
+									<?php if($leng=="Es"){echo "Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
+									else{echo "Others IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?>
 								</h3></a>
 							<!-- Modal -->
 							<div id="myModal37" class="modal fade" role="dialog">
@@ -1250,7 +1250,10 @@ fclose($fp);
 												else{echo "Others IFO´s (IFO 180, IFO 120 e IFO 90)";}?></h4>
 										</div>
 										<div class="modal-body">
-											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+											<p>
+												<!-- PDF DE Combustible -->
+												PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
