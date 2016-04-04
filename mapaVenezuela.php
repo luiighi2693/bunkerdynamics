@@ -34,8 +34,8 @@
         <!-- el class debe colocarse templatemo-xxxxx y en el css crearlo con los similares a los otros -->
             
                 <br><br><br><br><br><br><br><br><br>
-                <center>
-                 <img src="mapaVenezuela.png" name="mapaVen" usemap="#mapa">
+                <center style="overflow-x: scroll;">
+                 <img src="mapaVenezuela.png" name="mapaVen" usemap="#mapa" >
                     <map id="mapa" name="mapa">
                         <area shape="rect" alt="guaranao" title="guaranao" id="guaranao" onclick="myFunction()" coords="115,110,131,135" href="" target="" />
                         <area shape="rect" alt="bajo grande" title="bajo grande" id="bajoGrande" onclick="myFunction()" coords="98,184,111,204" href="" target="" />
@@ -49,41 +49,58 @@
                         <area shape="rect" alt="la guaira" title="la guaira" id="laGuaira" onclick="myFunction()" coords="482,146,493,163" href="" target="" />
                         <area shape="rect" alt="pto. la cruz" title="pto. la cruz" id="ptoLaCruz" onclick="myFunction()" coords="632,180,648,197" href="" target="" />
                         <area shape="rect" alt="palua" title="palua" id="palua" onclick="myFunction()" coords="769,339,784,356" href="" target="" />
+                        <area shape="rect" alt="la salina" title="la salina" id="laSalina" onclick="myFunction()" coords="164,187,180,210" href="" target="" />
                     </map>
                 </center>
 		
 
+
+
                <div style="display: none;">
-                    <div id="myContentguarana">
-                        <a href="#"></a>
+                    <div id="myContentguaranao">
+                        <img src="images/guaranaoMin.png" class="img-responsive">
+                        <a href="images/tablaGuaranao.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaGuaranao.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentbajoGrande">
-                        <a href="#"></a>
+                    	<img src="images/maracaiboMin.png" class="img-responsive"> 
+                    	<a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentlaCeiba">
-                        <a href="#"></a>
+                    	<img src="images/maracaiboMin.png" class="img-responsive">
+                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentlaSalina">
-                        <a href="#"></a>
+                  	  	<img src="images/maracaiboMin.png" class="img-responsive">
+                        <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentptoMiranda">
-                        <a href="#"></a>
+                		<img src="images/maracaiboMin.png" class="img-responsive">
+                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentcardon">
-                        <a href="#"></a>
+                        <img src="images/cardonMin.png" class="img-responsive">
+                         <a href="images/tablaCardon.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaCardon.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentamuay">
-                        <a href="#"></a>
+                        <img src="images/amuayMin.png" class="img-responsive">
+                         <a href="images/tablaAmuay.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaAmuay.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentelPalito">
-                        <a href="#"></a>
+                        <img src="images/elPalitoMin.png" class="img-responsive">
+                         <a href="images/tablaElPalito.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaElPalito.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentpuertoCabello">
-                        <ul>
-                            <li><a href="productos.php">Lubricantes PDV</a></li>
-                            <li><a href="productos.php">IFO 380 (RMG – 35</a></li>
-                            <li><a href="productos.php">Marine Gasoil (MGO)</a></li>
-                        </ul>
+                      <img src="images/puertoCabelloMin.png" class="img-responsive">
+                         <a href="images/tablaPuertoCabello.jpg" class="btn btn-default" >Ver Mas</a>
+                        <a href="tablaPuertoCabello.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
                     </div>
                     <div id="myContentcatiaLaMar">
                         <a href="#"></a>
@@ -106,19 +123,19 @@
 		
         <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
 			(function(){
-                $('#guarana').webuiPopover({title:'Puertos',url:'#myContentguarana'});
-                $('#bajoGrande').webuiPopover({title:'Puertos',url:'#myContentbajoGrande'});
-                $('#laCeiba').webuiPopover({title:'Puertos',url:'#myContentlaCeiba'});
-                $('#laSalina').webuiPopover({title:'Puertos',url:'#myContentlaSalina'});
-                $('#ptoMiranda').webuiPopover({title:'Puertos',url:'#myContentptoMiranda'});
-                $('#cardon').webuiPopover({title:'Puertos',url:'#myContentcardon'});
-                $('#amuay').webuiPopover({title:'Puertos',url:'#myContentamuay'});
-                $('#elPalito').webuiPopover({title:'Puertos',url:'#myContentelPalito'});
-                $('#puertoCabello').webuiPopover({title:'',url:'#myContentpuertoCabello'});
-                $('#catiaLaMar').webuiPopover({title:'Puertos',url:'#myContentcatiaLaMar'});
-                $('#laGuaira').webuiPopover({title:'Puertos',url:'#myContentlaGuaira'});
-                $('#ptoLaCruz').webuiPopover({title:'Puertos',url:'#myContentptoLaCruz'});
-                $('#palua').webuiPopover({title:'Puertos',url:'#myContentpalua'});
+                $('#guaranao').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentguaranao'});
+                $('#bajoGrande').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentbajoGrande'});
+                $('#laCeiba').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaCeiba'});
+                $('#laSalina').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaSalina'});
+                $('#ptoMiranda').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentptoMiranda'});
+                $('#cardon').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentcardon'});
+                $('#amuay').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentamuay'});
+                $('#elPalito').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentelPalito'});
+                $('#puertoCabello').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentpuertoCabello'});
+                $('#catiaLaMar').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentcatiaLaMar'});
+                $('#laGuaira').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaGuaira'});
+                $('#ptoLaCruz').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentptoLaCruz'});
+                $('#palua').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentpalua'});
             })();
             var c1;
             var c2;
