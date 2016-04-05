@@ -34,7 +34,7 @@ fclose($fp);
 <!-- el class debe colocarse templatemo-xxxxx y en el css crearlo con los similares a los otros -->
 
 <br><br><br><br><br><br><br><br><br>
-<center>
+<center style="overflow-x: scroll;">
     <img src="mapaColombia.png" name="mapaCol" usemap="#mapa">
 
     <map id="mapa" name="mapa">

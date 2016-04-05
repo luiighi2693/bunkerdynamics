@@ -59,48 +59,48 @@
                <div style="display: none;">
                     <div id="myContentguaranao">
                         <img src="images/guaranaoMin.png" class="img-responsive">
-                        <a href="images/tablaGuaranao.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaGuaranao.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                        <a href="images/tablaGuaranao.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaGuaranao.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentbajoGrande">
                     	<img src="images/maracaiboMin.png" class="img-responsive"> 
-                    	<a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                    	<a href="images/tablaMaracaibo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentlaCeiba">
                     	<img src="images/maracaiboMin.png" class="img-responsive">
-                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentlaSalina">
                   	  	<img src="images/maracaiboMin.png" class="img-responsive">
-                        <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                        <a href="images/tablaMaracaibo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentptoMiranda">
                 		<img src="images/maracaiboMin.png" class="img-responsive">
-                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaMaracaibo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentcardon">
                         <img src="images/cardonMin.png" class="img-responsive">
-                         <a href="images/tablaCardon.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaCardon.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaCardon.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaCardon.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentamuay">
                         <img src="images/amuayMin.png" class="img-responsive">
-                         <a href="images/tablaAmuay.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaAmuay.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaAmuay.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaAmuay.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentelPalito">
                         <img src="images/elPalitoMin.png" class="img-responsive">
-                         <a href="images/tablaElPalito.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaElPalito.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaElPalito.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaElPalito.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentpuertoCabello">
                       <img src="images/puertoCabelloMin.png" class="img-responsive">
-                         <a href="images/tablaPuertoCabello.jpg" class="btn btn-default" >Ver Mas</a>
-                        <a href="tablaPuertoCabello.xlsx" class="btn btn-default" style="float: right;">Descargar</a>
+                         <a href="images/tablaPuertoCabello.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
+                        <a href="tablaPuertoCabello.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
                     </div>
                     <div id="myContentcatiaLaMar">
                         <a href="#"></a>
@@ -123,19 +123,21 @@
 		
         <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
 			(function(){
-                $('#guaranao').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentguaranao'});
-                $('#bajoGrande').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentbajoGrande'});
-                $('#laCeiba').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaCeiba'});
-                $('#laSalina').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaSalina'});
-                $('#ptoMiranda').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentptoMiranda'});
-                $('#cardon').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentcardon'});
-                $('#amuay').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentamuay'});
-                $('#elPalito').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentelPalito'});
-                $('#puertoCabello').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentpuertoCabello'});
-                $('#catiaLaMar').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentcatiaLaMar'});
-                $('#laGuaira').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentlaGuaira'});
-                $('#ptoLaCruz').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentptoLaCruz'});
-                $('#palua').webuiPopover({title:'Metodo de Entrega por Puertos',url:'#myContentpalua'});
+                var tittle = "<?php if($leng=="Es"){echo "Metodo de Entrega por Puertos";}else{echo "Delivery method Ports";}?>";
+
+                $('#guaranao').webuiPopover({title:tittle,url:'#myContentguaranao'});
+                $('#bajoGrande').webuiPopover({title:tittle,url:'#myContentbajoGrande'});
+                $('#laCeiba').webuiPopover({title:tittle,url:'#myContentlaCeiba'});
+                $('#laSalina').webuiPopover({title:tittle,url:'#myContentlaSalina'});
+                $('#ptoMiranda').webuiPopover({title:tittle,url:'#myContentptoMiranda'});
+                $('#cardon').webuiPopover({title:tittle,url:'#myContentcardon'});
+                $('#amuay').webuiPopover({title:tittle,url:'#myContentamuay'});
+                $('#elPalito').webuiPopover({title:tittle,url:'#myContentelPalito'});
+                $('#puertoCabello').webuiPopover({title:tittle,url:'#myContentpuertoCabello'});
+                $('#catiaLaMar').webuiPopover({title:tittle,url:'#myContentcatiaLaMar'});
+                $('#laGuaira').webuiPopover({title:tittle,url:'#myContentlaGuaira'});
+                $('#ptoLaCruz').webuiPopover({title:tittle,url:'#myContentptoLaCruz'});
+                $('#palua').webuiPopover({title:tittle,url:'#myContentpalua'});
             })();
             var c1;
             var c2;
@@ -156,3 +158,7 @@
 		</script>
     </body>
 </html>
+
+
+
+<?php if($leng=="Es"){echo "";}else{echo "";}?>
