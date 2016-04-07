@@ -1234,7 +1234,7 @@ fclose($fp);
 					<ul class="nav navbar-nav">
 						<li>
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal37">
-								<h3>
+								<h3 style="color: black; margin-left: -20px;">
 									<?php if($leng=="Es"){echo "Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
 									else{echo "Others IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?>
 								</h3></a>
