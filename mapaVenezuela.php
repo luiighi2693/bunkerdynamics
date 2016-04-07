@@ -84,104 +84,94 @@
 
                <div style="display: none;">
                     <div id="myContentMaracaibo">
-                        <img src="images/MaracaiboMin.png" class="img-responsive">
-                        <a href="images/tablaMaracaibo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaMaracaibo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                          <ul>
+                            <li><a href="images/maracaiboMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaMaracaibo.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentBajoGrande">
-                        <img src="images/BajoGrandeMin.png" class="img-responsive">
-                        <a href="images/tablaBajoGrande.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaBajoGrande.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/BajoGrandeMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaBajoGrande.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentLaSalina">
-                        <img src="images/LaSalinaMin.png" class="img-responsive">
-                        <a href="images/tablaLaSalina.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaLaSalina.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/LaSalinaMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaLaSalina.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentElTablazo">
-                        <img src="images/ElTablazoMin.png" class="img-responsive">
-                        <a href="images/tablaElTablazo.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaElTablazo.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/ElTablazoMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaElTablazo.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPtoMiranda">
-                        <img src="images/PtoMirandaMin.png" class="img-responsive">
-                        <a href="images/tablaPtoMiranda.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPtoMiranda.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/PtoMirandaMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaPtoMiranda.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentCardon">
-                        <img src="images/CardonMin.png" class="img-responsive">
-                        <a href="images/tablaCardon.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaCardon.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                         <ul>
+                            <li><a href="images/CardonMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaCardon.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentGuaranao">
-                        <img src="images/GuaranaoMin.png" class="img-responsive">
-                        <a href="images/tablaGuaranao.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaGuaranao.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/GuaranaoMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaGuaranao.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentAmuay">
-                        <img src="images/AmuayMin.png" class="img-responsive">
-                        <a href="images/tablaAmuay.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaAmuay.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/AmuayMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaAmuay.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentElPalito">
-                        <img src="images/ElPalitoMin.png" class="img-responsive">
-                        <a href="images/tablaElPalito.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaElPalito.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        <ul>
+                            <li><a href="images/ElPalitoMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaElPalito.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPuertoCabello">
-                        <img src="images/PuertoCabelloMin.png" class="img-responsive">
-                        <a href="images/tablaPuertoCabello.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPuertoCabello.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                            <ul>
+                            <li><a href="images/PuertoCabelloMin.png">Bunker´s</a></li>
+                            <li><a href="images/tablaPuertoCabello.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentLaGuaira">
-                        <img src="images/LaGuairaMin.png" class="img-responsive">
-                        <a href="images/tablaLaGuaira.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaLaGuaira.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                       
                     </div>
                     <div id="myContentJoseTerminal">
-                        <img src="images/JoseTerminalMin.png" class="img-responsive">
-                        <a href="images/tablaJoseTerminal.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaJoseTerminal.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        
                     </div>
                     <div id="myContentGuanta">
-                        <img src="images/GuantaMin.png" class="img-responsive">
-                        <a href="images/tablaGuanta.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaGuanta.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                      
                     </div>
                     <div id="myContentPuertoLaCruz">
-                        <img src="images/PuertoLaCruzMin.png" class="img-responsive">
-                        <a href="images/tablaPuertoLaCruz.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPuertoLaCruz.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                        
                     </div>
                     <div id="myContentPertigalete">
-                        <img src="images/PertigaleteMin.png" class="img-responsive">
-                        <a href="images/tablaPertigalete.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPertigalete.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                       
                     </div>
                     <div id="myContentCumana">
-                        <img src="images/CumanaMin.png" class="img-responsive">
-                        <a href="images/tablaCumana.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaCumana.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                       
                     </div>
                     <div id="myContentGuiria">
-                        <img src="images/GuiriaMin.png" class="img-responsive">
-                        <a href="images/tablaGuiria.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaGuiria.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                      
                     </div>
                     <div id="myContentMatanzas">
-                        <img src="images/MatanzasMin.png" class="img-responsive">
-                        <a href="images/tablaMatanzas.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaMatanzas.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                       
                     </div>
                     <div id="myContentPuertoOrdaz">
-                        <img src="images/PuertoOrdazMin.png" class="img-responsive">
-                        <a href="images/tablaPuertoOrdaz.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPuertoOrdaz.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                       
                     </div>
                     <div id="myContentPalua">
-                        <img src="images/PaluaMin.png" class="img-responsive">
-                        <a href="images/tablaPalua.jpg" class="btn btn-default" ><?php if($leng=="Es"){echo "Ver Mas";}else{echo "Show More";}?></a>
-                        <a href="tablaPalua.xlsx" class="btn btn-default" style="float: right;"><?php if($leng=="Es"){echo "Descargar";}else{echo "Download";}?></a>
+                      
                     </div>
                </div>
 
