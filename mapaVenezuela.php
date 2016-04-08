@@ -34,28 +34,9 @@
         <!-- el class debe colocarse templatemo-xxxxx y en el css crearlo con los similares a los otros -->
             
                 <br><br><br><br><br><br><br><br><br>
-                <center style="overflow-x: scroll;">
+                <center id="contenedorMapa" style="overflow-x: scroll;">
                  <img src="mapaVenezuela.png" name="mapaVen" usemap="#mapa" >
                     <map id="mapa" name="mapa">
-                       <!-- <area shape="rect" alt="guaranao" title="guaranao" id="guaranao" onclick="myFunction()" coords="115,110,131,135" href="" target="" />
-                        <area shape="rect" alt="bajo grande" title="bajo grande" id="bajoGrande" onclick="myFunction()" coords="98,184,111,204" href="" target="" />
-                        <area shape="rect" alt="la ceiba" title="la ceiba" id="laCeiba" onclick="myFunction()" coords="156,257,173,273" href="" target="" />
-                        <area shape="rect" alt="pto. miranda" title="pto. miranda" id="ptoMiranda" onclick="myFunction()" coords="157,123,169,146" href="" target="" />
-                        <area shape="rect" alt="cardon" title="cardon" id="cardon" onclick="myFunction()" coords="236,62,250,82" href="" target="" />
-                        <area shape="rect" alt="amuay" title="amuay" id="amuay" onclick="myFunction()" coords="244,34,258,50" href="" target="" />
-                        <area shape="rect" alt="el palito" title="el palito" id="elPalito" onclick="myFunction()" coords="398,160,410,177" href="" target="" />
-                        <area shape="rect" alt="puerto cabello" title="puerto cabello" id="puertoCabello" onclick="myFunction()" coords="421,158,435,172" href="" target="" />
-                        <area shape="rect" alt="catia la mar" title="catia la mar" id="catiaLaMar" onclick="myFunction()" coords="458,150,469,167" href="" target="" />
-                        <area shape="rect" alt="la guaira" title="la guaira" id="laGuaira" onclick="myFunction()" coords="482,146,493,163" href="" target="" />
-                        <area shape="rect" alt="pto. la cruz" title="pto. la cruz" id="ptoLaCruz" onclick="myFunction()" coords="632,180,648,197" href="" target="" />
-                        <area shape="rect" alt="palua" title="palua" id="palua" onclick="myFunction()" coords="769,339,784,356" href="" target="" />
-                        <area shape="rect" alt="la salina" title="la salina" id="laSalina" onclick="myFunction()" coords="164,187,180,210" href="" target="" />
--->
-
-
-
-
-
                         <area shape="rect" alt="Maracaibo" title="Maracaibo" id="Maracaibo" onclick="myFunction()" coords="106,107,116,122" href="" target="" />
                         <area shape="rect" alt="Bajo Grande" title="Bajo Grande" id="BajoGrande" onclick="myFunction()" coords="95,130,108,140" href="" target="" />
                         <area shape="rect" alt="La Salina" title="La Salina" id="LaSalina" onclick="myFunction()" coords="134,141,144,152" href="" target="" />
@@ -78,68 +59,66 @@
                         <area shape="rect" alt="Palua" title="Palua" id="Palua" onclick="myFunction()" coords="662,264,674,293" href="" target="" />
                     </map>
                 </center>
-		
-
 
 
                <div style="display: none;">
                     <div id="myContentMaracaibo">
                           <ul>
-                            <li><a href="images/maracaiboMin.png">Bunker´s</a></li>
+                            <li><a href="images/maracaiboMin.png">Bunkers</a></li>
                             <li><a href="images/tablaMaracaibo.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentBajoGrande">
                         <ul>
-                            <li><a href="images/BajoGrandeMin.png">Bunker´s</a></li>
+                            <li><a href="images/BajoGrandeMin.png">Bunkers</a></li>
                             <li><a href="images/tablaBajoGrande.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentLaSalina">
                         <ul>
-                            <li><a href="images/LaSalinaMin.png">Bunker´s</a></li>
+                            <li><a href="images/LaSalinaMin.png">Bunkers</a></li>
                             <li><a href="images/tablaLaSalina.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentElTablazo">
                         <ul>
-                            <li><a href="images/ElTablazoMin.png">Bunker´s</a></li>
+                            <li><a href="images/ElTablazoMin.png">Bunkers</a></li>
                             <li><a href="images/tablaElTablazo.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentPtoMiranda">
                         <ul>
-                            <li><a href="images/PtoMirandaMin.png">Bunker´s</a></li>
+                            <li><a href="images/PtoMirandaMin.png">Bunkers</a></li>
                             <li><a href="images/tablaPtoMiranda.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentCardon">
                          <ul>
-                            <li><a href="images/CardonMin.png">Bunker´s</a></li>
+                            <li><a href="images/CardonMin.png">Bunkers</a></li>
                             <li><a href="images/tablaCardon.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentGuaranao">
                         <ul>
-                            <li><a href="images/GuaranaoMin.png">Bunker´s</a></li>
+                            <li><a href="images/GuaranaoMin.png">Bunkers</a></li>
                             <li><a href="images/tablaGuaranao.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentAmuay">
                         <ul>
-                            <li><a href="images/AmuayMin.png">Bunker´s</a></li>
+                            <li><a href="images/AmuayMin.png">Bunkers</a></li>
                             <li><a href="images/tablaAmuay.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentElPalito">
                         <ul>
-                            <li><a href="images/ElPalitoMin.png">Bunker´s</a></li>
+                            <li><a href="images/ElPalitoMin.png">Bunkers</a></li>
                             <li><a href="images/tablaElPalito.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
                     <div id="myContentPuertoCabello">
                             <ul>
-                            <li><a href="images/PuertoCabelloMin.png">Bunker´s</a></li>
+                            <li><a href="images/PuertoCabelloMin.png">Bunkers</a></li>
                             <li><a href="images/tablaPuertoCabello.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
                         </ul>
                     </div>
@@ -184,47 +163,43 @@
 			(function(){
                 var tittle = "<?php if($leng=="Es"){echo "Metodo de Entrega por Puertos";}else{echo "Delivery method Ports";}?>";
 
-                $('#Maracaibo').webuiPopover({title:tittle,url:'#myContentMaracaibo'});
-                $('#BajoGrande').webuiPopover({title:tittle,url:'#myContentBajoGrande'});
-                $('#LaSalina').webuiPopover({title:tittle,url:'#myContentLaSalina'});
-                $('#ElTablazo').webuiPopover({title:tittle,url:'#myContentElTablazo'});
-                $('#PtoMiranda').webuiPopover({title:tittle,url:'#myContentPtoMiranda'});
-                $('#Cardon').webuiPopover({title:tittle,url:'#myContentCardon'});
-                $('#Guaranao').webuiPopover({title:tittle,url:'#myContentGuaranao'});
-                $('#Amuay').webuiPopover({title:tittle,url:'#myContentAmuay'});
-                $('#ElPalito').webuiPopover({title:tittle,url:'#myContentElPalito'});
-                $('#PuertoCabello').webuiPopover({title:tittle,url:'#myContentPuertoCabello'});
-                $('#LaGuaira').webuiPopover({title:tittle,url:'#myContentLaGuaira'});
-                $('#JoseTerminal').webuiPopover({title:tittle,url:'#myContentJoseTerminal'});
-                $('#Guanta').webuiPopover({title:tittle,url:'#myContentGuanta'});
-                $('#PuertoLaCruz').webuiPopover({title:tittle,url:'#myContentPuertoLaCruz'});
-                $('#Pertigalete').webuiPopover({title:tittle,url:'#myContentPertigalete'});
-                $('#Cumana').webuiPopover({title:tittle,url:'#myContentCumana'});
-                $('#Guiria').webuiPopover({title:tittle,url:'#myContentGuiria'});
-                $('#Matanzas').webuiPopover({title:tittle,url:'#myContentMatanzas'});
-                $('#PuertoOrdaz').webuiPopover({title:tittle,url:'#myContentPuertoOrdaz'});
-                $('#Palua').webuiPopover({title:tittle,url:'#myContentPalua'});
+                $('#Maracaibo').webuiPopover({url:'#myContentMaracaibo'});
+                $('#BajoGrande').webuiPopover({ url:'#myContentBajoGrande'});
+                $('#LaSalina').webuiPopover({ url:'#myContentLaSalina'});
+                $('#ElTablazo').webuiPopover({ url:'#myContentElTablazo'});
+                $('#PtoMiranda').webuiPopover({ url:'#myContentPtoMiranda'});
+                $('#Cardon').webuiPopover({ url:'#myContentCardon'});
+                $('#Guaranao').webuiPopover({ url:'#myContentGuaranao'});
+                $('#Amuay').webuiPopover({ url:'#myContentAmuay'});
+                $('#ElPalito').webuiPopover({ url:'#myContentElPalito'});
+                $('#PuertoCabello').webuiPopover({ url:'#myContentPuertoCabello'});
+                $('#LaGuaira').webuiPopover({ url:'#myContentLaGuaira'});
+                $('#JoseTerminal').webuiPopover({ url:'#myContentJoseTerminal'});
+                $('#Guanta').webuiPopover({ url:'#myContentGuanta'});
+                $('#PuertoLaCruz').webuiPopover({ url:'#myContentPuertoLaCruz'});
+                $('#Pertigalete').webuiPopover({ url:'#myContentPertigalete'});
+                $('#Cumana').webuiPopover({ url:'#myContentCumana'});
+                $('#Guiria').webuiPopover({ url:'#myContentGuiria'});
+                $('#Matanzas').webuiPopover({ url:'#myContentMatanzas'});
+                $('#PuertoOrdaz').webuiPopover({ url:'#myContentPuertoOrdaz'});
+                $('#Palua').webuiPopover({ url:'#myContentPalua'});
             })();
             var c1;
             var c2;
             function myFunction() {
                     
                      $(document).mousemove(function(event) {
-                         $(".webui-popover").css("margin-left", event.pageX);
+                         $(".webui-popover").css("margin-left", event.pageX+document.getElementById("contenedorMapa").scrollLeft/20);
                          //$(".webui-popover").css("margin-top", event.pageY-110-document.body.scrollTop);
                          $(".webui-popover").css("margin-top", event.pageY-160-document.body.scrollTop);
                         $(document).unbind(event);
                     });
                     c1 = $(".webui-popover").css("margin-left");
                     c2 = $(".webui-popover").css("margin-top");
-                        console.log(c1+"  "+c2);
-                         console.log("document.body.scrollTop");
+
                         console.log(document.body.scrollTop);
+                        console.log(document.getElementById("contenedorMapa").scrollLeft);
                 }
 		</script>
     </body>
 </html>
-
-
-
-<?php if($leng=="Es"){echo "";}else{echo "";}?>
