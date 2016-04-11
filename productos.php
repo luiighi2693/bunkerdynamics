@@ -623,7 +623,6 @@ fclose($fp);
 
 						<li><!-- Trigger the modal with a button
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal19">Mobil XXX (Colombia)</a>
-							hola soy un comentario salvaje y silvestre
 							<!-- Modal 
 							<div id="myModal19" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
@@ -917,7 +916,7 @@ fclose($fp);
 												as heat transfer fluid .";}?>
 												</h5><br>
 
-											<h3><b><?php if($leng=="Es"){echo "Benefios:";}else{echo "benefits:";}?></b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "benefits:";}?></b></h3>
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas
 												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.";}else{echo "
@@ -936,7 +935,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<!------------------------------------------------------- ------------------------------------------------->
+<!------------------------------------------------------------  -------------------------------------------------------->
 
 					<h3><?php if($leng=="Es"){echo "Grasas";}else{echo "greases";}?></h3>
 					<ul class="nav navbar-nav">
@@ -1105,13 +1104,11 @@ fclose($fp);
 				</div>
 			</div>
 		</div>
+<!-----------------------------------------------------------                    ----------------------------------------------------------------->
+
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingTwo">
 				<h4 class="panel-title">
-
-					<!--------------------------------------------------                    --------------------------------------->
-
-
 					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 						<h3 style="text-align: center"><?php if($leng=="Es"){echo "Combustibles Marinos (Bunkers)";}else{echo "Marine Fuels ( Bunkers )";}?></h3>
 					</a>
@@ -1177,99 +1174,64 @@ fclose($fp);
 						</li>
 					</ul>
 					<br><br><br>
-					<h3>Fuel Oil 380 (IFO 380/RMG 380)</h3>
-					<ul class="nav navbar-nav">
-						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
 
-							<!-- Modal -->
-							<div id="myModal35" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+                    <h3>Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)</h3>
+                    <ul class="nav navbar-nav">
+                        <li><!-- Trigger the modal with a button -->
+                            <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
-										</div>
-										<div class="modal-body">
-											<p>
-												<!-- PDF DE Combustible -->
-												PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+                            <!-- Modal -->
+                            <div id="myModal35" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
 
-											</p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li><!-- Trigger the modal with a button -->
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <!-- PDF DE Combustible -->
+                                                PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-							<!-- Modal -->
-							<div id="myModal36" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><!-- Trigger the modal with a button -->
+                            <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
-										</div>
-										<div class="modal-body">
-											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-					<br><br><br>
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal37">
-								<h3 style="color: black; margin-left: -20px;">
-									<?php if($leng=="Es"){echo "Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
-									else{echo "Others IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?>
-								</h3></a>
-							<!-- Modal -->
-							<div id="myModal37" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+                            <!-- Modal -->
+                            <div id="myModal36" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">
-												<?php if($leng=="Es"){echo "Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}
-												else{echo "Others IFO´s (IFO 180, IFO 120 e IFO 90)";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p>
-												<!-- PDF DE Combustible -->
-												PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
-											</p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <br><br><br>
+
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingThree">
-
 				<h4 class="panel-title">
 					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
 					   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -1277,6 +1239,7 @@ fclose($fp);
 					</a>
 				</h4>
 			</div>
+            </div>
 			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 				<div class="panel-body">
 					<ul class="nav navbar-nav">
