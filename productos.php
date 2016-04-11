@@ -1253,7 +1253,7 @@ fclose($fp);
 										<div class="modal-body">
 											<p>
 												<!-- PDF DE Combustible -->
-												PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+												PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 											</p>
 										</div>
 										<div class="modal-footer">
