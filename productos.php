@@ -601,7 +601,7 @@ fclose($fp);
 												It is recommended primarily for the lubrication of turbines
 												gas , steam and hydraulic , lubrication systems and gearboxes bathroom
 												which are not subject to variable loads or vibrations . The degree ISO 32
-												recommended for the lubrication of gas turbines General Electric brand model
+											    recommended for the lubrication of gas turbines General Electric brand model
 												S -5001 , which have bearings subjected to high operating temperatures .
 												The degree G - 56 has been specially formulated to meet the requirements
 												lubricating bearings Hitachi turbines.";}?>
@@ -623,7 +623,7 @@ fclose($fp);
 
 						<li><!-- Trigger the modal with a button
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal19">Mobil XXX (Colombia)</a>
-
+							hola soy un comentario salvaje y silvestre
 							<!-- Modal 
 							<div id="myModal19" class="modal fade" role="dialog">
 							  <div class="modal-dialog">
