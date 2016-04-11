@@ -49,14 +49,15 @@
                         <area shape="rect" alt="Puerto Cabello" title="Puerto Cabello" id="PuertoCabello" onclick="myFunction()" onclick="myFunction()" coords="360,117,375,133" href="" target="" />
                         <area shape="rect" alt="La Guaira" title="La Guaira" id="LaGuaira" onclick="myFunction()" coords="413,116,427,130" href="" target="" />
                         <area shape="rect" alt="Jose Terminal" title="Jose Terminal" id="JoseTerminal" onclick="myFunction()" coords="521,146,533,160" href="" target="" />
-                        <area shape="rect" alt="Guanta" title="Guanta" id="Guanta" onclick="myFunction()" coords="543,134,555,154" href="" target="" />
-                        <area shape="rect" alt="Puerto La Cruz" title="Puerto La Cruz" id="PuertoLaCruz" onclick="myFunction()" coords="558,129,567,150" href="" target="" />
+                        <area shape="rect" alt="Puerto La Cruz" title="Puerto La Cruz" id="PuertoLaCruz" onclick="myFunction()" coords="543,134,555,154" href="" target="" />
+                        <area shape="rect" alt="Guanta" title="Guanta" id="Guanta" onclick="myFunction()" coords="558,129,567,150" href="" target="" />
                         <area shape="rect" alt="Pertigalete" title="Pertigalete" id="Pertigalete" onclick="myFunction()" coords="568,122,577,143" href="" target="" />
                         <area shape="rect" alt="Cumana" title="Cumana" id="Cumana" onclick="myFunction()" coords="580,121,588,142" href="" target="" />
                         <area shape="rect" alt="Guiria" title="Guiria" id="Guiria" onclick="myFunction()" coords="684,113,696,131" href="" target="" />
                         <area shape="rect" alt="Matanzas" title="Matanzas" id="Matanzas" onclick="myFunction()" coords="600,259,613,286" href="" target="" />
                         <area shape="rect" alt="Puerto Ordaz" title="Puerto Ordaz" id="PuertoOrdaz" onclick="myFunction()" coords="617,251,630,276" href="" target="" />
                         <area shape="rect" alt="Palua" title="Palua" id="Palua" onclick="myFunction()" coords="662,264,674,293" href="" target="" />
+                        <area shape="rect" alt="Boca Grande" title="Boca Grande" id="BocaGrande" onclick="myFunction()" coords="783,221,794,236" href="" target="" />
                     </map>
                 </center>
 
@@ -123,34 +124,70 @@
                         </ul>
                     </div>
                     <div id="myContentLaGuaira">
-                       
+                       <ul>
+                            <li><a href="images/laGuairaMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaLaGuaira.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentJoseTerminal">
-                        
+                        <ul>
+                            <li><a href="images/joseTerminalMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaJoseTerminal.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentGuanta">
-                      
+                      <ul>
+                            <li><a href="images/guantaMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaGuanta.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPuertoLaCruz">
-                        
+                        <ul>
+                            <li><a href="images/puertoLaCruzMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaPuertoLaCruz.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPertigalete">
-                       
+                       <ul>
+                            <li><a href="images/pertigaleteMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaPertigalete.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentCumana">
-                       
+                       <ul>
+                            <li><a href="images/cumanaMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaCumana.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentGuiria">
-                      
+                      <ul>
+                            <li><a href="images/guiriaMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaGuiria.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentMatanzas">
-                       
+                       <ul>
+                            <li><a href="images/matanzasMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaMatanzas.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPuertoOrdaz">
-                       
+                       <ul>
+                            <li><a href="images/puertoOrdazMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaPuertoOrdaz.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                     <div id="myContentPalua">
-                      
+                      <ul>
+                            <li><a href="images/paluaMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaPalua.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
+                    </div>
+                    <div id="myContentBocaGrande">
+                      <ul>
+                            <li><a href="images/bocaGrandeMin.png">Bunkers</a></li>
+                            <li><a href="images/tablaBocaGrande.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+                        </ul>
                     </div>
                </div>
 
@@ -183,6 +220,7 @@
                 $('#Matanzas').webuiPopover({ url:'#myContentMatanzas'});
                 $('#PuertoOrdaz').webuiPopover({ url:'#myContentPuertoOrdaz'});
                 $('#Palua').webuiPopover({ url:'#myContentPalua'});
+                $('#BocaGrande').webuiPopover({ url:'#myContentBocaGrande'});
             })();
             var c1;
             var c2;
