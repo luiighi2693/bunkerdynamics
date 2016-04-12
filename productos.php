@@ -41,7 +41,7 @@ fclose($fp);
 					</a>
 				</h4>
 			</div>
-			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 				<div class="panel-body">
 					<h3><?php if($leng=="Es"){echo "Cilindros de Motores";}else{echo "Cylinder Engine";}?></h3>
 					<ul class="nav navbar-nav">
@@ -78,7 +78,6 @@ fclose($fp);
 												CILMAR 70 ( SAE 50 , BN 70 ) is the most widely used lubricant for engines
 												operating on intermediate or heavy fuels with high sulfur .";}?>
 											</h5><br>
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -191,7 +190,6 @@ fclose($fp);
 												loaded and air compressors where an oil with the qualities described
 												fully meet the lubrication requirements thereof.";}?>
 											</h5>.<br>
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -290,7 +288,7 @@ fclose($fp);
 												<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
 												combustible residual con contenido de azufre superior a 2.5% en peso.";}else{echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
 												combustible residual con contenido de azufre superior a 2.5% en peso.";}?>
-												</h5>.<br></p>
+											</h5>.<br>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -395,8 +393,7 @@ fclose($fp);
 											Specifically formulated for lubricating diesel engines, turbo fed , middle and
 											High speed diesel using medium (DMX ) or marine diesel (DMA ) as fuel . In the
 											lubricating bearings and drive shaft speakers and reduction gears .";}?>
-											</h5><br>
-											</p>
+											<br>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -491,7 +488,6 @@ fclose($fp);
 											severe temperatures such as hydraulic deck equipment , systems
 											remote control, telemotor and gear systems maneuver.";}?>
 											<br><br>
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -605,8 +601,7 @@ fclose($fp);
 												S -5001 , which have bearings subjected to high operating temperatures .
 												The degree G - 56 has been specially formulated to meet the requirements
 												lubricating bearings Hitachi turbines.";}?>
-												</h5>
-											</p>
+											</h5>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -711,7 +706,6 @@ fclose($fp);
 											pure and where needed lubricants extreme pressure additives ( EP ) . It is not recommended
 											worm gear with bronze crown .";}?>
 											<br><br>
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -805,7 +799,7 @@ fclose($fp);
 												periods of service and extending the life of the additional compressor excellent protection
 												corrosion and rust . Meets DIN - 51506 - VDL specification part 2 and ISO DP- 6521 Category
 												2 -DAB and the Venezuelan standard COVENIN 1926 and possesses the quality seal NORVEN .";}?>
-												 <br></h5>
+												<br></h5>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
@@ -815,8 +809,7 @@ fclose($fp);
 												It is recommended for lubrication and bearing cylinder reciprocating compressor , air , with
 												maximum discharge temperature of 220 ° C also can be used in centrifugal compressors or rotary
 												the screw blade or types . It serves as a heat transfer in heating systems .";}?>
-												</h5>
-											</p>
+											</h5>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -901,7 +894,7 @@ fclose($fp);
 												fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.";}else{echo "
 												highly refined naphthenic oil having a high chemical and thermal stability , low-
 												fluidity and flocculation and aniline intermediate point indicating a solvent medium power.";}?>
-												</h5><br>
+											</h5><br>
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de
@@ -914,7 +907,7 @@ fclose($fp);
 												elements of machines operating at low ambient temperatures. For its high thermal stability ,
 												stable composition of hydrocarbons and great thermal conductivity , is suitable for use
 												as heat transfer fluid .";}?>
-												</h5><br>
+											</h5><br>
 
 											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "benefits:";}?></b></h3>
 											<h5 align="justify">
@@ -922,8 +915,7 @@ fclose($fp);
 												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.";}else{echo "
 												Due to its solvent power medium , is used as carrier or medium for dissolving pigment inks
 												in paper making and related coal and plasticizer in certain processes.";}?>
-												</h5>
-											</p>
+											</h5>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -935,7 +927,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-<!------------------------------------------------------------  -------------------------------------------------------->
+					<!------------------------------------------------------------  -------------------------------------------------------->
 
 					<h3><?php if($leng=="Es"){echo "Grasas";}else{echo "greases";}?></h3>
 					<ul class="nav navbar-nav">
@@ -972,7 +964,7 @@ fclose($fp);
 											mechanical stability and oxidation , good pumpability and provides corrosion protection
 											and the formation of rust. Exceeds the requirements of standard 967/4 COVENIN
 											lubricating greases for automotive and industrial use. This product has the quality seal NORVEN .";}?>
-											</h5><br>
+											<br>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
@@ -988,8 +980,7 @@ fclose($fp);
 												there are high loads (extreme pressure) and whose operational temperature does not exceed 150 degrees ° C .
 												Industrial grease EP -00 , it is used in some gearboxes that require fat as
 												lubricant.";}?>
-												</h5><br>
-											</p>
+											</h5><br>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1025,7 +1016,7 @@ fclose($fp);
 											Grease made ​​with refined base oils, thickened with calcium soap which gives
 											good resistance to water wash . Exceeds the requirements of the class of \" Grease Service
 											Light \" of the Venezuelan COVENIN standard 967/2 .";}?>
-											</h5><br>
+											<br>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
@@ -1036,8 +1027,7 @@ fclose($fp);
 												light duty conditions where the operating temperature does not exceed 70 ° C , as bearings
 												water pump , bushings, bearings guides and simple harrows and other agricultural machinery
 												equipment requiring this type grease .";}?>
-												</h5><br>
-											</p>
+											</h5><br>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1091,7 +1081,6 @@ fclose($fp);
 											Also in chains , open gears and in any application where the operating temperature is
 											below 150 ° C and do not require fats with extreme pressure characteristics .";}?>
 											<br>
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1104,7 +1093,7 @@ fclose($fp);
 				</div>
 			</div>
 		</div>
-<!-----------------------------------------------------------                    ----------------------------------------------------------------->
+		<!-----------------------------------------------------------                    ----------------------------------------------------------------->
 
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingTwo">
@@ -1135,12 +1124,11 @@ fclose($fp);
 											<p><h5>
 												<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
 												ISO 8217 2005 Fuel Standard for marine distilla5e fuels .";}?>
-												</h5>
+											</h5>
 
 											<!-- PDF DE Combustible -->
-												PDV <a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1175,60 +1163,65 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-                    <h3>Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)</h3>
-                    <ul class="nav navbar-nav">
-                        <li><!-- Trigger the modal with a button -->
-                            <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
+					<h3>Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)</h3>
+					<ul class="nav navbar-nav">
+						<li><!-- Trigger the modal with a button -->
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
 
-                            <!-- Modal -->
-                            <div id="myModal35" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
+							<!-- Modal -->
+							<div id="myModal35" class="modal fade" role="dialog">
+								<div class="modal-dialog">
 
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                <!-- PDF DE Combustible -->
-                                                PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
+										</div>
+										<div class="modal-body">
+											<p>
+												<!-- PDF DE Combustible -->
+												PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li><!-- Trigger the modal with a button -->
-                            <a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
+											</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><!-- Trigger the modal with a button -->
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
 
-                            <!-- Modal -->
-                            <div id="myModal36" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
+							<!-- Modal -->
+							<div id="myModal36" class="modal fade" role="dialog">
+								<div class="modal-dialog">
 
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <br><br><br>
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
+										</div>
+										<div class="modal-body">
+											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<br><br><br>
+				</div>
+			</div>
+		</div>
+
+
 
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingThree">
@@ -1239,189 +1232,186 @@ fclose($fp);
 					</a>
 				</h4>
 			</div>
-            </div>
-			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-				<div class="panel-body">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal38">Commodities</a>
-							<!-- Modal -->
-							<div id="myModal38" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			<div class="panel-body">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal38">Commodities</a>
+						<!-- Modal -->
+						<div id="myModal38" class="modal fade" role="dialog">
+							<div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title"><?php if($leng=="Es"){echo "Materias Primas";}else{echo "Commodities";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p> <h5 align="justify">
-												<?php if($leng=="Es"){echo "Sumistro of finished products to meet the needs of the operation of seaports ,
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title"><?php if($leng=="Es"){echo "Materias Primas";}else{echo "Commodities";}?></h4>
+									</div>
+									<div class="modal-body">
+										<p> <h5 align="justify">
+											<?php if($leng=="Es"){echo "Sumistro of finished products to meet the needs of the operation of seaports ,
 												its equipment and maintenance required within the same .";}else{echo "";}?>
-											</h5>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+										</h5>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 									</div>
 								</div>
-							</div></li>
+							</div>
+						</div></li>
 
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal39">
-								<?php if($leng=="Es"){echo "Asesoría y Soporte Operacional";}else{echo "Advice and Operational Support";}?></a>
-							<!-- Modal -->
-							<div id="myModal39" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+					<li>
+						<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal39">
+							<?php if($leng=="Es"){echo "Asesoría y Soporte Operacional";}else{echo "Advice and Operational Support";}?></a>
+						<!-- Modal -->
+						<div id="myModal39" class="modal fade" role="dialog">
+							<div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title"><?php if($leng=="Es"){echo "Asesoría y Soporte Operacional";}
-												else{echo "Advice and Operational Support";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p><h5 align="justify">
-												<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos donde realizamos entregas de productos,
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title"><?php if($leng=="Es"){echo "Asesoría y Soporte Operacional";}
+											else{echo "Advice and Operational Support";}?></h4>
+									</div>
+									<div class="modal-body">
+										<p><h5 align="justify">
+											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos donde realizamos entregas de productos,
 												lo que genera mayor confiabilidad y tranquilidad para nuestros clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of products,
 												resulting in greater reliability and peace of mind for our customers.";}?>
-											</h5></p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+										</h5>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 									</div>
 								</div>
-							</div></li>
+							</div>
+						</div></li>
 
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal40">
-								<?php if($leng=="Es"){echo "Asesoría y Soporte Técnico";}else{echo "Advisory and Support";}?></a>
-							<!-- Modal -->
-							<div id="myModal40" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+					<li>
+						<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal40">
+							<?php if($leng=="Es"){echo "Asesoría y Soporte Técnico";}else{echo "Advisory and Support";}?></a>
+						<!-- Modal -->
+						<div id="myModal40" class="modal fade" role="dialog">
+							<div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title"><?php if($leng=="Es"){echo "Asesoría y Soporte Técnico";}else{echo "Advisory and Support";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p><h5 align="justify">
-												<?php if($leng=="Es"){echo "Contamos con personal altamente calificado, el cual está a su disposición para analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas técnicos que se puedan presentar en la comercialización de nuestros productos.";}else{echo "
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title"><?php if($leng=="Es"){echo "Asesoría y Soporte Técnico";}else{echo "Advisory and Support";}?></h4>
+									</div>
+									<div class="modal-body">
+										<p><h5 align="justify">
+											<?php if($leng=="Es"){echo "Contamos con personal altamente calificado, el cual está a su disposición para analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas técnicos que se puedan presentar en la comercialización de nuestros productos.";}else{echo "
 												We have highly qualified staff, which is available to discuss any questions and inquiries seeking fast and efficient to all the technical problems that may arise in the marketing of our product solutions.";}?>
 
-											</h5></p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+										</h5>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 									</div>
 								</div>
-							</div></li>
+							</div>
+						</div></li>
 
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal41">
-								<?php if($leng=="Es"){echo "Análisis de Muestras de Lubricantes y Combustibles";}
-								else{echo "Sample analysis of lubricants and fuels";}?></a>
-							<!-- Modal -->
-							<div id="myModal41" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+					<li>
+						<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal41">
+							<?php if($leng=="Es"){echo "Análisis de Muestras de Lubricantes y Combustibles";}
+							else{echo "Sample analysis of lubricants and fuels";}?></a>
+						<!-- Modal -->
+						<div id="myModal41" class="modal fade" role="dialog">
+							<div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title"><?php if($leng=="Es"){echo "Análisis de Muestras de Lubricantes y Combustibles";}
-												else{echo "Sample analysis of lubricants and fuels";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p><h5 align="justify">
-												<?php if($leng=="Es"){echo "Ponemos a sus disposición análisis de aceites usados en los principales laboratorios de nuestros proveedores. Esta herramienta es fundamental para el monitoreo del comportamiento de cada equipo brindando datos fehacientes de:";}else{echo "
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title"><?php if($leng=="Es"){echo "Análisis de Muestras de Lubricantes y Combustibles";}
+											else{echo "Sample analysis of lubricants and fuels";}?></h4>
+									</div>
+									<div class="modal-body">
+										<p><h5 align="justify">
+											<?php if($leng=="Es"){echo "Ponemos a sus disposición análisis de aceites usados en los principales laboratorios de nuestros proveedores. Esta herramienta es fundamental para el monitoreo del comportamiento de cada equipo brindando datos fehacientes de:";}else{echo "
 												We put at your disposal analysis used in leading laboratories of our suppliers oils. This tool is essential for monitoring the behavior of each team providing reliable data :";}?>
-												<br><br>
-												<ol type="A">
-													<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team .";}?>
-													<li><?php if($leng=="Es"){echo "Estado del lubricante.";}else{echo "
+											<br><br>
+											<ol type="A">
+												<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team .";}?>
+												<li><?php if($leng=="Es"){echo "Estado del lubricante.";}else{echo "
 													State of the lubricant.";}?>
-													<li><?php if($leng=="Es"){echo "Grado de contaminación.";}else{echo "Degree of contamination .";}?>
-												</ol><br>
-												<?php if($leng=="Es"){echo "A través de un programa de muestreos periódicos y procedimientos de control de reportes, se podrán delinear tendencia de comportamiento de cada equipo conformando un programa de mantenimiento predictivo que minimice las fallas optimizando la vida útil del lubricante entre otros beneficios.";}else{echo "
+												<li><?php if($leng=="Es"){echo "Grado de contaminación.";}else{echo "Degree of contamination .";}?>
+											</ol><br>
+											<?php if($leng=="Es"){echo "A través de un programa de muestreos periódicos y procedimientos de control de reportes, se podrán delinear tendencia de comportamiento de cada equipo conformando un programa de mantenimiento predictivo que minimice las fallas optimizando la vida útil del lubricante entre otros beneficios.";}else{echo "
 												Through a program of regular sampling and reporting control procedures , they may delineate trend behavior of each team forming a predictive maintenance program to minimize failures optimizing lubricant life among other benefits.";}?>
 
-											</h5></p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
+										</h5>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 									</div>
 								</div>
-							</div></li>
+							</div>
+						</div></li>
 
-						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal42">
-								<?php if($leng=="Es"){echo "Plan de Lubricación";}else{echo "Lubrication Plan";}?></a>
-							<!-- Modal -->
-							<div id="myModal42" class="modal fade" role="dialog">
-								<div class="modal-dialog">
+					<li>
+						<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal42">
+							<?php if($leng=="Es"){echo "Plan de Lubricación";}else{echo "Lubrication Plan";}?></a>
+						<!-- Modal -->
+						<div id="myModal42" class="modal fade" role="dialog">
+							<div class="modal-dialog">
 
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title"><?php if($leng=="Es"){echo "Plan de Lubricación";}else{echo "Lubrication Plan";}?></h4>
-										</div>
-										<div class="modal-body">
-											<p><h5 align="justify">
-												<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores, a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo rendimiento técnico en cada equipo reduciendo los costos de operación.
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title"><?php if($leng=="Es"){echo "Plan de Lubricación";}else{echo "Lubrication Plan";}?></h4>
+									</div>
+									<div class="modal-body">
+										<p><h5 align="justify">
+											<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores, a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo rendimiento técnico en cada equipo reduciendo los costos de operación.
 												Implementar esta selección es parte de nuestro Plan de Lubricación, el mismo consta de:";}else{echo "
 												The experience gathered by our company together with our suppliers over many years of research and development, allow us to make an accurate selection of the lubricating oil to provide optimal performance on each computer technician reducing operating costs .
 												Implementing this selection is part of our Plan Lubrication , it consists of:";}?>
-												<br><br>
-												<ul type="disk">
-													<li><?php if($leng=="Es"){echo "Inspección de equipos e instalaciones.";}else{echo "
+											<br><br>
+											<ul type="disk">
+												<li><?php if($leng=="Es"){echo "Inspección de equipos e instalaciones.";}else{echo "
 													Inspection of equipment and facilities .";}?>
-													<li><?php if($leng=="Es"){echo "Relevamiento de datos y condiciones.";}else{echo "
+												<li><?php if($leng=="Es"){echo "Relevamiento de datos y condiciones.";}else{echo "
 													Survey data and conditions.";}?>
-													<li><?php if($leng=="Es"){echo "Intecambio de conocimientos.";}else{echo "Interchange of knowledge.";}?>
-													<li><?php if($leng=="Es"){echo "Análisis crítico.";}else{echo "Critical analysis.";}?>
-													<li><?php if($leng=="Es"){echo "Realización de una Guía de Lubricación.";}else{echo "Making a Lubrication Guide ";}?>
-													<li><?php if($leng=="Es"){echo "Propuesta técnico-comercial.";}else{echo "
+												<li><?php if($leng=="Es"){echo "Intecambio de conocimientos.";}else{echo "Interchange of knowledge.";}?>
+												<li><?php if($leng=="Es"){echo "Análisis crítico.";}else{echo "Critical analysis.";}?>
+												<li><?php if($leng=="Es"){echo "Realización de una Guía de Lubricación.";}else{echo "Making a Lubrication Guide ";}?>
+												<li><?php if($leng=="Es"){echo "Propuesta técnico-comercial.";}else{echo "
 													technical and commercial proposal.";}?>
-													<li><?php if($leng=="Es"){echo "Puesta en marcha.";}else{echo "
+												<li><?php if($leng=="Es"){echo "Puesta en marcha.";}else{echo "
 													Start up.";}?>
-													<li><?php if($leng=="Es"){echo "Monitoreo del resultado.";}else{echo "
+												<li><?php if($leng=="Es"){echo "Monitoreo del resultado.";}else{echo "
 													Monitoring results.";}?>
-												</ul></h5></p>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn" data-dismiss="modal">Close</button>
-										</div>
+											</ul></h5>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn" data-dismiss="modal">Close</button>
 									</div>
 								</div>
-							</div></li>
-					</ul>
-				</div>
+							</div>
+						</div></li>
+				</ul>
 			</div>
 		</div>
-	</div>
-</div>
-<h3>
+		<h3>
 
-	<!-- Pie de Pagina -->
-</h3>
-<?php include 'footer.php';?>
-<!-- todos los JS que necesita la web -->
-<?php include 'include_js.php';?>
+			<!-- Pie de Pagina -->
+		</h3>
+		<?php include 'footer.php';?>
+		<!-- todos los JS que necesita la web -->
+		<?php include 'include_js.php';?>
 
-<script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
-	$(document).ready(function () {
-		$(".menu_inicio > a").css({"color":'#FFFFFF', "background-color":'#428bca',"font-weight":'Bold' });
-	});
-</script>
+		<script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
+			$(document).ready(function () {
+				$(".menu_inicio > a").css({"color":'#FFFFFF', "background-color":'#428bca',"font-weight":'Bold' });
+			});
+		</script>
 
 </body>
 </html>
