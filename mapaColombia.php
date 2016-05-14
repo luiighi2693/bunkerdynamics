@@ -38,54 +38,72 @@ fclose($fp);
     <img src="mapaColombia.png" name="mapaCol" usemap="#mapa">
 
     <map id="mapa" name="mapa">
-        <area shape="rect" alt="la guajira" title="la guajira" id="laGuajira" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
-        <area shape="rect" alt="barranquilla" title="barranquilla" id="barranquilla" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
-        <area shape="rect" alt="santa marta" title="santa marta" id="santaMarta" onclick="myFunction()" coords="281,90,300,111" href="" target="" />
+        <area shape="rect" alt="Puerto Bolivar" title="Puerto Bolivar" id="puertoBolivar" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
+        <area shape="rect" alt="santa marta" title="santa marta" id="santaMarta" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
+        <area shape="rect" alt="barranquilla" title="barranquilla" id="barranquilla" onclick="myFunction()" coords="281,90,300,111" href="" target="" />
         <area shape="rect" alt="cartagena" title="cartagena" id="cartagena" onclick="myFunction()" coords="253,159,269,178" href="" target="" />
-        <area shape="rect" alt="golfo morrosquillo" title="golfo morrosquillo" id="golfoMorrosquillo" onclick="myFunction()" coords="215,189,231,210" href="" target="" />
-        <area shape="rect" alt="isla san andres" title="isla san andres" id="islaSanAndres" onclick="myFunction()" coords="121,61,134,80" href="" target="" />
+        <area shape="rect" alt="tolu" title="tolu" id="tolu" onclick="myFunction()" coords="215,189,231,210" href="" target="" />
+        <area shape="rect" alt="san andres" title="san andres" id="sanAndres" onclick="myFunction()" coords="121,61,134,80" href="" target="" />
         <area shape="rect" alt="turbo" title="turbo" id="turbo" onclick="myFunction()" coords="176,243,193,265" href="" target="" />
-        <area shape="rect" alt="tribuga" title="tribuga" id="tribuga" onclick="myFunction()" coords="156,344,170,363" href="" target="" />
         <area shape="rect" alt="buenaventura" title="buenaventura" id="buenaventura" onclick="myFunction()" coords="170,477,187,500" href="" target="" />
         <area shape="rect" alt="tumaco" title="tumaco" id="tumaco" onclick="myFunction()" coords="67,585,83,606" href="" target="" />
     </map>
 </center>
 
 <div style="display: none">
-    <div id="myContentlaGuajira">
-        <a href="#"></a>
-    </div>
-    <div id="myContentbarranquilla">
-        <a href="#"></a>
-    </div>
-    <div id="myContentsantaMarta">
-        <a href="#"></a>
-    </div>
-    <div id="myContentcartagena">
+    <div id="myContentPuertoBolivar">
         <ul>
-            <li><a href="productos.php">Lubricantes GULF</a></li>
-            <li><a href="productos.php">Lubricantes SHELL</a></li>
-            <li><a href="productos.php">Lubricantes TOTAL</a></li>
-            <li><a href="productos.php">Lubricantes MOBIL</a></li>
-            <li><a href="productos.php">IFO 380 (RMG – 35)</a></li>
-            <li><a href="productos.php">Marine Gasoil (MGO) </a></li>
-            <li><a href="productos.php">Otros IFO´s</a></li>
+            <li><a href="images/puertoBolivarMin.png">Bunkers</a></li>
+            <li><a href="images/tablaPuertoBolivar.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
         </ul>
     </div>
-    <div id="myContenttribuga">
-        <a href="#"></a>
+    <div id="myContentBarranquilla">
+        <ul>
+            <li><a href="images/barranquillaMin.png">Bunkers</a></li>
+            <li><a href="images/tablaBarranquilla.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
     </div>
-    <div id="myContentgolfoMorrosquillo">
-        <a href="#"></a>
+    <div id="myContentSantaMarta">
+        <ul>
+            <li><a href="images/santaMartaMin.png">Bunkers</a></li>
+            <li><a href="images/tablaSantaMarta.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
     </div>
-    <div id="myContentturbo">
-        <a href="#"></a>
+    <div id="myContentCartagena">
+        <ul>
+            <li><a href="images/cartagenaMin.png">Bunkers</a></li>
+            <li><a href="images/tablaCaratagena.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
     </div>
-    <div id="myContentbuenaventura">
-        <a href="#"></a>
+    <div id="myContentTolu">
+        <ul>
+            <li><a href="images/toluMin.png">Bunkers</a></li>
+            <li><a href="images/tablaTolu.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
     </div>
-    <div id="myContenttumaco">
-        <a href="#"></a>
+    <div id="myContentTurbo">
+        <ul>
+            <li><a href="images/turboMin.png">Bunkers</a></li>
+            <li><a href="images/tablaTurbo.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
+    </div>
+    <div id="myContentBuenaventura">
+        <ul>
+            <li><a href="images/buenaventuraMin.png">Bunkers</a></li>
+            <li><a href="images/tablaBuenaventura.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
+    </div>
+    <div id="myContentTumaco">
+        <ul>
+            <li><a href="images/tumacoMin.png">Bunkers</a></li>
+            <li><a href="images/tablaTumaco.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
+    </div>
+    <div id="myContentSanAndres">
+        <ul>
+            <li><a href="images/sanAndresMin.png">Bunkers</a></li>
+            <li><a href="images/tablaSanAndres.jpg"  ><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></a></li>
+        </ul>
     </div>
 </div>
 <?php include 'footer.php';?>
@@ -95,16 +113,15 @@ fclose($fp);
 
 <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
     (function(){
-        $('#laGuajira').webuiPopover({title:'Puertos',url:'#myContentlaGuajira'});
-        $('#barranquilla').webuiPopover({title:'Puertos',url:'#myContentbarranquilla'});
-        $('#santaMarta').webuiPopover({title:'Puertos',url:'#myContentsantaMarta'});
-        $('#cartagena').webuiPopover({title:'',url:'#myContentcartagena'});
-        $('#golfoMorrosquillo').webuiPopover({title:'Puertos',url:'#myContentgolfoMorrosquillo'});
-        $('#turbo').webuiPopover({title:'Puertos',url:'#myContentturbo'});
-        $('#tribuga').webuiPopover({title:'Puertos',url:'#myContenttribuga'});
-        $('#buenaventura').webuiPopover({title:'Puertos',url:'#myContentbuenaventura'});
-        $('#tumaco').webuiPopover({title:'Puertos',url:'#myContenttumaco'});
-        $('#islaSanAndres').webuiPopover({title:'Puertos',url:'#myContentislaSanAndres'});
+        $('#puertoBolivar').webuiPopover({url:'#myContentPuertoBolivar'});
+        $('#barranquilla').webuiPopover({url:'#myContentBarranquilla'});
+        $('#santaMarta').webuiPopover({url:'#myContentSantaMarta'});
+        $('#cartagena').webuiPopover({url:'#myContentCartagena'});
+        $('#tolu').webuiPopover({url:'#myContentTolu'});
+        $('#turbo').webuiPopover({url:'#myContentTurbo'});
+        $('#buenaventura').webuiPopover({url:'#myContentBuenaventura'});
+        $('#tumaco').webuiPopover({url:'#myContentTumaco'});
+        $('#sanAndres').webuiPopover({url:'#myContentSanAndres'});
     })();
     var c1;
     var c2;
