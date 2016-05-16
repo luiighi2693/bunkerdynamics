@@ -4,7 +4,6 @@
     fclose($fp);
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Bunker Dynamics</title>
@@ -17,8 +16,9 @@
         
         <!--Archivo para Incluir los css -->
         <?php include 'include_css.php';?>
+         <link rel="stylesheet" type="txt/css" href="terminos.css">
     </head>
-    
+
     <body>
 
 		<section class="menu_completo">
@@ -31,27 +31,29 @@
 		<!-- Secciones de contenido de la web en la que estes, en este caso index -->
         <!-- el class debe colocarse templatemo-xxxxx y en el css crearlo con los similares a los otros -->
         <div class="templatemo-welcome" id="templatemo-welcome">
-            <div class="container">
+            <div class="container-responsive">
                 <div class="templatemo-slogan text-center">
-                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "Misión";}else{echo "Mission";}?></span>
-                    <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "Satisfacer las necesidades de nuestros clientes 
-                    de Lubricantes y Combustibles Marinos (Bunkers) en los principales puertos del Caribe y Sudamérica, siendo suplidores directos o 
-                    estableciendo alianzas estratégicas con proveedores locales en cada uno de estos puertos donde tenemos presencia, lo cual nos 
-                    permite tener los precios más competitivos, garantizando plenamente el cumplimiento y la calidad de nuestros productos.";}
-                    else{echo "Satisfy the customers’ needs for Bunker and Lubricants in the major ports in the Caribbean and South America, as
-                    direct supplier or through our strategic alliances with local suppliers in the different ports where we operate, with competitive
-                    prices, ensuring availability and quality of products";}?></i></p>
-                </div>	
-            </div>
-        </div>
-        
-        
-		<h3>
-		  
-		  <!-- Pie de Pagina -->
-    </h3>
+                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "TERMINOS Y CONDICIONES PARA LA VENTA DE COMBUSTIBLES MARINOS";}
+                        else{echo "TERMS AND CONDITIONS OF SALE FOR MARINE FUELS";}?></span>
+
+
+                    <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "MARZO 2016 Salvo que se acuerde lo contrario por escrito,
+                     los siguientes términos y condiciones se aplicarán a todas las ventas de BUNKER DYNAMICS CORP. para combustible RMG,IFO,
+                     RMA y MGO de uso marítimo (en adelante denominados \"Combustibles Marinos\").";}
+                    else{echo "MARCH 2016 Except as otherwise agreed to in writing, the following terms and conditions shall apply to all sales by BUNKER
+                            DYNAMICS CORP. of Bunker Fuel Oil, Intermediate Bunker Fuels, Marine Diesel Oil, and Marine Gas Oil
+                            (hereinafte -Marine Fuels-).";}?><br></i></p>
+                </div>
+
+                <div class="container-responsive">
+
+                    <iframe mwidth="640%" height="360" src="pdf/Terminos.pdf" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+
+
 		<?php include 'footer.php';?>
-        <!-- todos los JS que necesita la web -->
+        <!-- Todos los JS que necesita la web -->
         <?php include 'include_js.php';?>
 		
         <script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
