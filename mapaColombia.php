@@ -35,7 +35,7 @@ fclose($fp);
 
 <br><br><br><br><br><br><br><br><br>
 <center style="overflow-x: scroll;">
-    <img src="mapaColombia.png" name="mapaCol" usemap="#mapa">
+    <img src="mapaColombia.png"  name="mapaCol" usemap="#mapa">
 
     <map id="mapa" name="mapa">
         <area shape="rect" alt="Puerto Bolivar" title="Puerto Bolívar" id="puertoBolivar" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
