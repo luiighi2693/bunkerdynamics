@@ -40,10 +40,11 @@
                     hacia el Caribe y Sudamérica, dedicada a la comercialización, mercadeo y suministro de Lubricantes y 
                     Combustibles Marinos (Bunkers) a toda nuestra red de buques creada a lo largo de estos años, con el compromiso 
                     de entregar productos de calidad que ofrezcan tranquilidad y seguridad a nuestros clientes.";}
-                    else{echo "Bunker Dynamics Corp. is an international company established in 2011 in Florida , USA with a branch 
-                        in Panama and expansion projects to the Caribbean and South America, dedicated to the commercialization , 
-                    marketing and supply of Marine Fuels and Lubricants ( Bunkers ) to all our ship network created over the years ,
-                     with a commitment to deliver quality products that provide peace and security to our customers.";}?></i></p>
+
+                    else{echo "Bunker Dynamics Corp. is a company established since 2011 at USA with branch in Panama
+                    and expansion projects to the Caribbean and South America, dedicated to commerce, marketing and supply
+                    of Bunkers and Lubricants Support to our Clients with a permanent commitment to deliver high quality
+                    products and services";}?></i></p>
                    
                 </div>	
                  <div class="templatemo-slogan text-left">
@@ -52,15 +53,13 @@
 
                         <ul class="txt_slogan" style="font-size: 0.5em;">
                             <li><?php if($leng=="Es"){echo "Competitividad: Con la mejor calidad y el mejor precio en nuestros productos y servicios.";}
-                            else{echo "Competitiveness: With the best quality and the best price on our products and services.";}?></li>
+                            else{echo "Competitiveness: With the best quality and prices on our products and services.";}?></li>
                             <li><?php if($leng=="Es"){echo "Responsabilidad: Con suministros confiables y en el tiempo estipulado.";}
-                            else{echo "Responsibility: With reliable supplies and in the stipulated time .";}?></li>
+                            else{echo "Responsibility: With reliable supplies and on-time delivery.";}?></li>
                             <li><?php if($leng=="Es"){echo "Compromiso: Con el ambiente y nuestros clientes.";}
-                            else{echo "Commitment: With the environment and our customers.";}?></li>
+                            else{echo "Commitment: With the environment and our customer’s needs.";}?></li>
                             <li><?php if($leng=="Es"){echo "Calidad: Con productos que cumplan los estándares que exige el negocio marino.";}
-                            else{echo "Quality: With products that meet the standards required by the marine business.";}?></li>
-                            <li><?php if($leng=="Es"){echo "Seguridad: Garantizando operaciones de suministro sin ningún tipo de riesgos, accidentes ni retrasos.";}
-                            else{echo "";}?></li>
+                            else{echo "Quality: With products that meet the higher standards required by the marine business. ";}?></li>
                         </ul>
                     </i></p> 
                  </div>

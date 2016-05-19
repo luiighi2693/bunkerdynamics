@@ -34,23 +34,21 @@
             <div class="container">
                 <div class="templatemo-slogan text-center">
                     <span class="txt_darkgrey"><?php if($leng=="Es"){echo "Bienvenidos a";}else{echo "Welcome to";}?> </span><span class="txt_orange">Bunker Dynamics</span>
-                    <p class="txt_slogan"><i><?php if($leng=="Es"){echo "Bunker Dynamics Corp. es una Corporación de Comercio 
-                    Internacional especializada en actividades de importación y exportación tanto de materias primas como de 
-                    productos terminados dirigidos al equipamiento de Puertos Marítimos, Producción Naval y Mantenimiento General 
-                    e industrias conexas. Además nuestra división de Bunkers es la solución a las necesidades de Lubricantes y
-                     Combustibles Marinos (Bunkers) para las empresas y clientes asociados con el negocio marítimo internacional. 
-                     Nuestros servicios incluyen asesoramiento técnico, comercial y operacional en los principales puertos del 
-                     Caribe y Sudamérica. <br> Bunker Dynamics Corp. está creciendo en base a las necesidades de nuestros clientes, 
-                     con la confianza de que los productos y servicios que ofrecemos son  de alta calidad, lo cual nos permite apoyar 
-                     a empresas del sector marítimo internacional con el objetivo de establecer relaciones comerciales a largo 
-                     plazo.";}else{echo "Bunker Dynamics Corp. is a company specialized in International Trade 
-                     import and export activities of both raw materials as finished products for the equipment Seaports , Naval 
-                     General Maintenance Production and Related Industries . : Besides Bunkers Our division is the solution Needs 
-                     Marine Fuels and Lubricants ( Bunkers ) for companies and associated m Customers with international maritime 
-                     business . Our services include technical, commercial and operational in major ports in the Caribbean and South 
-                     America Consulting. <br> Bunker Dynamics Corp. is growing based on the needs of our customers with the confidence
-                     that the products and services we offer are high quality , which allows us to support companies in the international 
-                     maritime sector with the aim of establishing trade relations long term.";}?></i></p>
+                    <p class="txt_slogan">
+                        <br><i><?php if($leng=="Es"){echo "Bunker Dynamics Corp. es una Corporación de Comercio Internacional especializada en
+                     actividades de importación y exportación tanto de materias primas como de productos terminados orientados al equipamiento de
+                     Puertos Marítimos, Producción Naval y Mantenimiento General de sus industrias conexas.<br>
+                     <br> Nuestra división de Bunkers es la solución a las necesidades de Lubricantes y Combustibles Marinos  para las Empresas y sus
+                     clientes asociados dentro del negocio marítimo internacional con servicios que incluyen asesoramiento técnico, comercial y
+                     operacional en los principales puertos del Caribe y Sudamérica.<br>
+                     <br>Crecemos con la confianza de que los productos y servicios que ofrecemos son de alta calidad, apoyando a
+                     nuestros clientes con el objetivo firme de establecer relaciones comerciales a largo plazo.
+                     ";}else{echo "Bunker Dynamics Corp. is a company oriented to International Trade activities of Petroleum
+                     Commodities, Port equipment, Naval Maintenance Supplies, Production Advice and Logistic Support.<br>
+                     <br>Our Bunkers division is the solution for Bunkers and Lubricants needs for companies associated to
+                     the maritime business with services that include technical, commercial and operational in major ports in the Caribbean and South America.<br>
+                     <br>Bunker Dynamics Corp. is growing based on our customers’ needs with the confidence that our products and services bring the higher
+                     quality to the maritime sector aiming to establish long term relationship with them.";}?></i></p>
                 </div>	
             </div>
         </div>
@@ -101,7 +99,7 @@
                      <p><b><?php if($leng=="Es"){echo "TÉRMINOS DE NEGOCIACIÓN";}else{echo "TERMS OF TRADE";}?> </b></p>
                           <p><?php if($leng=="Es"){echo "";}?></p>
                             <div class="text-center">
-                            	<a href="#" 
+                            	<a href="Terminos.php"
                                 	class="templatemo-btn-read-more btn btn-orange"><?php if($leng=="Es"){echo "VER MÁS";}else{echo "MORE";}?></a>
                             </div>
                             <br class="clearfix"/>
@@ -112,8 +110,8 @@
             </div>
         </div>
              
-        <h3 align="center"><b style="font-size:15pt;"><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO 
-        MUNDIAL";}else{echo "AN ALLY RELIABLE AND EFFICIENT TO MEET THE NEEDS LOGISTICS SERVICE IN GLOBAL SHIPPING";}?> </b></h3>     
+        <h3 align="center"><b style="font-size:15pt;"><?php if($leng=="Es"){echo "UN ALIADO CONFIABLE Y EFICIENTE PARA AFRONTAR LAS NECESIDADES LOGÍSTICAS DENTRO DEL SERVICIO NAVIERO.
+        MUNDIAL";}else{echo "A RELIABLE AND EFFICIENT ALLY TO SATISFY YOUR LOGISTICS NEEDS FOR SERVICES IN THE MARITIME BUSINESS";}?> </b></h3>
                         
         
 		<h3>

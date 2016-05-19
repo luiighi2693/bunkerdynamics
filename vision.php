@@ -37,9 +37,8 @@
                     <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "Lograr el posicionamiento en el mercado de Lubricantes 
                     y Combustibles Marinos (Bunkers) en los principales puertos del Caribe y Sudamérica, con sistemas de gestión de la calidad y personal 
                     altamente calificado y comprometido con el mejoramiento continúo, para transformar a nuestra empresa en la mejor opción de la región.";}
-                    else{echo "Achieve market positioning Lubricants and Marine Fuels ( Bunkers ) in major ports in the Caribbean and South America, with 
-                        systems of quality management and highly qualified and committed to continuous improvement staff to transform our company the best 
-                    choice region of.";}?></i></p>
+                    else{echo "Achieve a Lubricant and Bunkers market position in the Caribbean and South America major ports
+                    offering quality management with the commitment to continuous improvement in order to be the best choice for service and support";}?></i></p>
                 </div>	
             </div>
         </div>

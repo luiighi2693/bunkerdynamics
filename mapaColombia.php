@@ -38,19 +38,19 @@ fclose($fp);
     <img src="mapaColombia.png" name="mapaCol" usemap="#mapa">
 
     <map id="mapa" name="mapa">
-        <area shape="rect" alt="Puerto Bolivar" title="Puerto Bolivar" id="puertoBolivar" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
-        <area shape="rect" alt="santa marta" title="santa marta" id="santaMarta" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
-        <area shape="rect" alt="barranquilla" title="barranquilla" id="barranquilla" onclick="myFunction()" coords="281,90,300,111" href="" target="" />
-        <area shape="rect" alt="cartagena" title="cartagena" id="cartagena" onclick="myFunction()" coords="253,159,269,178" href="" target="" />
-        <area shape="rect" alt="tolu" title="tolu" id="tolu" onclick="myFunction()" coords="215,189,231,210" href="" target="" />
-        <area shape="rect" alt="san andres" title="san andres" id="sanAndres" onclick="myFunction()" coords="121,61,134,80" href="" target="" />
-        <area shape="rect" alt="turbo" title="turbo" id="turbo" onclick="myFunction()" coords="176,243,193,265" href="" target="" />
-        <area shape="rect" alt="buenaventura" title="buenaventura" id="buenaventura" onclick="myFunction()" coords="170,477,187,500" href="" target="" />
-        <area shape="rect" alt="tumaco" title="tumaco" id="tumaco" onclick="myFunction()" coords="67,585,83,606" href="" target="" />
+        <area shape="rect" alt="Puerto Bolivar" title="Puerto Bolívar" id="puertoBolivar" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
+        <area shape="rect" alt="Santa Marta" title="Santa Marta" id="santaMarta" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
+        <area shape="rect" alt="Barranquilla" title="Barranquilla" id="barranquilla" onclick="myFunction()" coords="281,90,300,111" href="" target="" />
+        <area shape="rect" alt="Cartagena" title="Cartagena" id="cartagena" onclick="myFunction()" coords="253,159,269,178" href="" target="" />
+        <area shape="rect" alt="Tolu" title="Tolú" id="tolu" onclick="myFunction()" coords="215,189,231,210" href="" target="" />
+        <area shape="rect" alt="San Andres" title="San Andres" id="sanAndres" onclick="myFunction()" coords="121,61,134,80" href="" target="" />
+        <area shape="rect" alt="Turbo" title="Turbo" id="turbo" onclick="myFunction()" coords="176,243,193,265" href="" target="" />
+        <area shape="rect" alt="Buenaventura" title="Buenaventura" id="buenaventura" onclick="myFunction()" coords="170,477,187,500" href="" target="" />
+        <area shape="rect" alt="Tumaco" title="Tumaco" id="tumaco" onclick="myFunction()" coords="67,585,83,606" href="" target="" />
     </map>
 </center>
 
-<div style="display: none">
+<div style="display: none" align="center">
     <div id="myContentPuertoBolivar">
         <ul>
             <li><a href="images/puertoBolivarMin.png">Bunkers</a></li>

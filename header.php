@@ -49,7 +49,7 @@
             </ul>
         </div>
     </div>
-    <div class="row" style="margin-right: 25px;">
+    <div class="row" style="margin-right: 25px; cn">
         <a href="lenguaje.php?leng=Es"  style="float:right;">
             <img src="images/ico_venezuela.png" alt="Responsive image">
         </a>
