@@ -16,7 +16,7 @@
         
         <!--Archivo para Incluir los css -->
         <?php include 'include_css.php';?>
-         <link rel="stylesheet" type="txt/css" href="terminos.css">
+<!--         <link rel="stylesheet" type="txt/css" href="terminos.css">-->
     </head>
 
     <body>
@@ -45,10 +45,13 @@
                             (hereinafte -Marine Fuels-).";}?><br></i></p>
                 </div>
 
-                <div class="container-responsive">
+<!--                <div class="container-responsive">-->
 
-                    <iframe mwidth="640%" height="360" src="pdf/Terminos.pdf" frameborder="0" allowfullscreen></iframe>
-                </div>
+<!--                    <iframe mwidth="640%" height="360" src="pdf/Terminos.pdf" frameborder="0" allowfullscreen></iframe>-->
+                <center>
+                    <object style="text-align: center" data="pdf/Terminos.pdf" type="application/pdf" width="80%" height="800px"></object>
+                </center>
+<!--                </div>-->
 
 
 
