@@ -46,7 +46,7 @@
                      ";}else{echo "Bunker Dynamics Corp. is a company oriented to International Trade activities of Petroleum
                      Commodities, Port equipment, Naval Maintenance Supplies, Production Advice and Logistic Support.<br>
                      <br>Our Bunkers division is the solution for Bunkers and Lubricants needs for companies associated to
-                     the maritime business with services that include technical, commercial and operational in major ports in the Caribbean and South America.<br>
+                     the maritime business with services that include technical, commercial and operational advice in major ports in the Caribbean and South America.<br>
                      <br>Bunker Dynamics Corp. is growing based on our customers’ needs with the confidence that our products and services bring the higher
                      quality to the maritime sector aiming to establish long term relationship with them.";}?></i></p>
                 </div>	

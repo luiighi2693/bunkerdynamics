@@ -1123,7 +1123,7 @@ fclose($fp);
 										<div class="modal-body">
 											<p><h5>
 												<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
-												ISO 8217 2005 Fuel Standard for marine distilla5e fuels .";}?>
+												ISO 8217 2005 Fuel Standard for marine distillate fuels .";}?>
 											</h5>
 
 											<!-- PDF DE Combustible -->
