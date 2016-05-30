@@ -37,6 +37,7 @@ fclose($fp);
 			<div class="panel-heading" role="tab" id="headingOne">
 				<h4 class="panel-title">
 					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    
 						<h3 style="text-align: center"><?php if($leng=="Es"){echo "Lubricantes Marinos";}else{echo "Marine Lubricants";}?></h3>
 					</a>
 				</h4>
@@ -59,7 +60,8 @@ fclose($fp);
 										<div class="modal-body">
 											<!-- PDF DE PRODUCTOS -->
 											PDV <a href="pdf/Cilmar_70.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"> </a>
-											<p><h3><b><?php if($leng=="Es"){echo "Características";}else{echo "characteristics";}?>:</b></h3>
+                                            
+											<p><h3><b><?php if($leng=="Es"){echo "Características";}else{echo "Characteristics";}?>:</b></h3>
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Aceite para motores diésel marinos con un amplio margen de seguridad.
 											Diseñado para la lubricación de cilindros de motores de diésel de cruceta
@@ -67,9 +69,9 @@ fclose($fp);
 											 lubricating engine cylinders crosshead diesel low speed";}?>
 											</h5><br>
 
-											<h3><b>Usos:</b></h3>
+											<p><h3><b><?php if($leng=="Es"){echo "Usos";}else{echo "Applications";}?>:</b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Ofrece una protección integral bajo las más exigentes condiciones de servicio.
+												<?php if($leng=="Es"){echo "Ofrece una protección integral bajo las más exigentes condiciones de                                                servicio.
 												Esta línea completa cubre todas las necesidades operacionales.
 												CILMAR 70 (SAE 50, BN 70) es el lubricante más ampliamente usado en motores
 												operando con combustibles intermedio o pesado con alto nivel de azufre.";}else{echo "
@@ -177,9 +179,10 @@ fclose($fp);
 												antioxidants and antiwear exceptional power to exceed the
 												Stage 10 of the FZG test.";}?>
 											</h5><br>
+                                            
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Ha sido especialmente desarrollado para cumplir con los requisitos de lubricación
+												<?php if($leng=="Es"){echo "Ha sido especialmente desarrollado para cumplir con los requisitos de                                                 lubricación
 												del cárter de motores diesel tipo cruceta de baja velocidad. Adicionalmente puede
 												ser utilizado en cojinetes y bocinas del eje de propulsión, engranajes medianamente
 												cargados y compresores de aire donde un aceite con las cualidades descritas
@@ -275,7 +278,7 @@ fclose($fp);
 												químicos que le confieren propiedades detergentes/dispersantes para minimizar la formación
 												de depósitos en el motor, así como características antidesgaste, anti-herrumbre, anti-espumantes
 												y anti-corrosivas, para garantizar la adecuada lubricación del cárter y cilindros de motores
-												de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.";}else{echo "
+												de mediana velocidad. Satisface las especificaciones correspondientes al nivel de servicio API CF.";}else                                                {echo"
 												Monograde oil made ​​from a blend of highly refined base and additives
 												chemicals that confer detergent / dispersant properties to minimize formation
 												of engine deposits and wear characteristics , anti- rust , anti- foaming
@@ -285,8 +288,8 @@ fclose($fp);
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
-												combustible residual con contenido de azufre superior a 2.5% en peso.";}else{echo "Formulado específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
+												<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel de mediana                                                velocidad que utilizan
+												combustible residual con contenido de azufre superior a 2.5% en peso.";}else{echo "Formulado                                                específicamente para la lubricación de motores diesel de mediana velocidad que utilizan
 												combustible residual con contenido de azufre superior a 2.5% en peso.";}?>
 											</h5>.<br>
 										</div>
@@ -369,30 +372,31 @@ fclose($fp);
 												PDV <a href="pdf/Dieselmar_MD.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
-											<?php if($leng=="Es"){echo "Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le confieren
+											<h5 align="justify">
+											<?php if($leng=="Es"){echo "Aceite elaborado con una mezcla de básicos altamente refinados y aditivos que le                                             confieren
 											propiedades dispersantes a bajas temperaturas, aún en presencia de agua y detergentes a altas
 											temperaturas para minimizar la formación de depósitos en el motor, así como características
 											antidesgaste, anti-herrumbrante, anti-espumantes y anticorrosivas, para garantizar la adecuada
 											lubricación del cárter y cilindros de motores diesel de mediana y alta velocidad. Satisface las
 											especificaciones correspondientes al servicio CF de la clasificación API/ASTM/SAE y cumple y/o
-											excede además los requisitos de la especificación MIL-L-2104D.";}else{echo "
+											excede además los requisitos de la especificación MIL-L-2104D.";}else{echo"
 											Oil made ​​from a blend of highly refined base and additives that give you
 											dispersing properties at low temperatures , even in the presence of water and detergents at high
 											temperatures to minimize the formation of engine deposits and characteristics
 											antiwear , anti- herrumbrante , antifoam and anticorrosion , to ensure adequate
 											crankcase and cylinder lubrication of diesel medium and high speed engines. meets
 											CF service for the API / ASTM / SAE classification and meets specifications and / or
-											also exceeds the requirements of MIL- L - 2104D .";}?>
+											also exceeds the requirements of MIL- L - 2104D .";}?></h5>
 											<br>
+                                            
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
-											<h5 align="justify"></h5>
-											<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel, turbo alimentados, de mediana y
+											<h5 align="justify">
+											<?php if($leng=="Es"){echo "Formulado específicamente para la lubricación de motores diesel, turbo                                             alimentados, de mediana y
 											alta velocidad que utilizan diesel mediano (DMX) o diesel marino (DMA) como combustible. En la
 											lubricación de cojinetes y bocinas del eje de propulsión y engranajes reductores.";}else{echo "
 											Specifically formulated for lubricating diesel engines, turbo fed , middle and
 											High speed diesel using medium (DMX ) or marine diesel (DMA ) as fuel . In the
-											lubricating bearings and drive shaft speakers and reduction gears .";}?>
+											lubricating bearings and drive shaft speakers and reduction gears .";}?></h5>
 											<br>
 										</div>
 										<div class="modal-footer">
@@ -405,7 +409,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<h3><?php if($leng=="Es"){echo "Sistemas Hidráulicos";}else{echo "hydraulics";}?></h3>
+					<h3><?php if($leng=="Es"){echo "Sistemas Hidráulicos";}else{echo "Hydraulics Systems";}?></h3>
 					<ul class="nav navbar-nav">
 						<li><!-- Trigger the modal with a button -->
 							<!--<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal13">Mobil XXX (Colombia)</a>
@@ -472,21 +476,22 @@ fclose($fp);
 												PDV <a href="pdf/Hidramar.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
+											<h5 align="justify">
 											<?php if($leng=="Es"){echo "Aceite hidráulico de alto índice de viscosidad, bajo punto de fluidez
 											y propiedades antidesgaste. Cumple los requerimientos de las especificaciones
 											NF E 48.600 tipo HV y DIN 51.525 tipo HLP.";}else{echo "
 											Hydraulic oil high viscosity index , low pour point
 											and antiwear properties . Meets the specification requirements
-											NF E 48.600 HV type and type HLP DIN 51,525 .";}?>
+											NF E 48.600 HV type and type HLP DIN 51,525 .";}?></h5>
+                                            
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
-											<h5 align="justify"></h5>
+											<h5 align="justify">
 											<?php if($leng=="Es"){echo "Se recomienda principalmente para sistemas hidráulicos sometidos a condiciones
 											de temperaturas severas tales como equipos hidráulicos de cubierta, sistemas de
 											control remoto, telemotores y sistemas de engranajes de maniobra.";}else{echo "
 											It is mainly recommended for hydraulic systems under conditions
 											severe temperatures such as hydraulic deck equipment , systems
-											remote control, telemotor and gear systems maneuver.";}?>
+											remote control, telemotor and gear systems maneuver.";}?></h5>
 											<br><br>
 										</div>
 										<div class="modal-footer">
@@ -499,7 +504,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<h3><?php if($leng=="Es"){echo "Turbinas";}else{echo "turbines";}?></h3>
+					<h3><?php if($leng=="Es"){echo "Turbinas";}else{echo "Turbines";}?></h3>
 					<ul class="nav navbar-nav">
 						<li><!-- Trigger the modal with a button
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal16">Mobil XXX (Colombia)</a>
@@ -566,16 +571,16 @@ fclose($fp);
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Turbolub-T.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
-											<h3><b> Características:</b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Aceite elaborado con básicos de alto índice de viscosidad, especialmente refinados y
+												<?php if($leng=="Es"){echo "Aceite elaborado con básicos de alto índice de viscosidad, especialmente                                                 refinados y
 												tratados para obtener una gran estabilidad química. Contienen aditivos que les confieren
 												características sobresalientes de resistencia a la oxidación y protección contra la herrumbre,
 												lo cual permite un excelente comportamiento en condiciones variables de operación.
 												Este producto en el grado ISO 32 cumple con los requisitos de GEK 32568-F de la General
 												Electric; además este grado y el resto cumplen con los requerimientos de la BS- 489, ISO 8068,
 												DIN 51524 Parte 1, DIN 51515 (TD-L) y P-38 (ISO 32), P-54 (ISO 68) y P-55 (ISO 46) de CINCINNATI
-												MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.";}else{echo "Oil produced with basic high viscosity index, especially refined and
+												MACHINE. Satisface la norma COVENIN 1122 y posee el sello de calidad NORVEN.";}else{echo "Oil produced                                                 with basic high viscosity index, especially refined and
 												treated for high chemical stability. They contain additives that give them
 												outstanding characteristics of oxidation resistance and rust protection ,
 												This allows excellent performance in varying operating conditions.
@@ -613,7 +618,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<h3><?php if($leng=="Es"){echo "Sistemas de Engranajes";}else{echo "Gear systems";}?></h3>
+					<h3><?php if($leng=="Es"){echo "Sistemas de Engranajes";}else{echo "Gear Systems";}?></h3>
 					<ul class="nav navbar-nav">
 
 						<li><!-- Trigger the modal with a button
@@ -681,7 +686,7 @@ fclose($fp);
 												PDV <a href="pdf/Engralub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
+											<h5 align="justify">
 											<?php if($leng=="Es"){echo "Aceite mineral altamente refinado que contiene aditivos, especialmente de extrema presión,
 											que le imparten una excelente capacidad de carga y una buena resistencia al desgaste. Este
 											aceite llena los exigentes requerimientos de:";}else{echo "Highly refined mineral oil containing additives, especially extreme pressure ,
@@ -693,10 +698,10 @@ fclose($fp);
 												<li>AGMA 9005-D94
 												<li>David Brown S1.53.101(E)
 												<li>DIN 51517 Part 3
-											</ul>
+											</ul></h5>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
-											<h5 align="justify"></h5>
+											<h5 align="justify">
 											<?php if($leng=="Es"){echo "Recomendado especialmente para la lubricación de engranajes industriales encerrados sometidos a
 											cargas severas o de impacto, las cuales no pueden soportar satisfactoriamente aceites minerales
 											puros y donde se necesitan lubricantes con aditivos de extrema presión (EP). No se recomienda
@@ -704,7 +709,7 @@ fclose($fp);
 											Especially recommended for lubrication of industrial gears locked under
 											severe loads or impact , which can not withstand satisfactorily mineral oils
 											pure and where needed lubricants extreme pressure additives ( EP ) . It is not recommended
-											worm gear with bronze crown .";}?>
+											worm gear with bronze crown .";}?></h5>
 											<br><br>
 										</div>
 										<div class="modal-footer">
@@ -786,13 +791,13 @@ fclose($fp);
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Lubricante para compresores elaborado con aceites básicos parafínicos de alta calidad y aditivos
+												<?php if($leng=="Es"){echo "Lubricante para compresores elaborado con aceites básicos parafínicos de alta                                                calidad y aditivos
 												antioxidantes y antiherrumbrante en una proporción óptima que le confiere alta estabilidad a la
 												oxidación, baja tendencia a la formación de depósitos de carbón en las válvulas de escape y en los
 												sistemas de descarga de compresores, minimizando el riesgo de fuego y explosiones, extendiendo los
 												periodos de servicio y prolongando la vida del compresor adicional a una excelente protección contra
 												la corrosión y la herrumbre. Cumple con la especificación DIN-51506-VDL parte 2 e ISO DP-6521 categoría
-												2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN.";}else{echo "Compressor lubricant made ​​from paraffinic base oils and high quality additives
+												2-DAB y la norma venezolana COVENIN 1926 y posee el sello de calidad NORVEN.";}else{echo "Compressor                                                 lubricant made ​​from paraffinic base oils and high quality additives
 												antioxidants and antiherrumbrante in an optimal ratio which gives high stability to
 												oxidation , low tendency to form carbon deposits in the exhaust valves and the
 												compressor discharge systems , minimizing the risk of fire and explosions , spreading
@@ -803,9 +808,9 @@ fclose($fp);
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Se recomienda para la lubricación de cilindros y cojinetes de compresores reciprocantes, de aire, con
+												<?php if($leng=="Es"){echo "Se recomienda para la lubricación de cilindros y cojinetes de compresores                                                 reciprocantes, de aire, con
 												temperatura de descarga máxima de 220° C. También puede ser usado en compresores centrífugos o rotativos
-												de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.";}else{echo "
+												de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.";}                                                else{echo"
 												It is recommended for lubrication and bearing cylinder reciprocating compressor , air , with
 												maximum discharge temperature of 220 ° C also can be used in centrifugal compressors or rotary
 												the screw blade or types . It serves as a heat transfer in heating systems .";}?>
@@ -890,14 +895,14 @@ fclose($fp);
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Aceite nafténico altamente refinado que tiene una gran estabilidad química y térmica, bajo punto de
-												fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.";}else{echo "
+												<?php if($leng=="Es"){echo "Aceite nafténico altamente refinado que tiene una gran estabilidad química y                                                 térmica, bajo punto de
+												fluidez y de floculación y un punto de anilina intermedio lo cual indica un mediano poder solvente.";}                                                else{echo "
 												highly refined naphthenic oil having a high chemical and thermal stability , low-
 												fluidity and flocculation and aniline intermediate point indicating a solvent medium power.";}?>
 											</h5><br>
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Su bajo punto de fluidez y de floculación lo hacen apropiado en la lubricación de compresores de
+												<?php if($leng=="Es"){echo "Su bajo punto de fluidez y de floculación lo hacen apropiado en la                                                 lubricación de compresores de
 												refrigeración que utilizan amoníaco o freón como fluido refrigerante; así como para la lubricación
 												de elementos de máquinas que operan a bajas temperaturas ambientales. Por su gran estabilidad térmica,
 												su composición de hidrocarburos estables y su gran conductividad térmica, es adecuado para ser utilizado
@@ -909,7 +914,7 @@ fclose($fp);
 												as heat transfer fluid .";}?>
 											</h5><br>
 
-											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "benefits:";}?></b></h3>
+											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "Benefits:";}?></b></h3>
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas
 												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.";}else{echo "
@@ -929,7 +934,7 @@ fclose($fp);
 
 					<!------------------------------------------------------------  -------------------------------------------------------->
 
-					<h3><?php if($leng=="Es"){echo "Grasas";}else{echo "greases";}?></h3>
+					<h3><?php if($leng=="Es"){echo "Grasas";}else{echo "Greases";}?></h3>
 					<ul class="nav navbar-nav">
 
 						<!-- Trigger the modal with a button -->
@@ -950,8 +955,9 @@ fclose($fp);
 											<p>
 												<!-- PDF DE PRODUCTOS -->
 												PDV <a href="pdf/Industrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+                                                
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
+											<h5 align="justify">
 											<?php if($leng=="Es"){echo "Grasa de servicio múltiple, elaborado con aceites básicos refinados y jabón de litio, a los
 											cuales se le añaden aditivos de extrema presión (EP), los cuales le confieren una excelente
 											capacidad para el soporte de cargas. Esta grasa es resistente al arrastre por agua, de muy buena
@@ -964,7 +970,7 @@ fclose($fp);
 											mechanical stability and oxidation , good pumpability and provides corrosion protection
 											and the formation of rust. Exceeds the requirements of standard 967/4 COVENIN
 											lubricating greases for automotive and industrial use. This product has the quality seal NORVEN .";}?>
-											<br>
+											<br></h5>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
@@ -973,14 +979,13 @@ fclose($fp);
 												la vida de las puntas de ejes y juntas universales (crucetas). También en aquellas aplicaciones donde
 												existan altas cargas (extrema presión) y cuya temperatura operacional no exceda los 150 grados °C.
 												La grasa Industrial EP-00, se utiliza en algunas cajas de engranajes que requieren grasa como
-												lubricante.";}else{echo "
-												Industrially, it is intended for the lubrication of all bearings and flat bearing ,
+												lubricante.";}else
+												{echo"Industrially, it is intended for the lubrication of all bearings and flat bearing ,
 												They are operating under high loads. In the automotive field , it is adequate to protect and extend
 												the life of the shaft ends and universal joints ( crosspieces ) . Also in those applications where
 												there are high loads (extreme pressure) and whose operational temperature does not exceed 150 degrees ° C .
 												Industrial grease EP -00 , it is used in some gearboxes that require fat as
-												lubricant.";}?>
-											</h5><br>
+												lubricant.";}?></h5><br>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1009,21 +1014,21 @@ fclose($fp);
 												PDV <a href="pdf/chasis.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
-											<?php if($leng=="Es"){echo "Grasa elaborada con aceites básicos refinados, espesados con jabón de calcio el cual le confiere
+											<h5 align="justify">
+											<?php if($leng=="Es"){echo "Grasa elaborada con aceites básicos refinados, espesados con jabón de calcio el                                              cual le confiere
 											una buena resistencia al arrastre por agua. Excede los requisitos de la clase de \"Grasa de Servicio
 											Liviano\" de la norma venezolana COVENIN 967/2.";}else{echo "
 											Grease made ​​with refined base oils, thickened with calcium soap which gives
 											good resistance to water wash . Exceeds the requirements of the class of \" Grease Service
-											Light \" of the Venezuelan COVENIN standard 967/2 .";}?>
+											Light \" of the Venezuelan COVENIN standard 967/2 .";}?></h5>
 											<br>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
 											<h5 align="justify">
-												<?php if($leng=="Es"){echo "La grasa Chasis es adecuada para la lubricación de partes móviles de máquinas y equipos sujetos a
+												<?php if($leng=="Es"){echo "La grasa Chasis es adecuada para la lubricación de partes móviles de máquinas                                                y equipos sujetos a
 												condiciones de trabajo liviano, donde la temperatura operacional no sobrepase los 70°C, como cojinetes
 												de bomba de agua, bujes, guías y cojinetes sencillos de rastras de maquinaria agrícola y de otros
-												equipos que requieran una grasa de este tipo.";}else{echo "The chassis grease is suitable for lubricating moving parts of machinery and equipment subject to
+												equipos que requieran una grasa de este tipo.";}else{echo "The chassis grease is suitable for lubricating                                                moving parts of machinery and equipment subject to
 												light duty conditions where the operating temperature does not exceed 70 ° C , as bearings
 												water pump , bushings, bearings guides and simple harrows and other agricultural machinery
 												equipment requiring this type grease .";}?>
@@ -1038,7 +1043,7 @@ fclose($fp);
 						</li>
 
 
-						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal32">PDV Multiple</a>
+						<li><a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal32">PDV Múltiple</a>
 
 							<!-- Modal -->
 							<div id="myModal32" class="modal fade" role="dialog">
@@ -1048,7 +1053,7 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">PDV Multiple</h4>
+											<h4 class="modal-title">PDV Múltiple</h4>
 										</div>
 										<div class="modal-body">
 											<p>
@@ -1056,8 +1061,8 @@ fclose($fp);
 												PDV <a href="pdf/Multiple.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
-											<h5 align="justify"></h5>
-											<?php if($leng=="Es"){echo "Grasa elaborada a base de jabón de litio y aceites básicos refinados. Entre las características
+											<h5 align="justify">
+											<?php if($leng=="Es"){echo "Grasa elaborada a base de jabón de litio y aceites básicos refinados. Entre las                                             características
 											principales de esta grasa se destacan: buena bombeabilidad, resistencia al barrido y arrastre
 											por agua, buena estabilidad mecánica y resistencia a la oxidación; también propiedades de protección
 											contra la formación de herrumbre y corrosión. Excede con los requisitos mínimos establecidos en la
@@ -1068,18 +1073,18 @@ fclose($fp);
 											water , good mechanical stability and resistance to oxidation ; also protective properties
 											against the formation of rust and corrosion. Exceeds the minimum requirements of
 											Venezuelan standard 967/3 COVENIN for multiple service fats , which are used in the automotive field
-											and industrial . This product has the quality seal NORVEN .";}?>
+											and industrial . This product has the quality seal NORVEN .";}?></h5>
 
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
-											<h5 align="justify"></h5>
-											<?php if($leng=="Es"){echo "Para la lubricación de mecanismos de equipos automotores e industriales tales como: cojinetes planos y
+											<h5 align="justify">
+											<?php if($leng=="Es"){echo "Para la lubricación de mecanismos de equipos automotores e industriales tales                                            como: cojinetes planos y
 											de rodamientos, motores eléctricos, bombas, generadores, cintas transportadoras y máquinas herramientas.
 											También en cadenas, engranajes abiertos y en cualquier aplicación donde la temperatura operacional sea
-											inferior a 150° C y no requieran grasas con características de extrema presión.";}else{echo "For lubrication of mechanisms of automotive and industrial equipment such as plain bearings and
+											inferior a 150° C y no requieran grasas con características de extrema presión.";}else{echo "For lubrication                                             of mechanisms of automotive and industrial equipment such as plain bearings and
 											bearings , electric motors, pumps, generators , conveyors and machine tools .
 											Also in chains , open gears and in any application where the operating temperature is
-											below 150 ° C and do not require fats with extreme pressure characteristics .";}?>
+											below 150 ° C and do not require fats with extreme pressure characteristics .";}?></h5>
 											<br>
 										</div>
 										<div class="modal-footer">
@@ -1093,13 +1098,13 @@ fclose($fp);
 				</div>
 			</div>
 		</div>
-		<!-----------------------------------------------------------                    ----------------------------------------------------------------->
+		<!---------------------------------------------------------------------------------------------------------------------------->
 
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingTwo">
 				<h4 class="panel-title">
 					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						<h3 style="text-align: center"><?php if($leng=="Es"){echo "Combustibles Marinos (Bunkers)";}else{echo "Marine Fuels ( Bunkers )";}?></h3>
+						<h3 style="text-align: center"><?php if($leng=="Es"){echo "Combustibles Marinos (Bunkers)";}else{echo "Marine Fuels (Bunkers)";}?></h3>
 					</a>
 				</h4>
 			</div>
@@ -1122,8 +1127,8 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											<p><h5>
-												<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
-												ISO 8217 2005 Fuel Standard for marine distillate fuels .";}?>
+											<?php if($leng=="Es"){echo "ISO 8217 2005 Estándar de Combustible, para combustibles destilados marinos.";}else{echo "
+												ISO 8217 2005 Fuel Standard for marine distillate fuels.";}?>
 											</h5>
 
 											<!-- PDF DE Combustible -->
@@ -1148,10 +1153,10 @@ fclose($fp);
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">ISO 8217:2005 (colombia)</h4>
+											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
 										</div>
 										<div class="modal-body">
-											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+											PDV <a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1206,7 +1211,7 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
 										</div>
 										<div class="modal-body">
-											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+											PDV <a href="pdf/ISO8217-OTROS.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1228,6 +1233,8 @@ fclose($fp);
 				<h4 class="panel-title">
 					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
 					   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                       
+                       
 						<h3 style="text-align: center"><?php if($leng=="Es"){echo "Servicios";}else{echo "Services";}?></h3>
 					</a>
 				</h4>
@@ -1250,8 +1257,8 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p> <h5 align="justify">
-											<?php if($leng=="Es"){echo "Sumistro of finished products to meet the needs of the operation of seaports ,
-												its equipment and maintenance required within the same .";}else{echo "";}?>
+											<?php if($leng=="Es"){echo "Sumistro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos ,su equipamiento y mantenimiento necesarios dentro de la misma.";}
+											else{echo "Sumistro of finished products to meet the needs of the operation 	                                             of seaports ,its equipment and maintenance required within the same";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
@@ -1277,9 +1284,7 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p><h5 align="justify">
-											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos donde realizamos entregas de productos,
-												lo que genera mayor confiabilidad y tranquilidad para nuestros clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of products,
-												resulting in greater reliability and peace of mind for our customers.";}?>
+											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos                                             donde realizamos entregas de productos,lo que genera mayor confiabilidad y tranquilidad para nuestros                                              clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of                                              products,resulting in greater reliability and peace of mind for our customers.";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
@@ -1304,10 +1309,8 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p><h5 align="justify">
-											<?php if($leng=="Es"){echo "Contamos con personal altamente calificado, el cual está a su disposición para analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas técnicos que se puedan presentar en la comercialización de nuestros productos.";}else{echo "
-												We have highly qualified staff, which is available to discuss any questions and inquiries seeking fast and efficient to all the technical problems that may arise in the marketing of our product solutions.";}?>
-
-										</h5>
+											<?php if($leng=="Es"){echo "Contamos con personal altamente calificado, el cual está a su disposición para                                                    analizar todas las dudas y consultas buscando soluciones rápidas y eficientes a todos los problemas                                                    técnicos que se puedan presentar en la comercialización de nuestros productos.";}else{echo "
+												   We have highly qualified staff, which is available to discuss any questions and inquiries seeking fast                                                     and efficient to all the technical problems that may arise in the marketing of our product                                                      solutions.";}?></h5>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1369,7 +1372,7 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p><h5 align="justify">
-											<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores, a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo rendimiento técnico en cada equipo reduciendo los costos de operación.
+											<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores,                          a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo                                rendimiento técnico en cada equipo reduciendo los costos de operación.
 												Implementar esta selección es parte de nuestro Plan de Lubricación, el mismo consta de:";}else{echo "
 												The experience gathered by our company together with our suppliers over many years of research and development, allow us to make an accurate selection of the lubricating oil to provide optimal performance on each computer technician reducing operating costs .
 												Implementing this selection is part of our Plan Lubrication , it consists of:";}?>
