@@ -33,8 +33,8 @@
         <div class="templatemo-welcome" id="templatemo-welcome">
             <div class="container-responsive">
                 <div class="templatemo-slogan text-center">
-                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "TERMINOS Y CONDICIONES PARA LA VENTA DE COMBUSTIBLES MARINOS";}
-                        else{echo "TERMS AND CONDITIONS OF SALE FOR MARINE FUELS";}?></span>
+                    <span class="txt_darkgrey"><?php if($leng=="Es"){echo "Términos y Condiciones Para La Venta De Combustibles Marinos";}
+                        else{echo "Terms And Conditions Of Sale For Marine Fuels";}?></span>
 
 
                     <p class="txt_slogan" style="font-size: 0.5em;"><i><?php if($leng=="Es"){echo "MARZO 2016 Salvo que se acuerde lo contrario por escrito,
@@ -42,7 +42,7 @@
                      RMA y MGO de uso marítimo (en adelante denominados \"Combustibles Marinos\").";}
                     else{echo "MARCH 2016 Except as otherwise agreed to in writing, the following terms and conditions shall apply to all sales by BUNKER
                             DYNAMICS CORP. of Bunker Fuel Oil, Intermediate Bunker Fuels, Marine Diesel Oil, and Marine Gas Oil
-                            (hereinafte -Marine Fuels-).";}?><br></i></p>
+                            (Marine Fuels).";}?><br></i></p>
                 </div>
 
 <!--                <div class="container-responsive">-->

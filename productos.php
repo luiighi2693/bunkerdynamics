@@ -91,7 +91,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<h3><?php if($leng=="Es"){echo "Sistemas y Crucetas";}else{echo "Systems and Crosses";}?></h3>
+					<h3><?php if($leng=="Es"){echo "Sistemas y Crucetas";}else{echo "Systems and Crankcase";}?></h3>
 
 					<ul class="nav navbar-nav">
 						<li><!-- Trigger the modal with a button -->
@@ -1156,7 +1156,7 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											<a href="pdf/ISO8217-MARINE.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1257,8 +1257,8 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p> <h5 align="justify">
-											<?php if($leng=="Es"){echo "Sumistro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos ,su equipamiento y mantenimiento necesarios dentro de la misma.";}
-											else{echo "Sumistro of finished products to meet the needs of the operation 	                                             of seaports ,its equipment and maintenance required within the same";}?>
+											<?php if($leng=="Es"){echo "Suministro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos ,su equipamiento y mantenimiento necesarios dentro de la misma.";}
+											else{echo "Supply of finished products to meet the needs of the operation 	                                             of seaports ,its equipment and maintenance required within the same";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
