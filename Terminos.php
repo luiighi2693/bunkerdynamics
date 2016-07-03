@@ -45,13 +45,10 @@
                             (Marine Fuels).";}?><br></i></p>
                 </div>
 
-<!--                <div class="container-responsive">-->
-
-<!--                    <iframe mwidth="640%" height="360" src="pdf/Terminos.pdf" frameborder="0" allowfullscreen></iframe>-->
                 <center>
-                    <object style="text-align: center" data="pdf/Terminos.pdf" type="application/pdf" width="80%" height="800px"></object>
+                    <object style="text-align: center" data=<?php if($leng=="Es"){echo "pdf/Terminos.pdf";}else{echo "pdf/Terms.pdf";}?> type="application/pdf" width="80%" height="800px"></object>
                 </center>
-<!--                </div>-->
+
 
 
 
