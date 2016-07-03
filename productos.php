@@ -1168,6 +1168,61 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
+					<h3>Fuel Oil 380 (IFO 380/RMG 380)</h3>
+					<ul class="nav navbar-nav">
+						<li><!-- Trigger the modal with a button -->
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
+
+							<!-- Modal -->
+							<div id="myModal35" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">ISO 8217:2005 (Venezuela)</h4>
+										</div>
+										<div class="modal-body">
+											<p>
+												<!-- PDF DE Combustible -->
+												PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+
+											</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><!-- Trigger the modal with a button -->
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
+
+							<!-- Modal -->
+							<div id="myModal36" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
+										</div>
+										<div class="modal-body">
+											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<br><br><br>
+
 					<h3>Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)</h3>
 					<ul class="nav navbar-nav">
 						<li><!-- Trigger the modal with a button -->
