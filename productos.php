@@ -803,7 +803,7 @@ fclose($fp);
 												compressor discharge systems , minimizing the risk of fire and explosions , spreading
 												periods of service and extending the life of the additional compressor excellent protection
 												corrosion and rust . Meets DIN - 51506 - VDL specification part 2 and ISO DP- 6521 Category
-												2 -DAB and the Venezuelan standard COVENIN 1926 and possesses the quality seal NORVEN .";}?>
+												2 -DAB and the Venezuelan standard COVENIN 1926 and possesses the quality seal NORVEN.";}?>
 												<br></h5>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
@@ -813,7 +813,7 @@ fclose($fp);
 												de los tipos paleta o tornillo. Sirve como medio de transferencia de calor en sistemas de calefacción.";}                                                else{echo"
 												It is recommended for lubrication and bearing cylinder reciprocating compressor , air , with
 												maximum discharge temperature of 220 ° C also can be used in centrifugal compressors or rotary
-												the screw blade or types . It serves as a heat transfer in heating systems .";}?>
+												the screw blade or types . It serves as a heat transfer in heating systems.";}?>
 											</h5>
 										</div>
 										<div class="modal-footer">
@@ -911,7 +911,7 @@ fclose($fp);
 												cooling using ammonia or freon as a refrigerant ; and for lubrication
 												elements of machines operating at low ambient temperatures. For its high thermal stability ,
 												stable composition of hydrocarbons and great thermal conductivity , is suitable for use
-												as heat transfer fluid .";}?>
+												as heat transfer fluid.";}?>
 											</h5><br>
 
 											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "Benefits:";}?></b></h3>
@@ -969,7 +969,7 @@ fclose($fp);
 											ability to support loads . This fat is very good resistant to water wash
 											mechanical stability and oxidation , good pumpability and provides corrosion protection
 											and the formation of rust. Exceeds the requirements of standard 967/4 COVENIN
-											lubricating greases for automotive and industrial use. This product has the quality seal NORVEN .";}?>
+											lubricating greases for automotive and industrial use. This product has the quality seal NORVEN.";}?>
 											<br></h5>
 
 											<h3><b><?php if($leng=="Es"){echo "Usos:";}else{echo "Applications:";}?></b></h3>
@@ -1211,7 +1211,10 @@ fclose($fp);
 											<h4 class="modal-title">ISO 8217:2005 (Colombia)</h4>
 										</div>
 										<div class="modal-body">
-											<p><?php if($leng=="Es"){echo "descripcion y tablas";}else{echo "description and tables";}?></p>
+											<p>
+											<!-- PDF DE Combustible -->
+											PDV <a href="pdf/ISO8217-FUEL.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											</p>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1392,7 +1395,7 @@ fclose($fp);
 									<div class="modal-body">
 										<p><h5 align="justify">
 											<?php if($leng=="Es"){echo "Ponemos a sus disposición análisis de aceites usados en los principales laboratorios de nuestros proveedores. Esta herramienta es fundamental para el monitoreo del comportamiento de cada equipo brindando datos fehacientes de:";}else{echo "
-												We put at your disposal analysis used in leading laboratories of our suppliers oils. This tool is essential for monitoring the behavior of each team providing reliable data :";}?>
+												We put at your disposal analysis used in leading laboratories of our suppliers oils. This tool is essential for monitoring the behavior of each team providing reliable data:";}?>
 											<br><br>
 											<ol type="A">
 												<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team .";}?>
