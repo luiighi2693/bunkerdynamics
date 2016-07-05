@@ -6,5 +6,4 @@
 
 <!-- Archivo que ejecutara los JS personalidados, los otros son de los css que se han agregado -->
 <script src="js/main.js"></script>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6eiGpyMn6DwgOn2IZFKlLMqVsF81rBvA"></script>
