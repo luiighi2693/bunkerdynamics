@@ -6,30 +6,27 @@
 <div class="navbar yamm navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <!-- Boton cuando la web se redimensiona a tamaño smartphone -->
             <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- Logo de la Web -->
+
             <a href="#" class="navbar-brand img_menu">
                 <img src="images/logo.svg" alt="Bunker Dynamics" title="Bunker Dynamics" style="height:120px; margin-bottom: -25px;" />
             </a>
-        </div> <!-- Menu -->
+        </div>
         <div id="navbar-collapse-1" class="navbar-collapse collapse float_right" style="margin-top: 40px;">
             <ul class="nav navbar-nav">
-                <li class="dropdown menu_inicio"> <!-- Boton Simple -->
+                <li class="dropdown menu_inicio">
                     <a href="index.php"  class="dropdown-toggle"><?php if($leng=="Es"){echo "INICIO";}else{echo "HOME";}?></a>
                 </li>
-                <li class="dropdown menu_nosotros"> <!-- Boton con sub-botones -->
+                <li class="dropdown menu_nosotros">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php if($leng=="Es"){echo "NOSOTROS";}else{echo "ABOUT US";}?><b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a tabindex="-1" href="quienesSomos.php"><?php if($leng=="Es"){echo "¿QUIÉNES SOMOS?";}else{echo "WHO ARE WE?";}?></a></li>
                         <li><a tabindex="-1" href="mision.php"><?php if($leng=="Es"){echo "MISIÓN";}else{echo "MISSION";}?></a></li>
                         <li><a tabindex="-1" href="vision.php"><?php if($leng=="Es"){echo "VISIÓN";}else{echo "VISION";}?></a></li>
-                        <!--<li class="divider"></li>
-                        <li><a tabindex="-1" href="#"> Separated link </a></li>-->
                     </ul>
                 </li>
                 <li class="dropdown menu_producto">
@@ -43,7 +40,7 @@
                         <li><a tabindex="-1" href="#"><?php if($leng=="Es"){echo "OTROS PUERTOS";}else{echo "OTHERS PORTS ";}?></a></li>
                     </ul>
                 </li>
-                <li class="dropdown menu_contacto"> <!-- Boton Simple -->
+                <li class="dropdown menu_contacto">
                     <a href="contact.php"  class="dropdown-toggle"><?php if($leng=="Es"){echo "CONTACTENOS";}else{echo "CONTACT US";}?></a>
                 </li>
             </ul>

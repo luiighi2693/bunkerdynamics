@@ -10,33 +10,23 @@ fclose($fp);
     <title>Bunker Dynamics</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
 
-    <!--Archivo para Incluir los css -->
     <?php include 'include_css.php';?>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="jquery.webui-popover.css">
+    <link rel="stylesheet" href="css/jquery.webui-popover.css">
 </head>
 
 <body>
-
 <section class="menu_completo">
-    <!-- Archivo de la sección del logo y del menu -->
     <?php include 'header.php';?>
-    <!-- Archivo de la sección del slider -->
 </section>
-
-<!-- Secciones de contenido de la web en la que estes, en este caso index -->
-<!-- el class debe colocarse templatemo-xxxxx y en el css crearlo con los similares a los otros -->
 
 <br><br><br><br><br><br><br><br><br>
 <center style="overflow-x: scroll;">
-    <img src="mapaColombia.png"  name="mapaCol" usemap="#mapa">
-
+    <img src="images/mapaColombia.png" name="mapaCol" usemap="#mapa">
     <map id="mapa" name="mapa">
         <area shape="rect" alt="Puerto Bolivar" title="Puerto Bolívar" id="puertoBolivar" onclick="myFunction()" coords="434,34,446,53" href="" target="" />
         <area shape="rect" alt="Santa Marta" title="Santa Marta" id="santaMarta" onclick="myFunction()" coords="323,81,342,99" href="" target="" />
@@ -107,11 +97,10 @@ fclose($fp);
     </div>
 </div>
 <?php include 'footer.php';?>
-<!-- todos los JS que necesita la web -->
 <?php include 'include_js.php';?>
-<script src="jquery.webui-popover.js"></script>
+<script src="js/jquery.webui-popover.js"></script>
 
-<script type="text/javascript"> <!-- codigo en cada php para que marque el menu en el que esta -->
+<script type="text/javascript">
     (function(){
         $('#puertoBolivar').webuiPopover({url:'#myContentPuertoBolivar'});
         $('#barranquilla').webuiPopover({url:'#myContentBarranquilla'});
@@ -122,21 +111,16 @@ fclose($fp);
         $('#buenaventura').webuiPopover({url:'#myContentBuenaventura'});
         $('#tumaco').webuiPopover({url:'#myContentTumaco'});
         $('#sanAndres').webuiPopover({url:'#myContentSanAndres'});
+
+        $(".menu_puerto > a").css({"color":'#FFFFFF', "background-color":'#428bca',"font-weight":'Bold' });
     })();
-    var c1;
-    var c2;
+
     function myFunction() {
         $(document).mousemove(function(event) {
             $(".webui-popover").css("margin-left", event.pageX);
-            //$(".webui-popover").css("margin-top", event.pageY-110-document.body.scrollTop);
             $(".webui-popover").css("margin-top", event.pageY-160-document.body.scrollTop);
             $(document).unbind(event);
         });
-        c1 = $(".webui-popover").css("margin-left");
-        c2 = $(".webui-popover").css("margin-top");
-        console.log(c1+"  "+c2);
-        console.log("document.body.scrollTop");
-        console.log(document.body.scrollTop);
     }
 </script>
 </body>

@@ -10,8 +10,5 @@
 <!-- este es el que le agrego las cosas ya que tiene los estilos de la plantilla -->
 <link href="css/templatemo_style.css"  rel='stylesheet' type='text/css'> 
 
-
-<link href="css/yamm.css" rel="stylesheet">
-
 <!-- Letras -->
 <link href="css/font_awesome.css"  rel='stylesheet' type='text/css'>
