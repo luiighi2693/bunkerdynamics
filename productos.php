@@ -53,8 +53,12 @@ fclose($fp);
 											<h4 class="modal-title">PDV Cilmar 70 (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Cilmar_70.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"> </a>
+
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Cilmar_70.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+														else{echo "<a href=\"pdf1/PDV-CILMAR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 											<p><h3><b><?php if($leng=="Es"){echo "Características";}else{echo "Characteristics";}?>:</b></h3>
+
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Aceite para motores diésel marinos con un amplio margen de seguridad.
 											Diseñado para la lubricación de cilindros de motores de diésel de cruceta
@@ -97,7 +101,10 @@ fclose($fp);
 											<h4 class="modal-title">PDV Crumar 3005 (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Crumar_3005.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Crumar_3005.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+											else{echo "<a href=\"pdf1/CRUMAR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
 												<?php if($leng=="Es"){echo "Aceite lubricante monogrado, elaborado con básicos altamente refinados y
@@ -153,7 +160,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Dieselmar MR (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Dieselmar_MR.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Dieselmar_MR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+												      else{echo "<a href=\"pdf1/DISELMAR-MR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<br><h5 align="justify">
@@ -199,7 +208,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Dieselmar MD (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Dieselmar_MD.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Dieselmar_MD.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+											else{echo "<a href=\"pdf1/DISELMAR-MD.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -251,7 +262,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Hidramar (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Hidramar.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Hidramar.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+											else{echo "<a href=\"pdf1/HIDRAMAR-AV.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -294,7 +307,10 @@ fclose($fp);
 											<h4 class="modal-title">PDV Turbolub (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Turbolub-T.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Turbolub-T.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+											else{echo "<a href=\"pdf1/PDV-TURBOLUB.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -355,7 +371,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Engralub (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Engralub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Engralub.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+											else{echo "<a href=\"pdf1/ENGRALUB.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -406,7 +424,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Compresolub (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Compresolub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Compresolub.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+												        else{echo "<a href=\"pdf1/PDV-COMPRESOLUB.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -457,7 +477,8 @@ fclose($fp);
 											<h4 class="modal-title">PDV Frilub (Venezuela)</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Frilub.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Frilub.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+												      else{echo "<a href=\"pdf1/FRILUB.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
@@ -479,14 +500,6 @@ fclose($fp);
 												stable composition of hydrocarbons and great thermal conductivity , is suitable for use
 												as heat transfer fluid.";}?>
 											</h5><br>
-
-											<h3><b><?php if($leng=="Es"){echo "Beneficios:";}else{echo "Benefits:";}?></b></h3>
-											<h5 align="justify">
-												<?php if($leng=="Es"){echo "Debido a su mediano poder solvente, se utiliza como portador o medio para disolver pigmentos de tintas
-												en la elaboración de papel carbón y otros afines, así como plastificante en ciertos procesos.";}else{echo "
-												Due to its solvent power medium , is used as carrier or medium for dissolving pigment inks
-												in paper making and related coal and plasticizer in certain processes.";}?>
-											</h5>
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -509,7 +522,9 @@ fclose($fp);
 											<h4 class="modal-title">PDV Industrial EP</h4>
 										</div>
 										<div class="modal-body">
-											PDV <a href="pdf/Industrial_EP.pdf" target="_blank"> <img src="images/PDF.jpg" width="40px"></a>
+											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Industrial_EP.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
+													  else{echo "<a href=\"pdf1/PDV-INDUSTRIAL.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+
                                                 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
 											<h5 align="justify">
