@@ -8,9 +8,15 @@ fclose($fp);
 <html lang="en">
 <head>
 	<title>Bunker Dynamics</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+	<meta name="keywords" content="Bunkerdynamics,Bunkers,Buy,Cardon,Castrol,Cilmar,Commercial
+	Commodities,Crumar,Cylinder,Cyltech,Delivery,Deliveries,Diesel,Dieselmar,Products,Puerto Cabello,
+	Puerto La Cruz,Puerto Ordaz,Punto Fijo,Refrigeration,Sales,Services,Shell,Ship,Ships,Shore,Stern
+	Tubes,Supply,Supplier,Suppliers,Support Systems,Talusia,Technical,Terminal,TLX,Total,Trucks,Trader
+	Traders,Turbines,Venezuela,Venezuelan,Vessel,Vessels,Visga,PDVSA,PDV,Lubricant,Lubricants,Lubs,IFO
+	Oil Oils" />
+	<meta name="description" content="bunker dynamics" />
 	<meta charset="UTF-8">
+	<meta name="distribution" content="global"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php include 'include_css.php';?>
 </head>

@@ -8,9 +8,19 @@ fclose($fp);
 <html lang="en">
 <head>
     <title>Bunker Dynamics</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords" content="Alexia,Amuay,Analysis,Argina,Atlanta,Aurelia,Barge,BP,Bulk,Bunker,
+    Bunkerdynamics,Bunkers,Buy,Cardon,Castrol,Cilmar,Commercial,Commodities,Crumar,Cylinder,Cyltech,
+    Delivery,Deliveries,Diesel,Dieselmar,Directory,Disola,Drum,El Palito,Elf,Engine,Equivalent,Exxon,
+    Fuel,Gadinia,Gas,Generator,Guanta,Guaranao,Gulf,Gulfsea,Hidramar,Hydraulic,IFO,Jose,La Guaira,Lub
+    Lubes,Luboil,Luboils,Lubricant,Lubricants,Lubs,Lukoil,Maracaibo,Marine,Matanzas,MD,Mechanical,Melina,
+    MGO,MHP,MLC,Mobil,Motor,MR,Off,Offer,Oil,Oils,Operations,PDV,PDVSA,Pertigalete,Plus,Port,Ports,Price,
+    Principal,Products,Puerto Cabello,puerto La Cruz,Puerto Ordaz,Punto Fijo,Refrigeration,Sales,Services,
+    Shell,Ship,Ships,Shore,Stern,Tubes,Supply,Supplier,Suppliers,Support,Systems,Talusia,Technical,Terminal,
+    TLX,Total,Trucks,Trader,Traders,Turbines,Venezuela,Venezuelan,Vessel,Vessels,Visga" />
+    <meta name="description" content="aceites y lubricantes para embarcaciones" />
     <meta charset="UTF-8">
+    <meta name="distribution" content="global"/>
+    <meta name="author" content="Mary Morillo,Luis Carvajal" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'include_css.php';?>
 </head>
