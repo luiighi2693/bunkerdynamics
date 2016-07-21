@@ -42,7 +42,7 @@
     <div class="text-center">
     	<div class="footer_bottom_content">
             <span>Copyright © 2015 <a href="#">Bunker Dynamics</a>
-            - <?php if($leng=="Es"){echo "Desarrollado por:";}else{echo "Developed by:";}?> <a rel="nofollow" href="Mary & Luis" target="_parent">M.L</a></span>
+            - <?php if($leng=="Es"){echo "Desarrollado por:";}else{echo "Developed by:";}?> <a rel="nofollow" href="Mary Morillo & Luis Carvajal" target="_parent">M&L</a></span>
         </div>
     </div>
 </div>
