@@ -21,6 +21,7 @@ fclose($fp);
     <meta charset="UTF-8">
     <meta name="distribution" content="global"/>
     <meta name="author" content="Mary Morillo,Luis Carvajal" />
+    <meta name="google" value="notranslate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'include_css.php';?>
 </head>
