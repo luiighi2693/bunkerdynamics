@@ -31,15 +31,15 @@
             <div class="col-md-4 contact_right">
                 <p><?php if($leng=="Es"){echo "Comunicate con nosotros a travez del siguiente formulario.";}else{echo "Please contact us through the following form.";}?></p>
                         
-                <form class="form-horizontal" action="#">
+                <form class="form-horizontal" method="post" action="mail.php">
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder=<?php if($leng=="Es"){echo "'Tu Nombre...'";}else{echo "'your name...'";}?> maxlength="40" />
+                        <input type="text" class="form-control" name="name" placeholder=<?php if($leng=="Es"){echo "'Tu Nombre...'";}else{echo "'your name...'";}?> maxlength="40" />
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder=<?php if($leng=="Es"){echo "'Tu Correo Electronico...'";}else{echo "'your email...'";}?> maxlength="40" />
+                        <input type="email" class="form-control" name="email" placeholder=<?php if($leng=="Es"){echo "'Tu Correo Electronico...'";}else{echo "'your email...'";}?> maxlength="40" />
                     </div>
                     <div class="form-group">
-                        <textarea  class="form-control" style="height: 130px;" placeholder=<?php if($leng=="Es"){echo "'Escribe tu Mensaje...'";}else{echo "'write your message...'";}?>></textarea>
+                        <textarea  class="form-control" name="message" style="height: 130px;" placeholder=<?php if($leng=="Es"){echo "'Escribe tu Mensaje...'";}else{echo "'write your message...'";}?>></textarea>
                     </div>
                     <button type="submit" class="btn btn-orange pull-right"><?php if($leng=="Es"){echo "ENVIAR";}else{echo "SEND";}?></button>
                 </form>

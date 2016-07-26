@@ -3,4 +3,3 @@
 	fputs($fp, $_GET["leng"]);
 	fclose($fp);
 	header('Location: index.php');
-?>
