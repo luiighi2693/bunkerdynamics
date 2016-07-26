@@ -14,7 +14,7 @@ $headers = 'From: '.$email . "\r\n" .
     'Reply-To: yr000226@bunkerdynamics.net' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-mail('yr000226@bunkerdynamics.net', 'titulo', $message, $headers);
+mail('yr000226@bunkerdynamics.net', 'Bunker Dynamics', $name."\n\n".$message, $headers);
 
 header("Location: index.php");
 die();
