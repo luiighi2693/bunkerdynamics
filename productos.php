@@ -167,7 +167,7 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Dieselmar_MR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
-												      else{echo "<a href=\"pdf1/DISELMAR-MR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+												      else{echo "<a href=\"pdf1/PDV-DIESELMAR MR.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
 
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
@@ -215,7 +215,7 @@ fclose($fp);
 										</div>
 										<div class="modal-body">
 											PDV <?php if ($leng=="Es"){echo "<a href=\"pdf/Dieselmar_MD.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}
-											else{echo "<a href=\"pdf1/DISELMAR-MD.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
+											else{echo "<a href=\"pdf1/PDV-DIESELMAR MD.pdf\" target=\"_blank\"> <img src=\"images/PDF.jpg\" width=\"40px\"> </a>";}?>:
 
 
 											<h3><b><?php if($leng=="Es"){echo "Características:";}else{echo "Characteristics:";}?></b></h3>
@@ -764,7 +764,7 @@ fclose($fp);
 					</ul>
 					<br><br><br>
 
-					<h3>Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)</h3>
+					<h3><?php if($leng=="Es"){echo "Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}else{echo "Others IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?></h3>
 					<ul class="nav navbar-nav">
 						<li>
 							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
@@ -836,7 +836,7 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p> <h5 align="justify">
-											<?php if($leng=="Es"){echo "Suministro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos ,su equipamiento y mantenimiento necesarios dentro de la misma.";}
+											<?php if($leng=="Es"){echo "Suministro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos, su equipamiento y mantenimiento necesarios dentro de la misma.";}
 											else{echo "Supply of finished products to meet the needs of the operation 	                                             of seaports ,its equipment and maintenance required within the same";}?>
 										</h5>
 									</div>
@@ -859,7 +859,7 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p><h5 align="justify">
-											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos                                             donde realizamos entregas de productos,lo que genera mayor confiabilidad y tranquilidad para nuestros                                              clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of                                              products,resulting in greater reliability and peace of mind for our customers.";}?>
+											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos                                             donde realizamos entregas de productos, lo que genera mayor confiabilidad y tranquilidad para nuestros                                              clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of                                              products,resulting in greater reliability and peace of mind for our customers.";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
