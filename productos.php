@@ -837,7 +837,7 @@ fclose($fp);
 									<div class="modal-body">
 										<p> <h5 align="justify">
 											<?php if($leng=="Es"){echo "Suministro de los productos acabados para satisfacer las necesidades de la                                              operación de los puertos marítimos, su equipamiento y mantenimiento necesarios dentro de la misma.";}
-											else{echo "Supply of finished products to meet the needs of the operation 	                                             of seaports ,its equipment and maintenance required within the same";}?>
+											else{echo "Supply of finished products to meet the needs of the operation 	                                             of seaports, its equipment and maintenance required within the same";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
@@ -859,7 +859,7 @@ fclose($fp);
 									</div>
 									<div class="modal-body">
 										<p><h5 align="justify">
-											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos                                             donde realizamos entregas de productos, lo que genera mayor confiabilidad y tranquilidad para nuestros                                              clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of                                              products,resulting in greater reliability and peace of mind for our customers.";}?>
+											<?php if($leng=="Es"){echo "Contamos con personal con Experiencia en Operaciones en los distintos puertos                                             donde realizamos entregas de productos, lo que genera mayor confiabilidad y tranquilidad para nuestros                                              clientes.";}else{echo "We have staff experienced in operations in various ports where we make deliveries of                                              products, resulting in greater reliability and peace of mind for our customers.";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
@@ -907,13 +907,13 @@ fclose($fp);
 												We put at your disposal analysis used in leading laboratories of our suppliers oils. This tool is essential for monitoring the behavior of each team providing reliable data:";}?>
 											<br><br>
 											<ol type="A">
-												<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team .";}?>
+												<li><?php if($leng=="Es"){echo "Estado de equipo.";}else{echo "State team.";}?>
 												<li><?php if($leng=="Es"){echo "Estado del lubricante.";}else{echo "
 													State of the lubricant.";}?>
-												<li><?php if($leng=="Es"){echo "Grado de contaminación.";}else{echo "Degree of contamination .";}?>
+												<li><?php if($leng=="Es"){echo "Grado de contaminación.";}else{echo "Degree of contamination.";}?>
 											</ol><br>
 											<?php if($leng=="Es"){echo "A través de un programa de muestreos periódicos y procedimientos de control de reportes, se podrán delinear tendencia de comportamiento de cada equipo conformando un programa de mantenimiento predictivo que minimice las fallas optimizando la vida útil del lubricante entre otros beneficios.";}else{echo "
-												Through a program of regular sampling and reporting control procedures , they may delineate trend behavior of each team forming a predictive maintenance program to minimize failures optimizing lubricant life among other benefits.";}?>
+												Through a program of regular sampling and reporting control procedures, they may delineate trend behavior of each team forming a predictive maintenance program to minimize failures optimizing lubricant life among other benefits.";}?>
 										</h5>
 									</div>
 									<div class="modal-footer">
@@ -936,12 +936,12 @@ fclose($fp);
 										<p><h5 align="justify">
 											<?php if($leng=="Es"){echo "La experiencia recogida por nuestra empresa en conjunto con nuestros proveedores,                          a lo largo de tantos años de investigación y desarrollo, nos permiten realizar una exacta selección del aceite lubricante que brinde un óptimo                                rendimiento técnico en cada equipo reduciendo los costos de operación.
 												Implementar esta selección es parte de nuestro Plan de Lubricación, el mismo consta de:";}else{echo "
-												The experience gathered by our company together with our suppliers over many years of research and development, allow us to make an accurate selection of the lubricating oil to provide optimal performance on each computer technician reducing operating costs .
-												Implementing this selection is part of our Plan Lubrication , it consists of:";}?>
+												The experience gathered by our company together with our suppliers over many years of research and development, allow us to make an accurate selection of the lubricating oil to provide optimal performance on each computer technician reducing operating costs.
+												Implementing this selection is part of our Plan Lubrication, it consists of:";}?>
 											<br><br>
 											<ul type="disk">
 												<li><?php if($leng=="Es"){echo "Inspección de equipos e instalaciones.";}else{echo "
-													Inspection of equipment and facilities .";}?>
+													Inspection of equipment and facilities.";}?>
 												<li><?php if($leng=="Es"){echo "Relevamiento de datos y condiciones.";}else{echo "
 													Survey data and conditions.";}?>
 												<li><?php if($leng=="Es"){echo "Intecambio de conocimientos.";}else{echo "Interchange of knowledge.";}?>
