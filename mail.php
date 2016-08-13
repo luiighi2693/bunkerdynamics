@@ -15,6 +15,8 @@ $headers = 'From: '.$email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail('yr000226@bunkerdynamics.net', 'Bunker Dynamics', $name."\n\n".$message, $headers);
-
+$fp = fopen("envio.txt", "w");
+fputs($fp, "s");
+fclose($fp);
 header("Location: index.php");
 die();

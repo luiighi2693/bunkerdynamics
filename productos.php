@@ -767,8 +767,8 @@ fclose($fp);
 					<h3><?php if($leng=="Es"){echo "Otros IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}else{echo "Others IFO´s: Fuel Oil 180 (RME 180), Fuel Oil 80 (RMD 80), Fuel Oil 30 (RMB 30)";}?></h3>
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal35">ISO 8217:2005 (Venezuela)</a>
-							<div id="myModal35" class="modal fade" role="dialog">
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal350">ISO 8217:2005 (Venezuela)</a>
+							<div id="myModal350" class="modal fade" role="dialog">
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">

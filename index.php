@@ -2,6 +2,18 @@
 $fp = fopen("lenguaje.txt", "r");
 $leng= fgets($fp);
 fclose($fp);
+
+$fp2 = fopen("envio.txt", "r");
+$send = fgetc($fp2);
+fclose($fp2);
+if($send=="s"){
+    $fp3 = fopen("envio.txt", "w");
+    fputs($fp3, "n");
+    fclose($fp3);
+    echo '<script>';
+    echo 'alert("Correo enviado exitosamente");';
+    echo '</script>';
+}
 ?>
 
 <!DOCTYPE html>
