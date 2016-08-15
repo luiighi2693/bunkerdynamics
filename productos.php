@@ -788,8 +788,8 @@ fclose($fp);
 							</div>
 						</li>
 						<li>
-							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal36">ISO 8217:2005 (Colombia)</a>
-							<div id="myModal36" class="modal fade" role="dialog">
+							<a href="#"  class="dropdown-toggle" data-toggle="modal" data-target="#myModal360">ISO 8217:2005 (Colombia)</a>
+							<div id="myModal360" class="modal fade" role="dialog">
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
@@ -946,7 +946,7 @@ fclose($fp);
 													Survey data and conditions.";}?>
 												<li><?php if($leng=="Es"){echo "Intecambio de conocimientos.";}else{echo "Interchange of knowledge.";}?>
 												<li><?php if($leng=="Es"){echo "Análisis crítico.";}else{echo "Critical analysis.";}?>
-												<li><?php if($leng=="Es"){echo "Realización de una Guía de Lubricación.";}else{echo "Making a Lubrication Guide ";}?>
+												<li><?php if($leng=="Es"){echo "Realización de una Guía de Lubricación.";}else{echo "Making a Lubrication Guide.";}?>
 												<li><?php if($leng=="Es"){echo "Propuesta técnico-comercial.";}else{echo "
 													technical and commercial proposal.";}?>
 												<li><?php if($leng=="Es"){echo "Puesta en marcha.";}else{echo "
