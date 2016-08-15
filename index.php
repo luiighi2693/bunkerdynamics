@@ -11,7 +11,11 @@ if($send=="s"){
     fputs($fp3, "n");
     fclose($fp3);
     echo '<script>';
-    echo 'alert("Correo enviado exitosamente");';
+    if($leng=="Es"){
+        echo 'alert("Correo enviado exitosamente");';
+    }else{
+        echo 'alert("Your mail was sent");';
+    }
     echo '</script>';
 }
 ?>
